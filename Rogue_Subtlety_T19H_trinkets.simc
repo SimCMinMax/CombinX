@@ -1,0 +1,39 @@
+"/home/skasch/simc/profiles/Tier19H/Rogue_Subtlety_T19H.simc"
+trinket1=
+trinket2=
+copy=chaos_talisman_840,Rogue_Subtlety_T19H trinket1=chaos_talisman,id=137459,bonus_id=1727
+copy=tiny_oozeling_in_a_jar_840,Rogue_Subtlety_T19H trinket1=tiny_oozeling_in_a_jar,id=137439,bonus_id=1727
+copy=spiked_counterweight_840,Rogue_Subtlety_T19H trinket1=spiked_counterweight,id=136715,bonus_id=1727
+copy=windscar_whetstone_840,Rogue_Subtlety_T19H trinket1=windscar_whetstone,id=137486,bonus_id=1727 actions+=/use_item,slot=trinket1,if=buff.bloodlust.react|target.time_to_die<=20|buff.shadow_blades.up
+copy=nightmare_egg_shell_840,Rogue_Subtlety_T19H trinket1=nightmare_egg_shell,id=137312,bonus_id=1727
+copy=giant_ornamental_pearl_840,Rogue_Subtlety_T19H trinket1=giant_ornamental_pearl,id=137369,bonus_id=1727 actions+=/use_item,slot=trinket1,if=buff.bloodlust.react|target.time_to_die<=20|buff.shadow_blades.up
+copy=tempered_egg_of_serpentrix_840,Rogue_Subtlety_T19H trinket1=tempered_egg_of_serpentrix,id=137373,bonus_id=1727
+copy=horn_of_valor_840,Rogue_Subtlety_T19H trinket1=horn_of_valor,id=133642,bonus_id=1727 actions+=/use_item,slot=trinket1,if=buff.bloodlust.react|target.time_to_die<=20|buff.shadow_blades.up
+copy=hunger_of_the_pack_840,Rogue_Subtlety_T19H trinket1=hunger_of_the_pack,id=136975,bonus_id=1727
+copy=memento_of_angerboda_840,Rogue_Subtlety_T19H trinket1=memento_of_angerboda,id=133644,bonus_id=1727
+copy=mark_of_dargrul_840,Rogue_Subtlety_T19H trinket1=mark_of_dargrul,id=137357,bonus_id=1727
+copy=chrono_shard_840,Rogue_Subtlety_T19H trinket1=chrono_shard,id=137419,bonus_id=1727
+copy=terrorbound_nexus_840,Rogue_Subtlety_T19H trinket1=terrorbound_nexus,id=137406,bonus_id=1727
+copy=faulty_countermeasure_840,Rogue_Subtlety_T19H trinket1=faulty_countermeasure,id=137539,bonus_id=1727 actions+=/use_item,slot=trinket1,if=buff.bloodlust.react|target.time_to_die<=20|buff.shadow_blades.up
+copy=tirathons_betrayal_840,Rogue_Subtlety_T19H trinket1=tirathons_betrayal,id=137537,bonus_id=1727 actions+=/use_item,slot=trinket1,if=buff.bloodlust.react|target.time_to_die<=20|buff.shadow_blades.up
+copy=chaos_talisman_865,Rogue_Subtlety_T19H trinket1=chaos_talisman,id=137459,bonus_id=1527
+copy=tiny_oozeling_in_a_jar_865,Rogue_Subtlety_T19H trinket1=tiny_oozeling_in_a_jar,id=137439,bonus_id=1527
+copy=spiked_counterweight_865,Rogue_Subtlety_T19H trinket1=spiked_counterweight,id=136715,bonus_id=1527
+copy=windscar_whetstone_865,Rogue_Subtlety_T19H trinket1=windscar_whetstone,id=137486,bonus_id=1527 actions+=/use_item,slot=trinket1,if=buff.bloodlust.react|target.time_to_die<=20|buff.shadow_blades.up
+copy=nightmare_egg_shell_865,Rogue_Subtlety_T19H trinket1=nightmare_egg_shell,id=137312,bonus_id=1527
+copy=giant_ornamental_pearl_865,Rogue_Subtlety_T19H trinket1=giant_ornamental_pearl,id=137369,bonus_id=1527 actions+=/use_item,slot=trinket1,if=buff.bloodlust.react|target.time_to_die<=20|buff.shadow_blades.up
+copy=tempered_egg_of_serpentrix_865,Rogue_Subtlety_T19H trinket1=tempered_egg_of_serpentrix,id=137373,bonus_id=1527
+copy=horn_of_valor_865,Rogue_Subtlety_T19H trinket1=horn_of_valor,id=133642,bonus_id=1527 actions+=/use_item,slot=trinket1,if=buff.bloodlust.react|target.time_to_die<=20|buff.shadow_blades.up
+copy=hunger_of_the_pack_865,Rogue_Subtlety_T19H trinket1=hunger_of_the_pack,id=136975,bonus_id=1527
+copy=memento_of_angerboda_865,Rogue_Subtlety_T19H trinket1=memento_of_angerboda,id=133644,bonus_id=1527
+copy=mark_of_dargrul_865,Rogue_Subtlety_T19H trinket1=mark_of_dargrul,id=137357,bonus_id=1527
+copy=chrono_shard_865,Rogue_Subtlety_T19H trinket1=chrono_shard,id=137419,bonus_id=1527
+copy=terrorbound_nexus_865,Rogue_Subtlety_T19H trinket1=terrorbound_nexus,id=137406,bonus_id=1527
+copy=faulty_countermeasure_865,Rogue_Subtlety_T19H trinket1=faulty_countermeasure,id=137539,bonus_id=1527 actions+=/use_item,slot=trinket1,if=buff.bloodlust.react|target.time_to_die<=20|buff.shadow_blades.up
+copy=tirathons_betrayal_865,Rogue_Subtlety_T19H trinket1=tirathons_betrayal,id=137537,bonus_id=1527 actions+=/use_item,slot=trinket1,if=buff.bloodlust.react|target.time_to_die<=20|buff.shadow_blades.up
+copy=thriceaccursed_compass_860,Rogue_Subtlety_T19H trinket1=thriceaccursed_compass,id=141537
+copy=unstable_arcanocyrstal_860,Rogue_Subtlety_T19H trinket1=unstable_arcanocyrstal,id=141482
+copy=bloodthirsty_instinct_865,Rogue_Subtlety_T19H trinket1=bloodthirsty_instinct,id=139329,bonus_id=1805
+copy=natures_call_865,Rogue_Subtlety_T19H trinket1=natures_call,id=139334,bonus_id=1805
+#copy=ravaged_seed_pod_865,Rogue_Subtlety_T19H trinket1=ravaged_seed_pod,id=139320,bonus_id=1805 actions+=/use_item,slot=trinket1,if=buff.bloodlust.react|target.time_to_die<=20|buff.shadow_blades.up
+copy=spontaneous_appendages_865,Rogue_Subtlety_T19H trinket1=spontaneous_appendages,id=139325,bonus_id=1805
