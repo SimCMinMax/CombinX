@@ -162,9 +162,9 @@ trinket1=bloodthirsty_instinct,id=139329,bonus_id=1805
 copy=$(root)_natures_call_865,$(root)
 trinket1=natures_call,id=139334,bonus_id=1805
 
-#copy=$(root)_ravaged_seed_pod_865,$(root)
-#trinket1=ravaged_seed_pod,id=139320,bonus_id=1805
-#actions+=/use_item,slot=trinket1,if=$(trinket_condition)
+copy=$(root)_ravaged_seed_pod_865,$(root)
+trinket1=ravaged_seed_pod,id=139320,bonus_id=1805
+actions+=/use_item,slot=trinket1,if=$(trinket_condition)
 
 copy=$(root)_spontaneous_appendages_865,$(root)
 trinket1=spontaneous_appendages,id=139325,bonus_id=1805
@@ -175,9 +175,9 @@ trinket1=bloodthirsty_instinct,id=139329,bonus_id=1806
 copy=$(root)_natures_call_880,$(root)
 trinket1=natures_call,id=139334,bonus_id=1806
 
-#copy=$(root)_ravaged_seed_pod_880,$(root)
-#trinket1=ravaged_seed_pod,id=139320,bonus_id=1806
-#actions+=/use_item,slot=trinket1,if=$(trinket_condition)
+copy=$(root)_ravaged_seed_pod_880,$(root)
+trinket1=ravaged_seed_pod,id=139320,bonus_id=1806
+actions+=/use_item,slot=trinket1,if=$(trinket_condition)
 
 copy=$(root)_spontaneous_appendages_880,$(root)
 trinket1=spontaneous_appendages,id=139325,bonus_id=1806
