@@ -1,4 +1,4 @@
-"global.simc"
+input=global.simc
 input=$(simc_profiles)$(t18m)Rogue_Assassination_T18M.simc
 
 $(root)=Rog_Asn_T18M
