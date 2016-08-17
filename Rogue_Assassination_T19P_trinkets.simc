@@ -1,18 +1,10 @@
-"/home/skasch/simc/profiles/Tier19P/Rogue_Assassination_T19P.simc"
-trinket1=
-trinket2=
-copy=chaos_talisman_840,Rogue_Assassination_T19P trinket1=chaos_talisman,id=137459,bonus_id=1727
-copy=tiny_oozeling_in_a_jar_840,Rogue_Assassination_T19P trinket1=tiny_oozeling_in_a_jar,id=137439,bonus_id=1727
-copy=spiked_counterweight_840,Rogue_Assassination_T19P trinket1=spiked_counterweight,id=136715,bonus_id=1727
-copy=windscar_whetstone_840,Rogue_Assassination_T19P trinket1=windscar_whetstone,id=137486,bonus_id=1727 actions+=/use_item,slot=trinket1,if=buff.bloodlust.react|target.time_to_die<=20|debuff.vendetta.up
-copy=nightmare_egg_shell_840,Rogue_Assassination_T19P trinket1=nightmare_egg_shell,id=137312,bonus_id=1727
-copy=giant_ornamental_pearl_840,Rogue_Assassination_T19P trinket1=giant_ornamental_pearl,id=137369,bonus_id=1727 actions+=/use_item,slot=trinket1,if=buff.bloodlust.react|target.time_to_die<=20|debuff.vendetta.up
-copy=tempered_egg_of_serpentrix_840,Rogue_Assassination_T19P trinket1=tempered_egg_of_serpentrix,id=137373,bonus_id=1727
-copy=horn_of_valor_840,Rogue_Assassination_T19P trinket1=horn_of_valor,id=133642,bonus_id=1727 actions+=/use_item,slot=trinket1,if=buff.bloodlust.react|target.time_to_die<=20|debuff.vendetta.up
-copy=hunger_of_the_pack_840,Rogue_Assassination_T19P trinket1=hunger_of_the_pack,id=136975,bonus_id=1727
-copy=memento_of_angerboda_840,Rogue_Assassination_T19P trinket1=memento_of_angerboda,id=133644,bonus_id=1727
-copy=mark_of_dargrul_840,Rogue_Assassination_T19P trinket1=mark_of_dargrul,id=137357,bonus_id=1727
-copy=chrono_shard_840,Rogue_Assassination_T19P trinket1=chrono_shard,id=137419,bonus_id=1727
-copy=terrorbound_nexus_840,Rogue_Assassination_T19P trinket1=terrorbound_nexus,id=137406,bonus_id=1727
-copy=faulty_countermeasure_840,Rogue_Assassination_T19P trinket1=faulty_countermeasure,id=137539,bonus_id=1727 actions+=/use_item,slot=trinket1,if=buff.bloodlust.react|target.time_to_die<=20|debuff.vendetta.up
-copy=tirathons_betrayal_840,Rogue_Assassination_T19P trinket1=tirathons_betrayal,id=137537,bonus_id=1727 actions+=/use_item,slot=trinket1,if=buff.bloodlust.react|target.time_to_die<=20|debuff.vendetta.up
+input=global.simc
+input=$(simc_profiles)$(t19p)Rogue_Assassination_T19P.simc
+input=$(gear)No_trinket.simc
+
+input=$(trinkets)Rogue_trinkets_conditions.simc
+
+$(trinket_condition)=$(asn_trinket_condition)
+$(root)=Rog_Asn_T19P
+
+input=$(trinkets)Rogue_trinkets_T19P.simc

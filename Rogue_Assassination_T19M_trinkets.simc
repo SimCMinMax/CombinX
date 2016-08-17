@@ -1,58 +1,10 @@
-"/home/skasch/simc/profiles/Tier19M/Rogue_Assassination_T19M.simc"
-trinket1=
-trinket2=
-copy=chaos_talisman_840,Rogue_Assassination_T19M trinket1=chaos_talisman,id=137459,bonus_id=1727
-copy=tiny_oozeling_in_a_jar_840,Rogue_Assassination_T19M trinket1=tiny_oozeling_in_a_jar,id=137439,bonus_id=1727
-copy=spiked_counterweight_840,Rogue_Assassination_T19M trinket1=spiked_counterweight,id=136715,bonus_id=1727
-copy=windscar_whetstone_840,Rogue_Assassination_T19M trinket1=windscar_whetstone,id=137486,bonus_id=1727 actions+=/use_item,slot=trinket1,if=buff.bloodlust.react|target.time_to_die<=20|debuff.vendetta.up
-copy=nightmare_egg_shell_840,Rogue_Assassination_T19M trinket1=nightmare_egg_shell,id=137312,bonus_id=1727
-copy=giant_ornamental_pearl_840,Rogue_Assassination_T19M trinket1=giant_ornamental_pearl,id=137369,bonus_id=1727 actions+=/use_item,slot=trinket1,if=buff.bloodlust.react|target.time_to_die<=20|debuff.vendetta.up
-copy=tempered_egg_of_serpentrix_840,Rogue_Assassination_T19M trinket1=tempered_egg_of_serpentrix,id=137373,bonus_id=1727
-copy=horn_of_valor_840,Rogue_Assassination_T19M trinket1=horn_of_valor,id=133642,bonus_id=1727 actions+=/use_item,slot=trinket1,if=buff.bloodlust.react|target.time_to_die<=20|debuff.vendetta.up
-copy=hunger_of_the_pack_840,Rogue_Assassination_T19M trinket1=hunger_of_the_pack,id=136975,bonus_id=1727
-copy=memento_of_angerboda_840,Rogue_Assassination_T19M trinket1=memento_of_angerboda,id=133644,bonus_id=1727
-copy=mark_of_dargrul_840,Rogue_Assassination_T19M trinket1=mark_of_dargrul,id=137357,bonus_id=1727
-copy=chrono_shard_840,Rogue_Assassination_T19M trinket1=chrono_shard,id=137419,bonus_id=1727
-copy=terrorbound_nexus_840,Rogue_Assassination_T19M trinket1=terrorbound_nexus,id=137406,bonus_id=1727
-copy=faulty_countermeasure_840,Rogue_Assassination_T19M trinket1=faulty_countermeasure,id=137539,bonus_id=1727 actions+=/use_item,slot=trinket1,if=buff.bloodlust.react|target.time_to_die<=20|debuff.vendetta.up
-copy=tirathons_betrayal_840,Rogue_Assassination_T19M trinket1=tirathons_betrayal,id=137537,bonus_id=1727 actions+=/use_item,slot=trinket1,if=buff.bloodlust.react|target.time_to_die<=20|debuff.vendetta.up
-copy=chaos_talisman_865,Rogue_Assassination_T19M trinket1=chaos_talisman,id=137459,bonus_id=1527
-copy=tiny_oozeling_in_a_jar_865,Rogue_Assassination_T19M trinket1=tiny_oozeling_in_a_jar,id=137439,bonus_id=1527
-copy=spiked_counterweight_865,Rogue_Assassination_T19M trinket1=spiked_counterweight,id=136715,bonus_id=1527
-copy=windscar_whetstone_865,Rogue_Assassination_T19M trinket1=windscar_whetstone,id=137486,bonus_id=1527 actions+=/use_item,slot=trinket1,if=buff.bloodlust.react|target.time_to_die<=20|debuff.vendetta.up
-copy=nightmare_egg_shell_865,Rogue_Assassination_T19M trinket1=nightmare_egg_shell,id=137312,bonus_id=1527
-copy=giant_ornamental_pearl_865,Rogue_Assassination_T19M trinket1=giant_ornamental_pearl,id=137369,bonus_id=1527 actions+=/use_item,slot=trinket1,if=buff.bloodlust.react|target.time_to_die<=20|debuff.vendetta.up
-copy=tempered_egg_of_serpentrix_865,Rogue_Assassination_T19M trinket1=tempered_egg_of_serpentrix,id=137373,bonus_id=1527
-copy=horn_of_valor_865,Rogue_Assassination_T19M trinket1=horn_of_valor,id=133642,bonus_id=1527 actions+=/use_item,slot=trinket1,if=buff.bloodlust.react|target.time_to_die<=20|debuff.vendetta.up
-copy=hunger_of_the_pack_865,Rogue_Assassination_T19M trinket1=hunger_of_the_pack,id=136975,bonus_id=1527
-copy=memento_of_angerboda_865,Rogue_Assassination_T19M trinket1=memento_of_angerboda,id=133644,bonus_id=1527
-copy=mark_of_dargrul_865,Rogue_Assassination_T19M trinket1=mark_of_dargrul,id=137357,bonus_id=1527
-copy=chrono_shard_865,Rogue_Assassination_T19M trinket1=chrono_shard,id=137419,bonus_id=1527
-copy=terrorbound_nexus_865,Rogue_Assassination_T19M trinket1=terrorbound_nexus,id=137406,bonus_id=1527
-copy=faulty_countermeasure_865,Rogue_Assassination_T19M trinket1=faulty_countermeasure,id=137539,bonus_id=1527 actions+=/use_item,slot=trinket1,if=buff.bloodlust.react|target.time_to_die<=20|debuff.vendetta.up
-copy=tirathons_betrayal_865,Rogue_Assassination_T19M trinket1=tirathons_betrayal,id=137537,bonus_id=1527 actions+=/use_item,slot=trinket1,if=buff.bloodlust.react|target.time_to_die<=20|debuff.vendetta.up
-copy=chaos_talisman_880,Rogue_Assassination_T19M trinket1=chaos_talisman,id=137459,bonus_id=1542
-copy=tiny_oozeling_in_a_jar_880,Rogue_Assassination_T19M trinket1=tiny_oozeling_in_a_jar,id=137439,bonus_id=1542
-copy=spiked_counterweight_880,Rogue_Assassination_T19M trinket1=spiked_counterweight,id=136715,bonus_id=1542
-copy=windscar_whetstone_880,Rogue_Assassination_T19M trinket1=windscar_whetstone,id=137486,bonus_id=1542 actions+=/use_item,slot=trinket1,if=buff.bloodlust.react|target.time_to_die<=20|debuff.vendetta.up
-copy=nightmare_egg_shell_880,Rogue_Assassination_T19M trinket1=nightmare_egg_shell,id=137312,bonus_id=1542
-copy=giant_ornamental_pearl_880,Rogue_Assassination_T19M trinket1=giant_ornamental_pearl,id=137369,bonus_id=1542 actions+=/use_item,slot=trinket1,if=buff.bloodlust.react|target.time_to_die<=20|debuff.vendetta.up
-copy=tempered_egg_of_serpentrix_880,Rogue_Assassination_T19M trinket1=tempered_egg_of_serpentrix,id=137373,bonus_id=1542
-copy=horn_of_valor_880,Rogue_Assassination_T19M trinket1=horn_of_valor,id=133642,bonus_id=1542 actions+=/use_item,slot=trinket1,if=buff.bloodlust.react|target.time_to_die<=20|debuff.vendetta.up
-copy=hunger_of_the_pack_880,Rogue_Assassination_T19M trinket1=hunger_of_the_pack,id=136975,bonus_id=1542
-copy=memento_of_angerboda_880,Rogue_Assassination_T19M trinket1=memento_of_angerboda,id=133644,bonus_id=1542
-copy=mark_of_dargrul_880,Rogue_Assassination_T19M trinket1=mark_of_dargrul,id=137357,bonus_id=1542
-copy=chrono_shard_880,Rogue_Assassination_T19M trinket1=chrono_shard,id=137419,bonus_id=1542
-copy=terrorbound_nexus_880,Rogue_Assassination_T19M trinket1=terrorbound_nexus,id=137406,bonus_id=1542
-copy=faulty_countermeasure_880,Rogue_Assassination_T19M trinket1=faulty_countermeasure,id=137539,bonus_id=1542 actions+=/use_item,slot=trinket1,if=buff.bloodlust.react|target.time_to_die<=20|debuff.vendetta.up
-copy=tirathons_betrayal_880,Rogue_Assassination_T19M trinket1=tirathons_betrayal,id=137537,bonus_id=1542 actions+=/use_item,slot=trinket1,if=buff.bloodlust.react|target.time_to_die<=20|debuff.vendetta.up
-copy=thriceaccursed_compass_860,Rogue_Assassination_T19M trinket1=thriceaccursed_compass,id=141537
-copy=unstable_arcanocyrstal_860,Rogue_Assassination_T19M trinket1=unstable_arcanocyrstal,id=141482
-copy=bloodthirsty_instinct_865,Rogue_Assassination_T19M trinket1=bloodthirsty_instinct,id=139329,bonus_id=1805
-copy=natures_call_865,Rogue_Assassination_T19M trinket1=natures_call,id=139334,bonus_id=1805
-#copy=ravaged_seed_pod_865,Rogue_Assassination_T19M trinket1=ravaged_seed_pod,id=139320,bonus_id=1805 actions+=/use_item,slot=trinket1,if=buff.bloodlust.react|target.time_to_die<=20|debuff.vendetta.up
-copy=spontaneous_appendages_865,Rogue_Assassination_T19M trinket1=spontaneous_appendages,id=139325,bonus_id=1805
-copy=bloodthirsty_instinct_880,Rogue_Assassination_T19M trinket1=bloodthirsty_instinct,id=139329,bonus_id=1806
-copy=natures_call_880,Rogue_Assassination_T19M trinket1=natures_call,id=139334,bonus_id=1806
-#copy=ravaged_seed_pod_880,Rogue_Assassination_T19M trinket1=ravaged_seed_pod,id=139320,bonus_id=1806 actions+=/use_item,slot=trinket1,if=buff.bloodlust.react|target.time_to_die<=20|debuff.vendetta.up
-copy=spontaneous_appendages_880,Rogue_Assassination_T19M trinket1=spontaneous_appendages,id=139325,bonus_id=1806
+input=global.simc
+input=$(simc_profiles)$(t19m)Rogue_Assassination_T19M.simc
+input=$(gear)No_trinket.simc
+
+input=$(trinkets)Rogue_trinkets_conditions.simc
+
+$(trinket_condition)=$(asn_trinket_condition)
+$(root)=Rog_Asn_T19M
+
+input=$(trinkets)Rogue_trinkets_T19M.simc
