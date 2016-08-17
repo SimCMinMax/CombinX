@@ -1,0 +1,8 @@
+input=global.simc
+input=$(simc_profiles)$(t19m)Rogue_Outlaw_T19M.simc
+
+input=$(gear)Rogue_Outlaw_T19M_nolegendary.simc
+
+$(root)=Rog_Otl_T19M
+
+input=$(legendaries)Rogue_legendaries_Outlaw.simc

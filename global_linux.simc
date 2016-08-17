@@ -10,3 +10,4 @@ $(t19m)=Tier19M/
 $(races)=races/
 $(trinkets)=trinkets/
 $(gear)=gear/
+$(legendaries)=legendaries/
