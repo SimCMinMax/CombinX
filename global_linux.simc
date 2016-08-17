@@ -1,0 +1,11 @@
+# Example of global.simc file for a linux environment
+# The only thing you should have to do is replace $(simc_profiles)
+# path to the path of your local simc/profiles directory and save
+# the file as global.simc
+$(simc_profiles)=/path/to/simc/profiles/
+$(t18m)=Tier18M/
+$(t19p)=Tier19P/
+$(t19h)=Tier19H/
+$(t19m)=Tier19M/
+$(races)=races/
+$(trinkets)=trinkets/
