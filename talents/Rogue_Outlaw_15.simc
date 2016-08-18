@@ -1,0 +1,8 @@
+name=$(root)_ghostly_strike
+talent_override=ghostly_strike
+
+copy=$(root)_swordmaster,$(root)_ghostly_strike
+talent_override=swordmaster
+
+copy=$(root)_quick_draw,$(root)_ghostly_strike
+talent_override=quick_draw

@@ -1,0 +1,8 @@
+name=$(root)_premeditation
+talent_override=premeditation
+
+copy=$(root)_alacrity,$(root)_premeditation
+talent_override=alacrity
+
+copy=$(root)_enveloping_shadows,$(root)_premeditation
+talent_override=enveloping_shadows

@@ -1,0 +1,8 @@
+name=$(root)_slice_and_dice
+talent_override=slice_and_dice
+
+copy=$(root)_marked_for_death,$(root)_slice_and_dice
+talent_override=marked_for_death
+
+copy=$(root)_death_from_above,$(root)_slice_and_dice
+talent_override=death_from_above

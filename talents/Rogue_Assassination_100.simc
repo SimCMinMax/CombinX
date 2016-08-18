@@ -1,0 +1,8 @@
+name=$(root)_venom_rush
+talent_override=venom_rush
+
+copy=$(root)_marked_for_death,$(root)_venom_rush
+talent_override=marked_for_death
+
+copy=$(root)_death_from_above,$(root)_venom_rush
+talent_override=death_from_above

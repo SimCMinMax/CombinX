@@ -1,0 +1,8 @@
+name=$(root)_thuggee
+talent_override=thuggee
+
+copy=$(root)_prey_on_the_weak,$(root)_thuggee
+talent_override=prey_on_the_weak
+
+copy=$(root)_internal_bleeding,$(root)_thuggee
+talent_override=internal_bleeding

@@ -12,3 +12,4 @@ $(trinkets)=trinkets/
 $(gear)=gear/
 $(legendaries)=legendaries/
 $(artifact)=artifact/
+$(talents)=talents/

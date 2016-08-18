@@ -1,0 +1,8 @@
+name=$(root)_master_poisoner
+talent_override=master_poisoner
+
+copy=$(root)_elaborate_planning,$(root)_master_poisoner
+talent_override=elaborate_planning
+
+copy=$(root)_hemorrhage,$(root)_master_poisoner
+talent_override=hemorrhage

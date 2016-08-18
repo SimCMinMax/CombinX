@@ -1,0 +1,8 @@
+name=$(root)_nightstalker
+talent_override=nightstalker
+
+copy=$(root)_subterfuge,$(root)_nightstalker
+talent_override=subterfuge
+
+copy=$(root)_shadow_focus,$(root)_nightstalker
+talent_override=shadow_focus
