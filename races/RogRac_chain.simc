@@ -6,52 +6,52 @@ race=dwarf
 input=$(RogRac_chain)
 
 $(root)=$(RogRac_root)_gnome
-name=$(root)
+copy=$(root),$(RogRac_root)_dwarf
 race=gnome
 input=$(RogRac_chain)
 
 $(root)=$(RogRac_root)_human
-name=$(root)
+copy=$(root),$(RogRac_root)_dwarf
 race=human
 input=$(RogRac_chain)
 
 $(root)=$(RogRac_root)_night_elf
-name=$(root)
+copy=$(root),$(RogRac_root)_dwarf
 race=night_elf
 input=$(RogRac_chain)
 
 timeofday=day
 $(root)=$(RogRac_root)_worgen
-name=$(root)
+copy=$(root),$(RogRac_root)_dwarf
 race=worgen
 input=$(RogRac_chain)
 
 $(root)=$(RogRac_root)_blood_elf
-name=$(root)
+copy=$(root),$(RogRac_root)_dwarf
 race=blood_elf
 input=$(RogRac_chain)
 
 $(root)=$(RogRac_root)_undead
-name=$(root)
+copy=$(root),$(RogRac_root)_dwarf
 race=undead
 input=$(RogRac_chain)
 
 $(root)=$(RogRac_root)_goblin
-name=$(root)
+copy=$(root),$(RogRac_root)_dwarf
 race=goblin
 input=$(RogRac_chain)
 
 $(root)=$(RogRac_root)_orc
-name=$(root)
+copy=$(root),$(RogRac_root)_dwarf
 race=orc
 input=$(RogRac_chain)
 
 $(root)=$(RogRac_root)_troll
-name=$(root)
+copy=$(root),$(RogRac_root)_dwarf
 race=troll
 input=$(RogRac_chain)
 
 $(root)=$(RogRac_root)_pandaren
-name=$(root)
+copy=$(root),$(RogRac_root)_dwarf
 race=pandaren
 input=$(RogRac_chain)
