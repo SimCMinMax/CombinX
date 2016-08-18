@@ -1,0 +1,4 @@
+fight_style=priority_cleave_mix
+enemy=dummy1
+raid_events+=/adds,count=6,first=30,cooldown=45,duration=12
+raid_events+=/adds,count=1,first=60,cooldown=60,duration=30

@@ -13,3 +13,4 @@ $(gear)=gear/
 $(legendaries)=legendaries/
 $(artifact)=artifact/
 $(talents)=talents/
+$(fight_style)=fight_style/
