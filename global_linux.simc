@@ -11,3 +11,4 @@ $(races)=races/
 $(trinkets)=trinkets/
 $(gear)=gear/
 $(legendaries)=legendaries/
+$(artifact)=artifact/
