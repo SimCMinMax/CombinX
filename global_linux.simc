@@ -3,20 +3,36 @@
 # path to the path of your local simc directory and save
 # the file as global.simc
 $(simc_path)=/path/to/simc/
+
+# Default SimC Paths
 $(simc_profiles_path)=$(simc_path)profiles/
 $(t18m_path)=Tier18M/
 $(t19p_path)=Tier19P/
 $(t19h_path)=Tier19H/
 $(t19m_path)=Tier19M/
-$(races_path)=races/
-$(trinkets_path)=trinkets/
+
+# SimCMinMax Internal Paths
+$(artifact_path)=artifact/
+$(fight_style_path)=fight_style/
 $(gear_path)=gear/
 $(legendaries_path)=legendaries/
-$(artifact_path)=artifact/
-$(talents_path)=talents/
-$(fight_style_path)=fight_style/
+$(races_path)=races/
 $(relics_path)=relics/
-$(reports_path)=reports/
-$(tier_path)=tier/
 $(specialization_path)=specialization/
+$(talents_path)=talents/
+$(tier_path)=tier/
+$(trinkets_path)=trinkets/
+
+# SimCMinMax Output
+$(reports_path)=reports/
+
+# SimCMinMax CVars
 $(root)=Player
+
+# SimC Global CVars (Comment if you want to override in CLI, or put them after global call)
+threads=8
+process_priority=normal
+target_error=0.1
+optimal_raid=1
+max_time=240
+vary_combat_length=0.3
