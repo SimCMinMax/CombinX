@@ -28,6 +28,7 @@ $(reports_path)=reports\
 
 # SimCMinMax CVars
 $(class)=rogue
+$(sim_type)=default
 $(root)=Player
 
 # SimC Global CVars (Comment if you want to override in CLI, or put them after global call)
