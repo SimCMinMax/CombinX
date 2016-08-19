@@ -1,0 +1,2 @@
+raid_events+=/adds,count=$(adds_count),first=$(adds_first),cooldown=$(adds_cd),duration=$(adds_duration)
+$(fight_type)=$(fight_type)_re-$(adds_count)-$(adds_first)-$(adds_cd)-$(adds_duration)

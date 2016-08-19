@@ -1,4 +1,11 @@
-fight_style=priority_cleave_mix
-enemy=dummy1
-raid_events+=/adds,count=6,first=30,cooldown=45,duration=12
-raid_events+=/adds,count=1,first=60,cooldown=60,duration=30
+$(adds_count)=6
+$(adds_first)=30
+$(adds_cd)=45
+$(adds_duration)=12
+input=raidevents_adds.simc
+
+$(adds_count)=1
+$(adds_first)=60
+$(adds_cd)=60
+$(adds_duration)=30
+input=raidevents_adds.simc
