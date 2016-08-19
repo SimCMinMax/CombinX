@@ -14,4 +14,5 @@ $(legendaries)=legendaries/
 $(artifact)=artifact/
 $(talents)=talents/
 $(fight_style)=fight_style/
+$(relics)=relics/
 $(root)=Player
