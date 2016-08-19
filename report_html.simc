@@ -1,4 +1,4 @@
 report_details=0
 hosted_html=1
-$(filename)=$(clas)_$(spec)_$(tier)_$(fight_style)_$(sim_type)
+$(filename)=$(clas)_$(spec)_$(tier)_$(fight_type)_$(sim_type)
 html=$(reports_path)$(filename).html

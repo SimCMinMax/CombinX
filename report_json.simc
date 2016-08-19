@@ -1,2 +1,2 @@
-$(filename)=$(clas)_$(spec)_$(tier)_$(fight_style)_$(sim_type)
+$(filename)=$(clas)_$(spec)_$(tier)_$(fight_type)_$(sim_type)
 json=$(reports_path)$(filename).json
