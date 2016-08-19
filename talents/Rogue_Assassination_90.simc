@@ -1,0 +1,8 @@
+name=$(root)_agonizing_poison
+talent_override=agonizing_poison
+
+copy=$(root)_alacrity,$(root)_agonizing_poison
+talent_override=alacrity
+
+copy=$(root)_exsanguinate,$(root)_agonizing_poison
+talent_override=exsanguinate

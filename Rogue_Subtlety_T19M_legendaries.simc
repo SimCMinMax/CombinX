@@ -1,0 +1,8 @@
+input=global.simc
+input=$(simc_profiles_path)$(t19m_path)Rogue_Subtlety_T19M.simc
+
+input=$(gear_path)Rogue_Subtlety_T19M_no_legendary.simc
+
+$(root)=Rog_Sub_T19M
+
+input=$(legendaries_path)Rogue_legendaries_Subtlety.simc
