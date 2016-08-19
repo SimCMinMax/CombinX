@@ -1,6 +1,6 @@
 input=global.simc
-input=$(simc_profiles)$(t19p)Rogue_Assassination_T19P.simc
+input=$(simc_profiles_path)$(t19p_path)Rogue_Assassination_T19P.simc
 
 $(root)=Rog_Asn_T19P
 
-input=$(artifact)Rogue_Assassination_traits.simc
+input=$(artifact_path)Rogue_Assassination_traits.simc

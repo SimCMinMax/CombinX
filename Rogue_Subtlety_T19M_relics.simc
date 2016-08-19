@@ -1,7 +1,7 @@
 input=global.simc
-input=$(simc_profiles)$(t19m)Rogue_Subtlety_T19M.simc
-input=$(gear)Rogue_Subtlety_T19M_no_relics.simc
+input=$(simc_profiles_path)$(t19m_path)Rogue_Subtlety_T19M.simc
+input=$(gear_path)Rogue_Subtlety_T19M_no_relics.simc
 
 $(root)=Rog_Sub_T19M
 
-input=$(relics)Rogue_relics_Subtlety_T19M.simc
+input=$(relics_path)Rogue_relics_Subtlety_T19M.simc

@@ -1,7 +1,7 @@
 input=global.simc
-input=$(simc_profiles)$(t19h)Rogue_Assassination_T19H.simc
+input=$(simc_profiles_path)$(t19h_path)Rogue_Assassination_T19H.simc
 
 $(root)=Rog_Asn_T19H
-$(RogLegAsn_chain)=$(races)rogue_races.simc
+$(RogLegAsn_chain)=$(races_path)rogue_races.simc
 
-input=$(legendaries)RogLegAsn_chain.simc
+input=$(legendaries_path)RogLegAsn_chain.simc
