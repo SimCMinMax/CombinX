@@ -1,0 +1,8 @@
+name=$(root)_master_of_subtlety
+talent_override=master_of_subtlety
+
+copy=$(root)_weaponmaster,$(root)_master_of_subtlety
+talent_override=weaponmaster
+
+copy=$(root)_gloomblade,$(root)_master_of_subtlety
+talent_override=gloomblade

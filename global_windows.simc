@@ -1,0 +1,20 @@
+# Example of global.simc file for a windows environment
+# The only thing you should have to do is replace $(simc_path)
+# path to the path of your local simc directory and save
+# the file as global.simc
+$(simc_path)=\path\to\simc\
+$(simc_profiles_path)=$(simc_path)profiles\
+$(t18m_path)=Tier18M\
+$(t19p_path)=Tier19P\
+$(t19h_path)=Tier19H\
+$(t19m_path)=Tier19M\
+$(races_path)=races\
+$(trinkets_path)=trinkets\
+$(gear_path)=gear\
+$(legendaries_path)=legendaries\
+$(artifact_path)=artifact\
+$(talents_path)=talents\
+$(fight_style_path)=fight_style\
+$(relics_path)=relics\
+$(reports_path)=reports\
+$(root)=Player

@@ -1,0 +1,3 @@
+$(tier)=t19m
+$(simc_tier_path)=Tier19M/
+$(tier_suffix)=T19M

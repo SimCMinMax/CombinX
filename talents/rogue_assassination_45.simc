@@ -1,0 +1,8 @@
+name=$(root)_deeper_stratagem
+talent_override=deeper_stratagem
+
+copy=$(root)_anticipation,$(root)_deeper_stratagem
+talent_override=anticipation
+
+copy=$(root)_vigor,$(root)_deeper_stratagem
+talent_override=vigor

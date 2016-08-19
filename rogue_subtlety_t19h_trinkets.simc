@@ -1,0 +1,10 @@
+input=global.simc
+input=$(simc_profiles_path)$(t19h_path)Rogue_Subtlety_T19H.simc
+input=$(gear_path)No_trinket.simc
+
+input=$(trinkets_path)Rogue_trinkets_conditions.simc
+
+$(trinket_condition)=$(sub_trinket_condition)
+$(root)=Rog_Sub_T19H
+
+input=$(trinkets_path)Rogue_trinkets_T19H.simc

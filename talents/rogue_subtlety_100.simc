@@ -1,0 +1,8 @@
+name=$(root)_master_of_shadows
+talent_override=master_of_shadows
+
+copy=$(root)_marked_for_death,$(root)_master_of_shadows
+talent_override=marked_for_death
+
+copy=$(root)_death_from_above,$(root)_master_of_shadows
+talent_override=death_from_above
