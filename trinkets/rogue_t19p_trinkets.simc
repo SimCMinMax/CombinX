@@ -50,5 +50,5 @@ copy=$(root)_tirathons_betrayal_840,$(root)
 trinket1=tirathons_betrayal,id=137537,bonus_id=1727
 actions+=/use_item,slot=trinket1,if=$(trinket_condition)
 
-copy=$(root)_infernal_alchemy_stone_840,$(root)
-trinket1=infernal_alchemy_stone,id=127842,bonus_id=667
+copy=$(root)_infernal_alchemist_stone_840,$(root)
+trinket1=infernal_alchemist_stone,id=127842,bonus_id=667

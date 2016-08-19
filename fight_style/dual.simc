@@ -1,2 +1,2 @@
 input=$(fight_style_path)2t.simc
-$(fight_style)=dual
+$(fight_type)=dual
