@@ -1,4 +1,4 @@
 input=global.simc
 input=$(simc_profiles_path)$(simc_tier_path)$(Class)_$(Specialization)_$(tier_suffix).simc
 
-$(root)=$(Clas)_(Spec)_$(tier_suffix)
+$(root)=$(clas)_$(spec)_$(tier_suffix)

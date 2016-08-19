@@ -1,0 +1,1 @@
+input=$(relics_path)$(class)_$(specialization)_$(tier)_relics.simc

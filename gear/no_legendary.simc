@@ -1,0 +1,1 @@
+input=$(gear_path)$(class)_$(specialization)_$(tier)_no_legendary.simc

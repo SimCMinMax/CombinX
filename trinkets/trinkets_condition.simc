@@ -1,0 +1,1 @@
+input=$(trinkets_path)$(class)_$(specialization)_trinkets_condition.simc

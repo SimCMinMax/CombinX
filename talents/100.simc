@@ -1,0 +1,1 @@
+input=$(talents_path)$(class)_$(specialization)_100.simc

@@ -1,0 +1,1 @@
+input=$(races_path)$(class)_races.simc

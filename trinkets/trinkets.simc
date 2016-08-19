@@ -1,0 +1,2 @@
+input=$(trinkets_path)trinkets_condition.simc
+input=$(trinkets_path)$(class)_$(tier)_trinkets.simc

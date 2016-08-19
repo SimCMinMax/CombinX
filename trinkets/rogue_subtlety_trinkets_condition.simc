@@ -1,0 +1,1 @@
+$(trinket_condition)=buff.bloodlust.react|target.time_to_die<=20|buff.shadow_blades.up
