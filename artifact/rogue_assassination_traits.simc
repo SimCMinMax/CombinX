@@ -48,4 +48,3 @@ artifact=43:0:0:0:0:346:1:347:1:1276:1
 
 copy=$(root)_slayers_precision,$(root)
 artifact=43:0:0:0:0:346:1:1276:1:1384:20
-
