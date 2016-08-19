@@ -181,3 +181,6 @@ actions+=/use_item,slot=trinket1,if=$(trinket_condition)
 
 copy=$(root)_spontaneous_appendages_880,$(root)
 trinket1=spontaneous_appendages,id=139325,bonus_id=1806
+
+copy=$(root)_infernal_alchemy_stone_850,$(root)
+trinket1=infernal_alchemy_stone,id=127842,bonus_id=669
