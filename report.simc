@@ -1,5 +1,5 @@
 report_details=0
 hosted_html=1
 $(filename)=$(clas)_$(spec)_$(tier)_$(fight_style)_$(sim_type)
-html=$(filename).html
-#json=$(filename).json
+html=$(reports_path)$(filename).html
+#json=$(reports_path)$(filename).json
