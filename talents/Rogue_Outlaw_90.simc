@@ -1,8 +1,0 @@
-name=$(root)_cannonball_barrage
-talent_override=cannonball_barrage
-
-copy=$(root)_alacrity,$(root)_cannonball_barrage
-talent_override=alacrity
-
-copy=$(root)_killing_spree,$(root)_cannonball_barrage
-talent_override=killing_spree

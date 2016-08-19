@@ -1,6 +1,0 @@
-input=global.simc
-input=$(simc_profiles_path)$(t18m_path)Rogue_Outlaw_T18M.simc
-
-$(root)=Rog_Otl_T18M
-
-input=$(races_path)rogue_races.simc

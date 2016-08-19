@@ -1,6 +1,0 @@
-input=global.simc
-input=$(simc_profiles_path)$(t19p_path)Rogue_Subtlety_T19P.simc
-
-$(root)=Rog_Sub_T19P
-
-input=$(artifact_path)Rogue_Subtlety_traits.simc
