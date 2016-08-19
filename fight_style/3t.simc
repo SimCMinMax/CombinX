@@ -1,0 +1,4 @@
+enemy=Fluffy_Pillow
+enemy=enemy2
+enemy=enemy3
+$(fight_type)=3t

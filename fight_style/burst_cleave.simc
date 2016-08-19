@@ -1,3 +1,5 @@
-fight_style=burst_cleave
-enemy=dummy1
-raid_events+=/adds,count=6,first=30,cooldown=45,duration=12
+$(adds_count)=6
+$(adds_first)=30
+$(adds_cd)=45
+$(adds_duration)=12
+input=raidevents_adds.simc
