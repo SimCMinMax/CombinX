@@ -1,0 +1,2 @@
+$(sim_type)=$(row)talents
+input=$(talents_path)$(class)_$(specialization)_$(row).simc

@@ -1,242 +1,242 @@
-name=$(root)_1010011
-talents=1010011
+name=$(root)_1310011
+talents=1310011
 
-copy=$(root)_2010011,$(root)_1010011
-talents=2010011
+copy=$(root)_2310011,$(root)_1310011
+talents=2310011
 
-copy=$(root)_3010011,$(root)_1010011
-talents=3010011
+copy=$(root)_3310011,$(root)_1310011
+talents=3310011
 
-copy=$(root)_1020011,$(root)_1010011
-talents=1020011
+copy=$(root)_1320011,$(root)_1310011
+talents=1320011
 
-copy=$(root)_2020011,$(root)_1010011
-talents=2020011
+copy=$(root)_2320011,$(root)_1310011
+talents=2320011
 
-copy=$(root)_3020011,$(root)_1010011
-talents=3020011
+copy=$(root)_3320011,$(root)_1310011
+talents=3320011
 
-copy=$(root)_1030011,$(root)_1010011
-talents=1030011
+copy=$(root)_1330011,$(root)_1310011
+talents=1330011
 
-copy=$(root)_2030011,$(root)_1010011
-talents=2030011
+copy=$(root)_2330011,$(root)_1310011
+talents=2330011
 
-copy=$(root)_3030011,$(root)_1010011
-talents=3030011
+copy=$(root)_3330011,$(root)_1310011
+talents=3330011
 
-copy=$(root)_1010021,$(root)_1010011
-talents=1010021
+copy=$(root)_1310021,$(root)_1310011
+talents=1310021
 
-copy=$(root)_2010021,$(root)_1010011
-talents=2010021
+copy=$(root)_2310021,$(root)_1310011
+talents=2310021
 
-copy=$(root)_3010021,$(root)_1010011
-talents=3010021
+copy=$(root)_3310021,$(root)_1310011
+talents=3310021
 
-copy=$(root)_1020021,$(root)_1010011
-talents=1020021
+copy=$(root)_1320021,$(root)_1310011
+talents=1320021
 
-copy=$(root)_2020021,$(root)_1010011
-talents=2020021
+copy=$(root)_2320021,$(root)_1310011
+talents=2320021
 
-copy=$(root)_3020021,$(root)_1010011
-talents=3020021
+copy=$(root)_3320021,$(root)_1310011
+talents=3320021
 
-copy=$(root)_1030021,$(root)_1010011
-talents=1030021
+copy=$(root)_1330021,$(root)_1310011
+talents=1330021
 
-copy=$(root)_2030021,$(root)_1010011
-talents=2030021
+copy=$(root)_2330021,$(root)_1310011
+talents=2330021
 
-copy=$(root)_3030021,$(root)_1010011
-talents=3030021
+copy=$(root)_3330021,$(root)_1310011
+talents=3330021
 
-copy=$(root)_1010031,$(root)_1010011
-talents=1010031
+copy=$(root)_1310031,$(root)_1310011
+talents=1310031
 
-copy=$(root)_2010031,$(root)_1010011
-talents=2010031
+copy=$(root)_2310031,$(root)_1310011
+talents=2310031
 
-copy=$(root)_3010031,$(root)_1010011
-talents=3010031
+copy=$(root)_3310031,$(root)_1310011
+talents=3310031
 
-copy=$(root)_1020031,$(root)_1010011
-talents=1020031
+copy=$(root)_1320031,$(root)_1310011
+talents=1320031
 
-copy=$(root)_2020031,$(root)_1010011
-talents=2020031
+copy=$(root)_2320031,$(root)_1310011
+talents=2320031
 
-copy=$(root)_3020031,$(root)_1010011
-talents=3020031
+copy=$(root)_3320031,$(root)_1310011
+talents=3320031
 
-copy=$(root)_1030031,$(root)_1010011
-talents=1030031
+copy=$(root)_1330031,$(root)_1310011
+talents=1330031
 
-copy=$(root)_2030031,$(root)_1010011
-talents=2030031
+copy=$(root)_2330031,$(root)_1310011
+talents=2330031
 
-copy=$(root)_3030031,$(root)_1010011
-talents=3030031
+copy=$(root)_3330031,$(root)_1310011
+talents=3330031
 
-copy=$(root)_1010012,$(root)_1010011
-talents=1010012
+copy=$(root)_1310012,$(root)_1310011
+talents=1310012
 
-copy=$(root)_2010012,$(root)_1010011
-talents=2010012
+copy=$(root)_2310012,$(root)_1310011
+talents=2310012
 
-copy=$(root)_3010012,$(root)_1010011
-talents=3010012
+copy=$(root)_3310012,$(root)_1310011
+talents=3310012
 
-copy=$(root)_1020012,$(root)_1010011
-talents=1020012
+copy=$(root)_1320012,$(root)_1310011
+talents=1320012
 
-copy=$(root)_2020012,$(root)_1010011
-talents=2020012
+copy=$(root)_2320012,$(root)_1310011
+talents=2320012
 
-copy=$(root)_3020012,$(root)_1010011
-talents=3020012
+copy=$(root)_3320012,$(root)_1310011
+talents=3320012
 
-copy=$(root)_1030012,$(root)_1010011
-talents=1030012
+copy=$(root)_1330012,$(root)_1310011
+talents=1330012
 
-copy=$(root)_2030012,$(root)_1010011
-talents=2030012
+copy=$(root)_2330012,$(root)_1310011
+talents=2330012
 
-copy=$(root)_3030012,$(root)_1010011
-talents=3030012
+copy=$(root)_3330012,$(root)_1310011
+talents=3330012
 
-copy=$(root)_1010022,$(root)_1010011
-talents=1010022
+copy=$(root)_1310022,$(root)_1310011
+talents=1310022
 
-copy=$(root)_2010022,$(root)_1010011
-talents=2010022
+copy=$(root)_2310022,$(root)_1310011
+talents=2310022
 
-copy=$(root)_3010022,$(root)_1010011
-talents=3010022
+copy=$(root)_3310022,$(root)_1310011
+talents=3310022
 
-copy=$(root)_1020022,$(root)_1010011
-talents=1020022
+copy=$(root)_1320022,$(root)_1310011
+talents=1320022
 
-copy=$(root)_2020022,$(root)_1010011
-talents=2020022
+copy=$(root)_2320022,$(root)_1310011
+talents=2320022
 
-copy=$(root)_3020022,$(root)_1010011
-talents=3020022
+copy=$(root)_3320022,$(root)_1310011
+talents=3320022
 
-copy=$(root)_1030022,$(root)_1010011
-talents=1030022
+copy=$(root)_1330022,$(root)_1310011
+talents=1330022
 
-copy=$(root)_2030022,$(root)_1010011
-talents=2030022
+copy=$(root)_2330022,$(root)_1310011
+talents=2330022
 
-copy=$(root)_3030022,$(root)_1010011
-talents=3030022
+copy=$(root)_3330022,$(root)_1310011
+talents=3330022
 
-copy=$(root)_1010032,$(root)_1010011
-talents=1010032
+copy=$(root)_1310032,$(root)_1310011
+talents=1310032
 
-copy=$(root)_2010032,$(root)_1010011
-talents=2010032
+copy=$(root)_2310032,$(root)_1310011
+talents=2310032
 
-copy=$(root)_3010032,$(root)_1010011
-talents=3010032
+copy=$(root)_3310032,$(root)_1310011
+talents=3310032
 
-copy=$(root)_1020032,$(root)_1010011
-talents=1020032
+copy=$(root)_1320032,$(root)_1310011
+talents=1320032
 
-copy=$(root)_2020032,$(root)_1010011
-talents=2020032
+copy=$(root)_2320032,$(root)_1310011
+talents=2320032
 
-copy=$(root)_3020032,$(root)_1010011
-talents=3020032
+copy=$(root)_3320032,$(root)_1310011
+talents=3320032
 
-copy=$(root)_1030032,$(root)_1010011
-talents=1030032
+copy=$(root)_1330032,$(root)_1310011
+talents=1330032
 
-copy=$(root)_2030032,$(root)_1010011
-talents=2030032
+copy=$(root)_2330032,$(root)_1310011
+talents=2330032
 
-copy=$(root)_3030032,$(root)_1010011
-talents=3030032
+copy=$(root)_3330032,$(root)_1310011
+talents=3330032
 
-copy=$(root)_1010013,$(root)_1010011
-talents=1010013
+copy=$(root)_1310013,$(root)_1310011
+talents=1310013
 
-copy=$(root)_2010013,$(root)_1010011
-talents=2010013
+copy=$(root)_2310013,$(root)_1310011
+talents=2310013
 
-copy=$(root)_3010013,$(root)_1010011
-talents=3010013
+copy=$(root)_3310013,$(root)_1310011
+talents=3310013
 
-copy=$(root)_1020013,$(root)_1010011
-talents=1020013
+copy=$(root)_1320013,$(root)_1310011
+talents=1320013
 
-copy=$(root)_2020013,$(root)_1010011
-talents=2020013
+copy=$(root)_2320013,$(root)_1310011
+talents=2320013
 
-copy=$(root)_3020013,$(root)_1010011
-talents=3020013
+copy=$(root)_3320013,$(root)_1310011
+talents=3320013
 
-copy=$(root)_1030013,$(root)_1010011
-talents=1030013
+copy=$(root)_1330013,$(root)_1310011
+talents=1330013
 
-copy=$(root)_2030013,$(root)_1010011
-talents=2030013
+copy=$(root)_2330013,$(root)_1310011
+talents=2330013
 
-copy=$(root)_3030013,$(root)_1010011
-talents=3030013
+copy=$(root)_3330013,$(root)_1310011
+talents=3330013
 
-copy=$(root)_1010023,$(root)_1010011
-talents=1010023
+copy=$(root)_1310023,$(root)_1310011
+talents=1310023
 
-copy=$(root)_2010023,$(root)_1010011
-talents=2010023
+copy=$(root)_2310023,$(root)_1310011
+talents=2310023
 
-copy=$(root)_3010023,$(root)_1010011
-talents=3010023
+copy=$(root)_3310023,$(root)_1310011
+talents=3310023
 
-copy=$(root)_1020023,$(root)_1010011
-talents=1020023
+copy=$(root)_1320023,$(root)_1310011
+talents=1320023
 
-copy=$(root)_2020023,$(root)_1010011
-talents=2020023
+copy=$(root)_2320023,$(root)_1310011
+talents=2320023
 
-copy=$(root)_3020023,$(root)_1010011
-talents=3020023
+copy=$(root)_3320023,$(root)_1310011
+talents=3320023
 
-copy=$(root)_1030023,$(root)_1010011
-talents=1030023
+copy=$(root)_1330023,$(root)_1310011
+talents=1330023
 
-copy=$(root)_2030023,$(root)_1010011
-talents=2030023
+copy=$(root)_2330023,$(root)_1310011
+talents=2330023
 
-copy=$(root)_3030023,$(root)_1010011
-talents=3030023
+copy=$(root)_3330023,$(root)_1310011
+talents=3330023
 
-copy=$(root)_1010033,$(root)_1010011
-talents=1010033
+copy=$(root)_1310033,$(root)_1310011
+talents=1310033
 
-copy=$(root)_2010033,$(root)_1010011
-talents=2010033
+copy=$(root)_2310033,$(root)_1310011
+talents=2310033
 
-copy=$(root)_3010033,$(root)_1010011
-talents=3010033
+copy=$(root)_3310033,$(root)_1310011
+talents=3310033
 
-copy=$(root)_1020033,$(root)_1010011
-talents=1020033
+copy=$(root)_1320033,$(root)_1310011
+talents=1320033
 
-copy=$(root)_2020033,$(root)_1010011
-talents=2020033
+copy=$(root)_2320033,$(root)_1310011
+talents=2320033
 
-copy=$(root)_3020033,$(root)_1010011
-talents=3020033
+copy=$(root)_3320033,$(root)_1310011
+talents=3320033
 
-copy=$(root)_1030033,$(root)_1010011
-talents=1030033
+copy=$(root)_1330033,$(root)_1310011
+talents=1330033
 
-copy=$(root)_2030033,$(root)_1010011
-talents=2030033
+copy=$(root)_2330033,$(root)_1310011
+talents=2330033
 
-copy=$(root)_3030033,$(root)_1010011
-talents=3030033
+copy=$(root)_3330033,$(root)_1310011
+talents=3330033
