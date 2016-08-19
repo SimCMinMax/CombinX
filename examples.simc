@@ -3,3 +3,6 @@ simc input=global.simc $(tier)=t19m $(specialization)=subtlety $(fight_style)=1t
 
 # Rogue Subtlety T19M 1-Target RE-Adds:6-0-30-12 Trinkets Comparison
 simc input=global.simc $(tier)=t19m $(specialization)=subtlety $(fight_style)=1t input=main.simc $(adds_count)=4 $(adds_first)=30 $(adds_cd)=0 $(adds_duration)=10 input=$(fight_style_path)raidevents_adds.simc input=trinkets.simc input=report_html.simc
+
+# Rogue Subtlety T19M 1-Target Stats Scaling
+simc input=global.simc $(tier)=t19m $(specialization)=subtlety $(fight_style)=1t input=main.simc $(stats_to_scale)=agility,crit_rating,haste_rating,mastery_rating,versatility_rating,weapon_dps input=stats_scaling.simc input=report_html.simc

@@ -35,5 +35,5 @@ threads=8
 process_priority=normal
 target_error=0.1
 optimal_raid=1
-max_time=240
+max_time=330
 vary_combat_length=0.3
