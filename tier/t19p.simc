@@ -1,3 +1,3 @@
 $(tier)=t19p
-$(simc_tier_path)=Tier19P/
+$(simc_tier_path)=$(t19p_path)
 $(tier_suffix)=T19P

@@ -17,4 +17,6 @@ $(talents_path)=talents/
 $(fight_style_path)=fight_style/
 $(relics_path)=relics/
 $(reports_path)=reports/
+$(tier_path)=tier/
+$(specialization_path)=specialization/
 $(root)=Player
