@@ -3,3 +3,4 @@ $(adds_first)=30
 $(adds_cd)=45
 $(adds_duration)=12
 input=raidevents_adds.simc
+$(fight_style)=burst_cleave
