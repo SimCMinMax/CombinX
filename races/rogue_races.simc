@@ -1,4 +1,5 @@
 name=$(root)_dwarf
+$(base_name)=$(root)_dwarf
 race=dwarf
 copy=$(root)_gnome
 race=gnome

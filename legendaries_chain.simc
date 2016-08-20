@@ -1,0 +1,2 @@
+input=$(legendaries_path)$(class)_$(specialization)_legendaries_chain.simc
+$(sim_type)=legendaries_$(sim_type)
