@@ -1,6 +1,13 @@
+# Setup local root for the different profiles
 $(rogasntal15_root)=$(root)
+
+# Catch file setup as chainY with Y being the chain index
 $(rogasntal15_chain)=$(chain$(chain_rogasntal15_chain))
+
+# Set chain_var to next file in chain
 $(chain_var)=chain_$(rogasntal15_chain)
+
+# set the chain_XXX_chain variable for next file in chain to next chain index
 input=$(chain_path)chain$(chain_rogasntal15_chain).simc
 
 $(root)=$(rogasntal15_root)_master_poisoner

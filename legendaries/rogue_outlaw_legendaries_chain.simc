@@ -1,31 +1,39 @@
+# Setup local root for the different profiles
 $(rogotlleg_root)=$(root)
+
+# Catch file setup as chainY with Y being the chain index
 $(rogotlleg_chain)=$(chain$(chain_rogotlleg_chain))
+
+# Set chain_var to next file in chain
 $(chain_var)=chain_$(rogotlleg_chain)
+
+# set the chain_XXX_chain variable for next file in chain to next chain index
 input=$(chain_path)chain$(chain_rogotlleg_chain).simc
 
 name=$(rogotlleg_root)
+$(base_name)=$(rogotlleg_root)
 
 $(root)=$(rogotlleg_root)_insignia_of_ravenhold_niy
-copy=$(root),$(rogotlleg_root)
+copy=$(root),$(base_name)
 finger1=insignia_of_ravenholdt,id=137049,bonus_id=1811
 input=$(rogotlleg_chain)
 
 $(root)=$(rogotlleg_root)_cinidaria_the_symbiote
-copy=$(root),$(rogotlleg_root)
+copy=$(root),$(base_name)
 waist=cinidaria_the_symbiote,id=133976,bonus_id=1811
 input=$(rogotlleg_chain)
 
 $(root)=$(rogotlleg_root)_thraxis_tricksy_treads
-copy=$(root),$(rogotlleg_root)
+copy=$(root),$(base_name)
 feet=thraxis_tricksy_treads,id=137031,bonus_id=1811
 input=$(rogotlleg_chain)
 
 $(root)=$(rogotlleg_root)_greenskins_waterlogged_wristcuffs
-copy=$(root),$(rogotlleg_root)
+copy=$(root),$(base_name)
 wrist=greenskins_waterlogged_wristcuffs,id=137099,bonus_id=1811
 input=$(rogotlleg_chain)
 
 $(root)=$(rogotlleg_root)_shivarran_symmetry
-copy=$(root),$(rogotlleg_root)
+copy=$(root),$(base_name)
 hands=shivarran_symmetry,id=141321,bonus_id=1811
 input=$(rogotlleg_chain)

@@ -1,3 +1,5 @@
+# Setup chain_XXX_chain variable to contain chain index
 $(chain_$(clas)$(spec)tal$(row)_chain)=$(chain_talents_chain.simc)
+
 input=$(talents_path)$(class)_$(specialization)_$(row)_chain.simc
 $(sim_type)=$(row)talents_$(sim_type)

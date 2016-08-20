@@ -1,2 +1,7 @@
+# legendaries_chain
 $(chain_rogasnleg_chain)=""
+$(chain_rogotlleg_chain)=""
+$(chain_rogsubleg_chain)=""
+
+# talents_chain
 $(chain_rogasntal15_chain)=""

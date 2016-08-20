@@ -1,2 +1,5 @@
+# Setup chain_XXX_chain variable to contain chain index
+$(chain_$(clas)$(spec)leg_chain)=$(chain_legendaries_chain.simc)
+
 input=$(legendaries_path)$(class)_$(specialization)_legendaries_chain.simc
 $(sim_type)=legendaries_$(sim_type)
