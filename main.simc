@@ -1,4 +1,3 @@
-input=$(fight_style_path)$(fight_style).simc
 input=$(tier_path)$(tier).simc
 input=$(specialization_path)$(class)_$(specialization).simc
 
