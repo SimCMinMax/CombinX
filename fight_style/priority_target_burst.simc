@@ -2,6 +2,6 @@ $(adds_count)=1
 $(adds_first)=60
 $(adds_cd)=60
 $(adds_duration)=12
-input=raidevents_adds.simc
+input=$(fight_style_path)raidevents_adds.simc
 
 $(fight_type)=priority_target_burst
