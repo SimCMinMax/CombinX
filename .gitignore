@@ -1,3 +1,4 @@
 global.simc
 global_cron.simc
-reports/
+aethys_spreadsheet.simc
+reports/*
