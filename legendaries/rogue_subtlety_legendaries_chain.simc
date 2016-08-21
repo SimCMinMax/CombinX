@@ -13,7 +13,7 @@ input=$(chain_path)chain$(chain_rogsubleg_chain).simc
 name=$(rogsubleg_root)
 $(base_name)=$(rogsubleg_root)
 
-$(root)=$(rogsubleg_root)_insignia_of_ravenhold_niy
+$(root)=$(rogsubleg_root)_insignia_of_ravenhold_NIY
 copy=$(root),$(base_name)
 finger1=insignia_of_ravenholdt,id=137049,bonus_id=1811
 input=$(rogsubleg_chain)
@@ -33,7 +33,7 @@ copy=$(root),$(base_name)
 wrist=denial_of_the_halfgiants,id=137100,bonus_id=1811
 input=$(rogsubleg_chain)
 
-$(root)=$(rogsubleg_root)_the_dreadlords_deceit_niy
+$(root)=$(rogsubleg_root)_the_dreadlords_deceit
 copy=$(root),$(base_name)
 back=the_dreadlords_deceit,id=137021,bonus_id=1811
 input=$(rogsubleg_chain)

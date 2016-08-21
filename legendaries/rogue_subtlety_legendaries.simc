@@ -12,5 +12,5 @@ feet=shadow_satyrs_walk,id=137032,bonus_id=1811
 copy=$(root)_denial_of_the_halfgiants,$(root)
 wrist=denial_of_the_halfgiants,id=137100,bonus_id=1811
 
-copy=$(root)_the_dreadlords_deceit_NIY,$(root)
+copy=$(root)_the_dreadlords_deceit,$(root)
 back=the_dreadlords_deceit,id=137021,bonus_id=1811

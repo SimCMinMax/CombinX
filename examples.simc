@@ -18,3 +18,6 @@ simc input=global.simc input=$(fight_style_path)1t.simc $(specialization)=subtle
 
 # Rogue Subtlety T19P & T19H & T19M | 1-Target | Default Comparison by overriding Talents
 simc input=global.simc input=$(fight_style_path)1t.simc $(talents_override)=123032 $(specialization)=subtlety $(tier)=t19p input=main_override.simc $(tier)=t19h input=main_override.simc $(tier)=t19m input=main_override.simc input=report_html.simc
+
+# Rogue Subtlety T19M | 1-Target | Legendary Comparison
+simc input=global.simc input=$(fight_style_path)1t.simc $(specialization)=subtlety $(tier)=t19m input=main.simc input=$(gear_path)no_legendary.simc input=legendaries.simc input=report_html.simc
