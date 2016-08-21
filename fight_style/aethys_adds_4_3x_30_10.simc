@@ -17,4 +17,4 @@ $(adds_first)=37.5
 input=$(fight_style_path)raidevents_adds.simc
 
 
-$(fight_type)=$(fight_type_temp)_AA-4-3x-30-10
+$(fight_type)=$(fight_type_temp)_aa-4-3x-30-10
