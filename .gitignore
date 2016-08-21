@@ -1,3 +1,5 @@
 global.simc
+*.html
+*.json
 global_cron.simc
-aethys_spreadsheet.simc
+aethys_spreadsheet.bat

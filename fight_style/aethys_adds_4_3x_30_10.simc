@@ -5,16 +5,16 @@ $(adds_duration)=10
 
 
 $(adds_first)=30
-input=raidevents_adds.simc
+input=$(fight_style_path)raidevents_adds.simc
 
 $(adds_first)=32.5
-input=raidevents_adds.simc
+input=$(fight_style_path)raidevents_adds.simc
 
 $(adds_first)=35
-input=raidevents_adds.simc
+input=$(fight_style_path)raidevents_adds.simc
 
 $(adds_first)=37.5
-input=raidevents_adds.simc
+input=$(fight_style_path)raidevents_adds.simc
 
 
 $(fight_type)=$(fight_type_temp)_AA-4-3x-30-10
