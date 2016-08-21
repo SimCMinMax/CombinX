@@ -1,0 +1,5 @@
+# Setup chain_XXX_chain variable to contain chain index
+$(chain_$(clas)rac_chain)=$(chain_races_chain.simc)
+
+input=$(races_path)$(class)_races_chain.simc
+$(sim_type)=races_$(sim_type)

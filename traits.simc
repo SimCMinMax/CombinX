@@ -1,1 +1,2 @@
+$(sim_type)=traits
 input=$(artifact_path)$(class)_$(specialization)_traits.simc

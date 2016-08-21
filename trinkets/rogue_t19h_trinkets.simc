@@ -121,3 +121,6 @@ trinket1=spontaneous_appendages,id=139325,bonus_id=1805
 
 copy=$(root)_infernal_alchemist_stone_850,$(root)
 trinket1=infernal_alchemist_stone,id=127842,bonus_id=669
+
+copy=$(root)_darkmoon_deck_dominion_850,$(root)
+trinket2=darkmoon_deck_dominion,id=128705,bonus_id=669

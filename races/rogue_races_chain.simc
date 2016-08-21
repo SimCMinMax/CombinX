@@ -1,57 +1,68 @@
+# Setup local root for the different profiles
 $(rograc_root)=$(root)
 
+# Catch file setup as chainY with Y being the chain index
+$(rograc_chain)=$(chain$(chain_rograc_chain))
+
+# Set chain_var to next file in chain
+$(chain_var)=chain_$(rograc_chain)
+
+# set the chain_XXX_chain variable for next file in chain to next chain index
+input=$(chain_path)chain$(chain_rograc_chain).simc
+
 $(root)=$(rograc_root)_dwarf
+$(base_name)=$(root)
 name=$(root)
 race=dwarf
 input=$(rograc_chain)
 
 $(root)=$(rograc_root)_gnome
-copy=$(root),$(rograc_root)_dwarf
+copy=$(root),$(base_name)
 race=gnome
 input=$(rograc_chain)
 
 $(root)=$(rograc_root)_human
-copy=$(root),$(rograc_root)_dwarf
+copy=$(root),$(base_name)
 race=human
 input=$(rograc_chain)
 
 $(root)=$(rograc_root)_night_elf
-copy=$(root),$(rograc_root)_dwarf
+copy=$(root),$(base_name)
 race=night_elf
 input=$(rograc_chain)
 
 timeofday=day
 $(root)=$(rograc_root)_worgen
-copy=$(root),$(rograc_root)_dwarf
+copy=$(root),$(base_name)
 race=worgen
 input=$(rograc_chain)
 
 $(root)=$(rograc_root)_blood_elf
-copy=$(root),$(rograc_root)_dwarf
+copy=$(root),$(base_name)
 race=blood_elf
 input=$(rograc_chain)
 
 $(root)=$(rograc_root)_undead
-copy=$(root),$(rograc_root)_dwarf
+copy=$(root),$(base_name)
 race=undead
 input=$(rograc_chain)
 
 $(root)=$(rograc_root)_goblin
-copy=$(root),$(rograc_root)_dwarf
+copy=$(root),$(base_name)
 race=goblin
 input=$(rograc_chain)
 
 $(root)=$(rograc_root)_orc
-copy=$(root),$(rograc_root)_dwarf
+copy=$(root),$(base_name)
 race=orc
 input=$(rograc_chain)
 
 $(root)=$(rograc_root)_troll
-copy=$(root),$(rograc_root)_dwarf
+copy=$(root),$(base_name)
 race=troll
 input=$(rograc_chain)
 
 $(root)=$(rograc_root)_pandaren
-copy=$(root),$(rograc_root)_dwarf
+copy=$(root),$(base_name)
 race=pandaren
 input=$(rograc_chain)

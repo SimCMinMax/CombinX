@@ -1,50 +1,51 @@
 name=$(root)
+$(base_name)=$(root)
 artifact=44:0:0:0:0:1052:1:1348:1
 
-copy=$(root)_blunderbuss,$(root)
+copy=$(root)_blunderbuss,$(base_name)
 artifact=44:0:0:0:0:1052:1:1053:1:1348:1
 
-copy=$(root)_greed,$(root)
+copy=$(root)_greed,$(base_name)
 artifact=44:0:0:0:0:1052:1:1054:1:1348:1
 
-copy=$(root)_blurred_time,$(root)
+copy=$(root)_blurred_time,$(base_name)
 artifact=44:0:0:0:0:1052:1:1055:1:1348:1
 
-copy=$(root)_deception,$(root)
+copy=$(root)_deception,$(base_name)
 artifact=44:0:0:0:0:1052:1:1056:1:1348:1
 
-copy=$(root)_hidden_blade,$(root)
+copy=$(root)_hidden_blade,$(base_name)
 artifact=44:0:0:0:0:1052:1:1057:1:1348:1
 
-copy=$(root)_blademaster,$(root)
+copy=$(root)_blademaster,$(base_name)
 artifact=44:0:0:0:0:1052:1:1058:1:1348:1
 
-copy=$(root)_black_powder,$(root)
+copy=$(root)_black_powder,$(base_name)
 artifact=44:0:0:0:0:1052:1:1059:3:1348:1
 
-copy=$(root)_blade_dancer,$(root)
+copy=$(root)_blade_dancer,$(base_name)
 artifact=44:0:0:0:0:1052:1:1060:3:1348:1
 
-copy=$(root)_fates_thirst,$(root)
+copy=$(root)_fates_thirst,$(base_name)
 artifact=44:0:0:0:0:1052:1:1061:3:1348:1
 
-copy=$(root)_fortunes_strike,$(root)
+copy=$(root)_fortunes_strike,$(base_name)
 artifact=44:0:0:0:0:1052:1:1062:3:1348:1
 
-copy=$(root)_gunslinger,$(root)
+copy=$(root)_gunslinger,$(base_name)
 artifact=44:0:0:0:0:1052:1:1063:3:1348:1
 
-copy=$(root)_fatebringer,$(root)
+copy=$(root)_fatebringer,$(base_name)
 artifact=44:0:0:0:0:1052:1:1064:3:1348:1
 
-copy=$(root)_fortune_strikes,$(root)
+copy=$(root)_fortune_strikes,$(base_name)
 artifact=44:0:0:0:0:1052:1:1065:3:1348:1
 
-copy=$(root)_ghostly_shell,$(root)
+copy=$(root)_ghostly_shell,$(base_name)
 artifact=44:0:0:0:0:1052:1:1066:3:1348:1
 
-copy=$(root)_fortunes_boon,$(root)
+copy=$(root)_fortunes_boon,$(base_name)
 artifact=44:0:0:0:0:1052:1:1067:3:1348:1
 
-copy=$(root)_cursed_steel,$(root)
+copy=$(root)_cursed_steel,$(base_name)
 artifact=44:0:0:0:0:1052:1:1348:1:1385:20

@@ -1,7 +1,13 @@
 # legendaries_chain
+$(chain_legendaries_chain.simc)=""
 $(chain_rogasnleg_chain)=""
 $(chain_rogotlleg_chain)=""
 $(chain_rogsubleg_chain)=""
 
 # talents_chain
+$(chain_talents_chain.simc)=""
 $(chain_rogasntal15_chain)=""
+
+# races_chain
+$(chain_races_chain.simc)=""
+$(chain_rograc_chain)=""
