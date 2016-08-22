@@ -1,0 +1,4 @@
+report_details=0
+hosted_html=1
+$(filename)=simc-report.html
+html=$(reports_path)$(filename).html

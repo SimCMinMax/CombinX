@@ -26,15 +26,5 @@ $(trinkets_path)=trinkets/
 # SimCMinMax Output
 $(reports_path)=reports/
 
-# SimCMinMax CVars
-$(class)=rogue
-$(sim_type)=default
-$(root)=Player
-
-# SimC Global CVars (Comment if you want to override in CLI, or put them after global call)
-threads=8
-process_priority=normal
-target_error=0.1
-optimal_raid=1
-max_time=330
-vary_combat_length=0.3
+# Global CVars
+input=global_cvars.simc
