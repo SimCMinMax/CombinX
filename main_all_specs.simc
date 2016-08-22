@@ -1,0 +1,19 @@
+input=$(tier_path)$(tier).simc
+input=$(fight_style_path)$(fight_style).simc
+# Load fight style once to avoid conflicts with multiple main calls
+$(fight_style)=void
+
+input=$(specialization_path)$(class)_1.simc
+input=$(specialization_path)$(class)_$(specialization).simc
+input=$(simc_profiles_path)$(simc_tier_path)$(Class)_$(Specialization)_$(tier_suffix).simc
+
+input=$(specialization_path)$(class)_2.simc
+input=$(specialization_path)$(class)_$(specialization).simc
+input=$(simc_profiles_path)$(simc_tier_path)$(Class)_$(Specialization)_$(tier_suffix).simc
+
+input=$(specialization_path)$(class)_3.simc
+input=$(specialization_path)$(class)_$(specialization).simc
+input=$(simc_profiles_path)$(simc_tier_path)$(Class)_$(Specialization)_$(tier_suffix).simc
+
+input=$(specialization_path)all_specs.simc
+$(root)=$(clas)_all_$(tier_suffix)
