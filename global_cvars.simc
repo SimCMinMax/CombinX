@@ -11,6 +11,7 @@ target_error=0.1
 optimal_raid=1
 max_time=330
 vary_combat_length=0.3
+fight_style=void
 
 # Init chaining variables
 input=$(chain_path)init.simc

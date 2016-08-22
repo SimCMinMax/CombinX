@@ -1,6 +1,9 @@
 input=$(tier_path)$(tier).simc
 input=$(specialization_path)$(class)_$(specialization).simc
 
+input=$(fight_style_path)$(fight_style).simc
+# Load fight style once to avoid conflicts with multiple main calls
+$(fight_style)=void
 input=$(simc_profiles_path)$(simc_tier_path)$(Class)_$(Specialization)_$(tier_suffix).simc
 
 $(root)=$(clas)_$(spec)_$(tier_suffix)
