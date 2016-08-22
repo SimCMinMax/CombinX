@@ -1,6 +1,7 @@
-$(adds_count)=6
-$(adds_first)=30
-$(adds_cd)=45
-$(adds_duration)=12
-input=$(fight_style_path)raidevents_adds.simc
+#$(adds_count)=6
+#$(adds_first)=30
+#$(adds_cd)=45
+#$(adds_duration)=12
+#input=$(fight_style_path)raidevents_adds.simc
+input=$(fight_style_path)aethys_adds_4_3x_30_10.simc
 $(fight_type)=burst_cleave
