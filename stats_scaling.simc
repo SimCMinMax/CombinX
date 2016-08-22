@@ -1,3 +1,3 @@
 calculate_scale_factors=1
 scale_only=$(stats_to_scale)
-$(fight_type)=$(fight_type)_stats
+$(sim_type)=stats
