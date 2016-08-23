@@ -1,23 +1,23 @@
 # Rogue Subtlety T19M | 1-Target | Trinkets Comparison
-simc input=global.simc input=$(fight_style_path)1t.simc $(specialization)=subtlety $(tier)=t19m input=main.simc input=trinkets.simc input=report_html.simc
+simc input=global.simc $(fight_style)=1t $(specialization)=subtlety $(tier)=t19m input=main.simc input=trinkets.simc input=report_html.simc
 
 # Rogue Subtlety T19M | 1-Target RE-Adds:6-0-30-12 | Trinkets Comparison
-simc input=global.simc input=$(fight_style_path)1t.simc $(specialization)=subtlety $(tier)=t19m input=main.simc $(adds_count)=4 $(adds_first)=30 $(adds_cd)=0 $(adds_duration)=10 input=$(fight_style_path)raidevents_adds.simc input=trinkets.simc input=report_html.simc
+simc input=global.simc $(fight_style)=1t $(specialization)=subtlety $(tier)=t19m input=main.simc input=trinkets.simc $(adds_count)=4 $(adds_first)=30 $(adds_cd)=0 $(adds_duration)=10 input=$(fight_style_path)raidevents_adds.simc input=report_html.simc
 
 # Rogue Subtlety T19M | 1-Target | Stats Scaling
-simc input=global.simc input=$(fight_style_path)1t.simc $(specialization)=subtlety $(tier)=t19m input=main.simc $(stats_to_scale)=agility,crit_rating,haste_rating,mastery_rating,versatility_rating,weapon_dps input=stats_scaling.simc input=report_html.simc
+simc input=global.simc $(fight_style)=1t $(specialization)=subtlety $(tier)=t19m input=main.simc $(stats_to_scale)=agility,crit_rating,haste_rating,mastery_rating,versatility_rating,weapon_dps input=stats_scaling.simc input=report_html.simc
 
 # Rogue Subtlety T19M | 1-Target | Level 30 Talents Comparison
-simc input=global.simc input=$(fight_style_path)1t.simc $(specialization)=subtlety $(tier)=t19m input=main.simc $(row)=30 input=talents.simc input=report_html.simc
+simc input=global.simc $(fight_style)=1t $(specialization)=subtlety $(tier)=t19m input=main.simc $(row)=30 input=talents.simc input=report_html.simc
 
 # Rogue Subtlety T19M | 1-Target | All Talents Comparison
-simc input=global.simc input=$(fight_style_path)1t.simc $(specialization)=subtlety $(tier)=t19m input=main.simc $(row)=all input=talents.simc input=report_html.simc
+simc input=global.simc $(fight_style)=1t $(specialization)=subtlety $(tier)=t19m input=main.simc $(row)=all input=talents.simc input=report_html.simc
 
 # Rogue Subtlety T19P & T19H & T19M | 1-Target | Default Comparison
-simc input=global.simc input=$(fight_style_path)1t.simc $(specialization)=subtlety $(tier)=t19p input=main.simc $(tier)=t19h input=main.simc $(tier)=t19m input=main.simc input=report_html.simc
+simc input=global.simc $(fight_style)=1t $(specialization)=subtlety $(tier)=t19p input=main.simc $(tier)=t19h input=main.simc $(tier)=t19m input=main.simc input=report_html.simc
 
 # Rogue Subtlety T19P & T19H & T19M | 1-Target | Default Comparison by overriding Talents
-simc input=global.simc input=$(fight_style_path)1t.simc $(talents_override)=123032 $(specialization)=subtlety $(tier)=t19p input=main_override.simc $(tier)=t19h input=main_override.simc $(tier)=t19m input=main_override.simc input=report_html.simc
+simc input=global.simc $(fight_style)=1t $(option_override)=talents=123032 $(specialization)=subtlety $(tier)=t19p input=main.simc $(tier)=t19h input=main.simc $(tier)=t19m input=main.simc input=report_html.simc
 
 # Rogue Subtlety T19M | 1-Target | Legendary Comparison
-simc input=global.simc input=$(fight_style_path)1t.simc $(specialization)=subtlety $(tier)=t19m input=main.simc input=$(gear_path)no_legendary.simc input=legendaries.simc input=report_html.simc
+simc input=global.simc $(fight_style)=1t $(specialization)=subtlety $(tier)=t19m input=main.simc input=$(gear_path)no_legendary.simc input=legendaries.simc input=report_html.simc
