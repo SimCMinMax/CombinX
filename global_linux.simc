@@ -13,6 +13,8 @@ $(t19m_path)=Tier19M/
 
 # SimCMinMax Internal Paths
 $(artifact_path)=artifact/
+$(artifact_path_path)=artifact_path/
+$(chain_path)=chain/
 $(fight_style_path)=fight_style/
 $(gear_path)=gear/
 $(legendaries_path)=legendaries/
@@ -22,7 +24,6 @@ $(specialization_path)=specialization/
 $(talents_path)=talents/
 $(tier_path)=tier/
 $(trinkets_path)=trinkets/
-$(artifact_path_path)=artifact_path/
 
 # SimCMinMax Output
 $(reports_path)=reports/
