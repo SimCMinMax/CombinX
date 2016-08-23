@@ -1,6 +1,0 @@
-input=global.simc
-input=$(simc_profiles_path)$(t19h_path)Rogue_Subtlety_T19H.simc
-
-$(root)=Rog_Sub_T19H
-
-input=$(legendaries_path)Rogue_legendaries_Subtlety.simc
