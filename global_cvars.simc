@@ -5,6 +5,8 @@ $(root)=Player
 $(dev_state)=html
 $(fight_style)=void
 $(option_override)=""
+$(stats_scaling_sdeltas)=732
+$(stats_scaling_wdeltas)=68
 
 # SimC Global CVars (Comment if you want to override in CLI, or put them after global call)
 threads=6

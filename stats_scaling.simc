@@ -1,3 +1,9 @@
+$(sim_type)=stats
 calculate_scale_factors=1
 scale_only=$(stats_to_scale)
-$(sim_type)=stats
+scale_agility=$(stats_scaling_sdeltas)
+scale_crit_rating=$(stats_scaling_sdeltas)
+scale_haste_rating=$(stats_scaling_sdeltas)
+scale_mastery_rating=$(stats_scaling_sdeltas)
+scale_versatility_rating=$(stats_scaling_sdeltas)
+scale_weapon_dps=$(stats_scaling_wdeltas)
