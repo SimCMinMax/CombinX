@@ -1,6 +1,8 @@
-global.simc
 *.html
 *.json
+global.simc
 global_cron.simc
-aethys_spreadsheet.bat
 global_dev.simc
+aethys_spreadsheet.bat
+aethys_cmd_log.txt
+aethys_cmd_templog.txt
