@@ -1,2 +1,2 @@
-$(sim_type)=artifact_path
+$(sim_type)=artifact_path_$(artifact_rank)
 input=$(artifact_path_path)$(class)_$(specialization)_artifact_path_$(artifact_rank).simc

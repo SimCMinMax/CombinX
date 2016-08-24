@@ -1,5 +1,6 @@
 $(sim_type)=stats
 calculate_scale_factors=1
+center_scale_delta=$(stats_center_delta)
 scale_only=$(stats_to_scale)
 scale_agility=$(stats_scaling_sdeltas)
 scale_crit_rating=$(stats_scaling_sdeltas)

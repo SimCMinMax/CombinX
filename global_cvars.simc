@@ -5,6 +5,7 @@ $(root)=Player
 $(dev_state)=html
 $(fight_style)=void
 $(option_override)=""
+$(stats_center_delta)=1
 $(stats_scaling_sdeltas)=732
 $(stats_scaling_wdeltas)=68
 
