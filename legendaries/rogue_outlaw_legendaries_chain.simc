@@ -13,7 +13,7 @@ input=$(chain_path)chain$(chain_rogotlleg_chain).simc
 name=$(rogotlleg_root)
 $(base_name)=$(rogotlleg_root)
 
-$(root)=$(rogotlleg_root)_insignia_of_ravenhold_NIY
+$(root)=$(rogotlleg_root)_insignia_of_ravenholdt
 copy=$(root),$(base_name)
 finger1=insignia_of_ravenholdt,id=137049,bonus_id=1811
 input=$(rogotlleg_chain)

@@ -1,6 +1,6 @@
 name=$(root)
 
-copy=$(root)_insignia_of_ravenhold_NIY,$(root)
+copy=$(root)_insignia_of_ravenholdt,$(root)
 finger1=insignia_of_ravenholdt,id=137049,bonus_id=1811
 
 copy=$(root)_cinidaria_the_symbiote,$(root)
