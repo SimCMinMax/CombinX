@@ -8,6 +8,7 @@ $(option_override)=input=$(fight_style_path)void.simc
 $(stats_center_delta)=1
 $(stats_scaling_sdeltas)=732
 $(stats_scaling_wdeltas)=68
+$(spec_type)=main
 
 # SimC Global CVars (Comment if you want to override in CLI, or put them after global call)
 threads=6

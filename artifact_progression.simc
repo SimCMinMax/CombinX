@@ -1,0 +1,2 @@
+$(sim_type)=artifact_progression_$(spec_type)
+input=$(artifact_progression_path)$(class)_$(specialization)_artifact_progression_$(spec_type).simc

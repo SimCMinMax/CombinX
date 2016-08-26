@@ -24,6 +24,7 @@ $(specialization_path)=specialization\
 $(talents_path)=talents\
 $(tier_path)=tier\
 $(trinkets_path)=trinkets\
+$(artifact_progression_path)=artifact_progression\
 
 # SimCMinMax Output
 $(reports_path)=reports\
