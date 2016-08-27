@@ -1,2 +1,3 @@
 $(sim_type)=legendaries
+input=$(gear_path)no_legendary.simc
 input=$(legendaries_path)$(class)_$(specialization)_legendaries.simc
