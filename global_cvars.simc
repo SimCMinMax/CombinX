@@ -18,5 +18,16 @@ optimal_raid=1
 max_time=330
 vary_combat_length=0.3
 
+# Run Through
+override.spell_data=effect.622.ap_coefficient=1.42
+# Between the Eyes
+override.spell_data=effect.294039.ap_coefficient=0.85
+# Elaborate Planning
+override.spell_data=effect.284088.base_value=15
+# Asn Mastery
+override.spell_data=effect.68022.sp_coefficient=4
+override.spell_data=effect.68023.sp_coefficient=4
+override.spell_data=effect.322527.sp_coefficient=2
+
 # Init chaining variables
 input=$(chain_path)init.simc
