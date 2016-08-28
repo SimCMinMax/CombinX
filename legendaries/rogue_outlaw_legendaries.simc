@@ -1,16 +1,16 @@
 name=$(root)
 
 copy=$(root)_insignia_of_ravenholdt,$(root)
-finger1=insignia_of_ravenholdt,id=137049,bonus_id=1811
+finger1=insignia_of_ravenholdt,id=137049
 
 copy=$(root)_cinidaria_the_symbiote,$(root)
-waist=cinidaria_the_symbiote,id=133976,bonus_id=1811
+waist=cinidaria_the_symbiote,id=133976
 
 copy=$(root)_thraxis_tricksy_treads,$(root)
-feet=thraxis_tricksy_treads,id=137031,bonus_id=1811
+feet=thraxis_tricksy_treads,id=137031
 
 copy=$(root)_greenskins_waterlogged_wristcuffs,$(root)
-wrist=greenskins_waterlogged_wristcuffs,id=137099,bonus_id=1811
+wrist=greenskins_waterlogged_wristcuffs,id=137099
 
 copy=$(root)_shivarran_symmetry,$(root)
-hands=shivarran_symmetry,id=141321,bonus_id=1811
+hands=shivarran_symmetry,id=141321

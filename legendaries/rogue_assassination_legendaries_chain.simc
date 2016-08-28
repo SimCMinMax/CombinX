@@ -15,12 +15,12 @@ $(base_name)=$(rogasnleg_root)
 
 $(root)=$(rogasnleg_root)_insignia_of_ravenholdt
 copy=$(root),$(base_name)
-finger1=insignia_of_ravenholdt,id=137049,bonus_id=1811
+finger1=insignia_of_ravenholdt,id=137049
 input=$(rogasnleg_chain)
 
 $(root)=$(rogasnleg_root)_cinidaria_the_symbiote
 copy=$(root),$(base_name)
-waist=cinidaria_the_symbiote,id=133976,bonus_id=1811
+waist=cinidaria_the_symbiote,id=133976
 input=$(rogasnleg_chain)
 
 $(root)=$(rogasnleg_root)_duskwalkers_footpads
@@ -28,15 +28,15 @@ copy=$(root),$(base_name)
 artifact_override=gushing_wound:3
 artifact_override=serrated_edge:3
 artifact_override=master_assassin:6
-feet=duskwalkers_footpads,id=137030,bonus_id=1811
+feet=duskwalkers_footpads,id=137030
 input=$(rogasnleg_chain)
 
 $(root)=$(rogasnleg_root)_zoldyck_family_training_shackles
 copy=$(root),$(base_name)
-wrist=zoldyck_family_training_shackles,id=137098,bonus_id=1811
+wrist=zoldyck_family_training_shackles,id=137098
 input=$(rogasnleg_chain)
 
 $(root)=$(rogasnleg_root)_the_dreadlords_deceit
 copy=$(root),$(base_name)
-back=the_dreadlords_deceit,id=137021,bonus_id=1811
+back=the_dreadlords_deceit,id=137021
 input=$(rogasnleg_chain)

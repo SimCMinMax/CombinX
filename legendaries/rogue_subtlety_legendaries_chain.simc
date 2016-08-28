@@ -15,25 +15,25 @@ $(base_name)=$(rogsubleg_root)
 
 $(root)=$(rogsubleg_root)_insignia_of_ravenholdt
 copy=$(root),$(base_name)
-finger1=insignia_of_ravenholdt,id=137049,bonus_id=1811
+finger1=insignia_of_ravenholdt,id=137049
 input=$(rogsubleg_chain)
 
 $(root)=$(rogsubleg_root)_cinidaria_the_symbiote
 copy=$(root),$(base_name)
-waist=cinidaria_the_symbiote,id=133976,bonus_id=1811
+waist=cinidaria_the_symbiote,id=133976
 input=$(rogsubleg_chain)
 
 $(root)=$(rogsubleg_root)_shadow_satyrs_walk
 copy=$(root),$(base_name)
-feet=shadow_satyrs_walk,id=137032,bonus_id=1811
+feet=shadow_satyrs_walk,id=137032
 input=$(rogsubleg_chain)
 
 $(root)=$(rogsubleg_root)_denial_of_the_halfgiants
 copy=$(root),$(base_name)
-wrist=denial_of_the_halfgiants,id=137100,bonus_id=1811
+wrist=denial_of_the_halfgiants,id=137100
 input=$(rogsubleg_chain)
 
 $(root)=$(rogsubleg_root)_the_dreadlords_deceit
 copy=$(root),$(base_name)
-back=the_dreadlords_deceit,id=137021,bonus_id=1811
+back=the_dreadlords_deceit,id=137021
 input=$(rogsubleg_chain)
