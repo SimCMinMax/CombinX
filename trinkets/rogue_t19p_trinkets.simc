@@ -38,6 +38,11 @@ trinket1=mark_of_dargrul,id=137357,bonus_id=1727
 
 copy=$(root)_chrono_shard_840,$(root)
 trinket1=chrono_shard,id=137419,bonus_id=1727
+stabilized_energy_pendant,id=134488,bonus_id=1727
+
+copy=$(root)_chrono_shard_bonus_840,$(root)
+trinket1=chrono_shard,id=137419,bonus_id=1727
+neck=strand_of_the_stars,id=137487,bonus_id=1727
 
 copy=$(root)_terrorbound_nexus_840,$(root)
 trinket1=terrorbound_nexus,id=137406,bonus_id=1727
@@ -61,3 +66,28 @@ trinket1=sixfeather_fan,id=141585,bonus_id=1487
 
 copy=$(root)_sixfeather_fan_840,$(root)
 trinket1=sixfeather_fan,id=141585,bonus_id=1502
+
+copy=$(root)_trinket_crit_825,$(root)
+trinket1=anshes_token_of_guile,id=139113,bonus_id=1487/1784
+
+copy=$(root)_trinket_haste_825,$(root)
+trinket1=anshes_token_of_guile,id=139113,bonus_id=1487/1786
+
+copy=$(root)_trinket_mast_825,$(root)
+trinket1=anshes_token_of_guile,id=139113,bonus_id=1487/1787
+
+copy=$(root)_trinket_vers_825,$(root)
+trinket1=anshes_token_of_guile,id=139113,bonus_id=1487/1785
+
+copy=$(root)_trinket_crit_840,$(root)
+trinket1=anshes_token_of_guile,id=139113,bonus_id=1502/1784
+
+copy=$(root)_trinket_haste_840,$(root)
+trinket1=anshes_token_of_guile,id=139113,bonus_id=1502/1786
+
+copy=$(root)_trinket_mast_840,$(root)
+trinket1=anshes_token_of_guile,id=139113,bonus_id=1502/1787
+
+copy=$(root)_trinket_vers_840,$(root)
+trinket1=anshes_token_of_guile,id=139113,bonus_id=1502/1785
+
