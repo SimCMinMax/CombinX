@@ -54,4 +54,10 @@ copy=$(root)_infernal_alchemist_stone_840,$(root)
 trinket1=infernal_alchemist_stone,id=127842,bonus_id=667
 
 copy=$(root)_darkmoon_deck_dominion_840,$(root)
-trinket2=darkmoon_deck_dominion,id=128705,bonus_id=667
+trinket1=darkmoon_deck_dominion,id=128705,bonus_id=667
+
+copy=$(root)_sixfeather_fan_825,$(root)
+trinket1=sixfeather_fan,id=141585,bonus_id=1487
+
+copy=$(root)_sixfeather_fan_840,$(root)
+trinket1=sixfeather_fan,id=141585,bonus_id=1502
