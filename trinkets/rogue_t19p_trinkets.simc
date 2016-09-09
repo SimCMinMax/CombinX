@@ -91,3 +91,8 @@ trinket1=anshes_token_of_guile,id=139113,bonus_id=1502/1787
 copy=$(root)_trinket_vers_840,$(root)
 trinket1=anshes_token_of_guile,id=139113,bonus_id=1502/1785
 
+copy=$(root)_the_devilsaurs_bite_825,$(root)
+trinket1=the_devilsaurs_bite,id=140026,bonus_id=1477
+
+copy=$(root)_the_devilsaurs_bite_840,$(root)
+trinket1=the_devilsaurs_bite,id=140026,bonus_id=1492
