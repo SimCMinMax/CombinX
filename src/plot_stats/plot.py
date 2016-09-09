@@ -64,7 +64,7 @@ def generateTickStep(dps):
 
 def generateTickValues(dps, tickStep, baselineDps):
     dpsTickValues = [ tickStep * c for c in range(int(np.ceil(min(dps) / tickStep)), int(np.floor(max(dps) / tickStep) + 1)) ]
-    return dpsTickValues + [ baselineDps ]
+    return [ min(dps) ] + dpsTickValues + [ max(dps) ] + [ baselineDps ]
 
 def generateTickTexts(dps, tickValues):
     return [ generateTickText(tickValues[idx], tickValues[idx] / max(dps), idx == len(tickValues) - 1) for idx in range(len(tickValues)) ]
@@ -121,7 +121,7 @@ def traceStatsPoints(statPoints, dps, baselineDps = -1):
                 tickvals=tickValues,
                 ticktext=tickTexts,
             ),
-            colorscale=[[0., 'rgba(40,55,255, 0.3)'], [0.95, 'rgba(255, 60, 25, 0.7)'], [0.9501, 'rgba(255, 60, 25, 1)'], [0.9999, 'rgba(255, 60, 25, 1)'], [1., 'rgba(245, 155, 15, 1)']],
+            colorscale=[[0., 'rgba(40,55,255, 0.3)'], [0.95, 'rgba(255, 60, 25, 0.7)'], [0.9501, 'rgba(255, 60, 25, 1)'], [0.9999, 'rgba(255, 60, 25, 1)'], [1., 'rgba(25, 225, 55, 1)']],
         ),
         showlegend=False,
     )
