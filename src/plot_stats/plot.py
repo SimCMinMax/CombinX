@@ -46,14 +46,15 @@ def generateStats(nSteps, statRange = 1., nominalValues = np.array([ 0.25, 0.25,
                 sp = sp + [ baseValues + statRange * np.array([float(c) / nSteps, float(h) / nSteps, float(m) / nSteps, float(v) / nSteps]) ]
     return np.array(sp)
     
-def tooltipText(statPoint, value):
-    return '%.1f%% Crit<br>%.1f%% Haste<br>%.1f%% Mastery<br>%.1f%% Versatility<br>DPS: %d' % (100 * statPoint[0], 100 * statPoint[1], 100 * statPoint[2], 100 * statPoint[3], value)
+def tooltipText(statPoint, value, maxDps):
+    return '%.1f%% Crit<br>%.1f%% Haste<br>%.1f%% Mastery<br>%.1f%% Versatility<br>DPS: %d [%.1f%%]' % (100 * statPoint[0], 100 * statPoint[1], 100 * statPoint[2], 100 * statPoint[3], value, 100. * value / maxDps)
 
 def traceStatsPoints(statPoints, dps):
     statCoords = np.array([np.dot(sp, COORDS) for sp in statPoints])
     x, y, z = statCoords.transpose()
-    statTooltips = np.array([tooltipText(sp, v) for (sp, v) in zip(statPoints, dps)])
-    sizes = 6 + 6 * (dps == max(dps))
+    statTooltips = np.array([tooltipText(sp, v, max(dps)) for (sp, v) in zip(statPoints, dps)])
+    sizes = 6 + 6 * (dps >= max(dps) - (max(dps) - min(dps)) * 0.05) + 6 * (dps == max(dps))
+    colors = dps
     return go.Scatter3d(
         x=x,
         y=y,
@@ -64,27 +65,73 @@ def traceStatsPoints(statPoints, dps):
         marker=dict(
             size=sizes,
             line=dict(
-                color='rgba(217, 217, 217, 0.14)',
+                color='rgba(32, 32, 32, 0.3)',
                 width=0.5
             ),
-            color=dps,
-            colorscale='Bluered',
-            opacity=0.8
-        )
+            color=colors,
+            colorbar=go.ColorBar(
+                title='DPS',
+            ),
+            colorscale=[[0., 'rgba(40,55,255, 0.3)'], [0.95, 'rgba(255, 60, 25, 0.7)'], [0.9501, 'rgba(255, 60, 25, 1)'], [0.9999, 'rgba(255, 60, 25, 1)'], [1., 'rgba(245, 155, 15, 1)']],
+        ),
+        showlegend=False,
+    )
+
+def traceStatLabels():
+    x, y, z = COORDS.transpose()
+    return go.Scatter3d(
+        x=x,
+        y=y,
+        z=z,
+        hoverinfo='none',
+        mode='text',
+        text=['Crit', 'Haste', 'Mastery', 'Versatility'],
+        textposition='top',
+        showlegend=False,
     )
     
-def generatePlot(trace):
-    data = [trace]
+def generatePlot(trace, traceLabels, plotname):
+    data = [trace, traceLabels]
     layout = go.Layout(
         margin=dict(
             l=0,
             r=0,
             b=0,
-            t=0
+            t=32,
+        ),
+        title=plotname,
+        scene=dict(
+            xaxis=dict(
+                showgrid=False,
+                showticklabels=False,
+                showspikes=False,
+                showline=False,
+                showaxeslabels=False,
+                zeroline=False,
+                title='',
+            ),
+            yaxis=dict(
+                showgrid=False,
+                showticklabels=False,
+                showspikes=False,
+                showline=False,
+                showaxeslabels=False,
+                zeroline=False,
+                title='',
+            ),
+            zaxis=dict(
+                showgrid=False,
+                showticklabels=False,
+                showspikes=False,
+                showline=False,
+                showaxeslabels=False,
+                zeroline=False,
+                title='',
+            ),
         )
     )
     fig = go.Figure(data=data, layout=layout)
-    py.iplot(fig, filename='simple-3d-scatter')
+    return py.plot(fig, filename=plotname, auto_open=False)
     
 def generateStatRatings(statPoints, statCapital):
     return np.array([ np.round(sp * statCapital) for sp in statPoints ])
@@ -105,14 +152,19 @@ def generateStatsSimc(statRatings, filename):
         for sp in statRatings[1:]:
             f.write( 'copy=$(root)_%s,$(base_name)\n%s\n' % (statRatingSuffix(sp), statRatingSimc(sp)) )
 
-with open('rog_sub_t19p_1t_plot.json') as f:
-    simData = json.load(f)
-
-dps = np.array([p['collected_data']['dps']['mean'] for p in simData['sim']['players']])
+def readDps(filename):
+    if filename[-5:] != '.json':
+        filename = filename + '.json'
+    with open(filename) as f:
+        simData = json.load(f)
+    return np.array([p['collected_data']['dps']['mean'] for p in simData['sim']['players']])
 
 # Main
 steps = 20
-tier = 't19m'
+tier = 't19h'
+spec = 'sub'
+jsonFile = 'rog_%s_%s_1t_plot_stats.json' % (spec, tier)
+plotname = 'rog_%s_%s_1t_plot_%ssteps' % (spec, tier, steps)
 
 statPoints = generateStats(steps)
 # statPoints = generateStats(8, statRange = 0.25, nominalValues = np.array([0.125, 0.125, 0.375, 0.375]))
@@ -122,6 +174,8 @@ generateStatsSimc(statRatings, 'stats_%ssteps_%s' % (steps, tier))
 
 statCoords = np.array([np.dot(sp, COORDS) for sp in statPoints])
 x, y, z = statCoords.transpose()
+dps = readDps(jsonFile)
 
 trace = traceStatsPoints(statPoints, dps)
-generatePlot(trace)
+traceLabels = traceStatLabels()
+generatePlot(trace, traceLabels, plotname)
