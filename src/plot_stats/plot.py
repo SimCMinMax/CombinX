@@ -49,12 +49,59 @@ def generateStats(nSteps, statRange = 1., nominalValues = np.array([ 0.25, 0.25,
 def tooltipText(statPoint, value, maxDps):
     return '%.1f%% Crit<br>%.1f%% Haste<br>%.1f%% Mastery<br>%.1f%% Versatility<br>DPS: %d [%.1f%%]' % (100 * statPoint[0], 100 * statPoint[1], 100 * statPoint[2], 100 * statPoint[3], value, 100. * value / maxDps)
 
-def traceStatsPoints(statPoints, dps):
+def generateTickStep(dps):
+    coeff = [1., 2., 5.]
+    coeffIdx = 0
+    mult = 1.
+    step = coeff[coeffIdx] * mult
+    dpsRange = max(dps) - min(dps)
+    while dpsRange / step >= 8:
+        coeffIdx = (coeffIdx + 1) % 3
+        if coeffIdx == 0:
+            mult = mult * 10.
+        step = coeff[coeffIdx] * mult
+    return step
+
+def generateTickValues(dps, tickStep, baselineDps):
+    dpsTickValues = [ tickStep * c for c in range(int(np.ceil(min(dps) / tickStep)), int(np.floor(max(dps) / tickStep) + 1)) ]
+    return dpsTickValues + [ baselineDps ]
+
+def generateTickTexts(dps, tickValues):
+    return [ generateTickText(tickValues[idx], tickValues[idx] / max(dps), idx == len(tickValues) - 1) for idx in range(len(tickValues)) ]
+
+def generateTickText(tickValue, ratio, baseline = False):
+    if baseline:
+        baseText = 'Baseline'
+        suffix = ''
+    else:
+        multStep = 1000.
+        multipliers = [
+            dict(suffix='', mult=pow(multStep, 0)),
+            dict(suffix='k', mult=pow(multStep, 1)),
+            dict(suffix='M', mult=pow(multStep, 2)),
+            dict(suffix='G', mult=pow(multStep, 3)),
+        ]
+        multiplier = multipliers[0]
+        for m in multipliers:
+            if np.round(tickValue / m['mult']) >= 1:
+                multiplier = m
+        baseText = float('%.3g' % np.round(tickValue / multiplier['mult']))
+        baseText = int(baseText) if int(baseText) == baseText else baseText
+        suffix = multiplier['suffix']
+    percent = float('%.1f' % (100 * ratio))
+    percent = int(percent) if percent == int(percent) else percent
+    return '%s%s [%s%%]' % (baseText, suffix, percent)
+
+def traceStatsPoints(statPoints, dps, baselineDps = -1):
+    if baselineDps == -1:
+        baselineDps = max(dps)
     statCoords = np.array([np.dot(sp, COORDS) for sp in statPoints])
     x, y, z = statCoords.transpose()
     statTooltips = np.array([tooltipText(sp, v, max(dps)) for (sp, v) in zip(statPoints, dps)])
     sizes = 6 + 6 * (dps >= max(dps) - (max(dps) - min(dps)) * 0.05) + 6 * (dps == max(dps))
     colors = dps
+    tickValues = generateTickValues(dps, generateTickStep(dps), baselineDps)
+    tickTexts = generateTickTexts(dps, tickValues)
     return go.Scatter3d(
         x=x,
         y=y,
@@ -71,6 +118,8 @@ def traceStatsPoints(statPoints, dps):
             color=colors,
             colorbar=go.ColorBar(
                 title='DPS',
+                tickvals=tickValues,
+                ticktext=tickTexts,
             ),
             colorscale=[[0., 'rgba(40,55,255, 0.3)'], [0.95, 'rgba(255, 60, 25, 0.7)'], [0.9501, 'rgba(255, 60, 25, 1)'], [0.9999, 'rgba(255, 60, 25, 1)'], [1., 'rgba(245, 155, 15, 1)']],
         ),
@@ -165,6 +214,7 @@ tier = 't19h'
 spec = 'sub'
 jsonFile = 'rog_%s_%s_1t_plot_stats.json' % (spec, tier)
 plotname = 'rog_%s_%s_1t_plot_%ssteps' % (spec, tier, steps)
+baselineDps = 288000
 
 statPoints = generateStats(steps)
 # statPoints = generateStats(8, statRange = 0.25, nominalValues = np.array([0.125, 0.125, 0.375, 0.375]))
@@ -176,6 +226,6 @@ statCoords = np.array([np.dot(sp, COORDS) for sp in statPoints])
 x, y, z = statCoords.transpose()
 dps = readDps(jsonFile)
 
-trace = traceStatsPoints(statPoints, dps)
+trace = traceStatsPoints(statPoints, dps, baselineDps)
 traceLabels = traceStatLabels()
 generatePlot(trace, traceLabels, plotname)
