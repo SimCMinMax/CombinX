@@ -28,10 +28,10 @@ COORDS = np.array([
     VERS_COORDS,
 ])
 
-STAT_CAPITAL = {
-    't19p': 15708,
-    't19h': 17103,
-    't19m': 18644,
+STAT_BUDGET = {
+    '17k': 16758,
+    '21k': 21334,
+    '27k': 27160,
 }
 
 # Functions
@@ -182,8 +182,8 @@ def generatePlot(trace, traceLabels, plotname):
     fig = go.Figure(data=data, layout=layout)
     return py.plot(fig, filename=plotname, auto_open=False)
     
-def generateStatRatings(statPoints, statCapital):
-    return np.array([ np.round(sp * statCapital) for sp in statPoints ])
+def generateStatRatings(statPoints, statBudget):
+    return np.array([ np.round(sp * statBudget) for sp in statPoints ])
 
 def statRatingSuffix(statRating):
     return '%icrit_%ihaste_%imast_%ivers' % (statRating[0], statRating[1], statRating[2], statRating[3])
@@ -191,10 +191,11 @@ def statRatingSuffix(statRating):
 def statRatingSimc(statRating):
     return 'gear_crit_rating=%i\ngear_haste_rating=%i\ngear_mastery_rating=%i\ngear_versatility_rating=%i' % (statRating[0], statRating[1], statRating[2], statRating[3])
 
-def generateStatsSimc(statRatings, filename):
+def generateStatsSimc(statRatings, filename, budget, statStep):
     if filename[-5:] != '.simc':
         filename = filename + '.simc'
     with open(filename, 'w') as f:
+        f.write( '$(sim_type)=plot_%sstats_by%s\n' % (budget, statStep) )
         f.write( 'name=$(root)_%s\n' % statRatingSuffix(statRatings[0]) )
         f.write( '$(base_name)=$(root)_%s\n' % statRatingSuffix(statRatings[0]) )
         f.write( statRatingSimc(statRatings[0]) + '\n' )
@@ -210,22 +211,25 @@ def readDps(filename):
 
 # Main
 steps = 20
-tier = 't19h'
-spec = 'sub'
+budget = '21k'
+tier = 't19m'
+spec = 'otl'
+statStep = int(STAT_BUDGET[budget] / steps)
+# jsonFile = 'rog_%s_%s_1t_plot_%sstats_by%s.json' % (spec, tier, budget, statStep)
 jsonFile = 'rog_%s_%s_1t_plot_stats.json' % (spec, tier)
-plotname = 'rog_%s_%s_1t_plot_%ssteps' % (spec, tier, steps)
-baselineDps = 288000
+plotname = jsonFile[:-5]
+simcFile = 'rogue_%s_plot_%sstats_by%s.simc' % (tier, budget, statStep)
 
 statPoints = generateStats(steps)
 # statPoints = generateStats(8, statRange = 0.25, nominalValues = np.array([0.125, 0.125, 0.375, 0.375]))
 
-statRatings = generateStatRatings(statPoints, STAT_CAPITAL[tier])
-generateStatsSimc(statRatings, 'stats_%ssteps_%s' % (steps, tier))
+statRatings = generateStatRatings(statPoints, STAT_BUDGET[budget])
+generateStatsSimc(statRatings, simcFile, budget, statStep)
 
 statCoords = np.array([np.dot(sp, COORDS) for sp in statPoints])
 x, y, z = statCoords.transpose()
 dps = readDps(jsonFile)
 
-trace = traceStatsPoints(statPoints, dps, baselineDps)
+trace = traceStatsPoints(statPoints, dps)
 traceLabels = traceStatLabels()
 generatePlot(trace, traceLabels, plotname)
