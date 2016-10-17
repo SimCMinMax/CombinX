@@ -11,21 +11,18 @@ trinket1=spiked_counterweight,id=136715,bonus_id=1727
 
 copy=$(root)_windscar_whetstone_840,$(root)
 trinket1=windscar_whetstone,id=137486,bonus_id=1727
-actions+=/use_item,slot=trinket1,if=$(trinket_condition)
 
 copy=$(root)_nightmare_egg_shell_840,$(root)
 trinket1=nightmare_egg_shell,id=137312,bonus_id=1727
 
 copy=$(root)_giant_ornamental_pearl_840,$(root)
 trinket1=giant_ornamental_pearl,id=137369,bonus_id=1727
-actions+=/use_item,slot=trinket1,if=$(trinket_condition)
 
 copy=$(root)_tempered_egg_of_serpentrix_840,$(root)
 trinket1=tempered_egg_of_serpentrix,id=137373,bonus_id=1727
 
 copy=$(root)_horn_of_valor_840,$(root)
 trinket1=horn_of_valor,id=133642,bonus_id=1727
-actions+=/use_item,slot=trinket1,if=$(trinket_condition)
 
 copy=$(root)_hunger_of_the_pack_840,$(root)
 trinket1=hunger_of_the_pack,id=136975,bonus_id=1727
@@ -38,22 +35,19 @@ trinket1=mark_of_dargrul,id=137357,bonus_id=1727
 
 copy=$(root)_chrono_shard_840,$(root)
 trinket1=chrono_shard,id=137419,bonus_id=1727
-stabilized_energy_pendant,id=134488,bonus_id=1727
 
 copy=$(root)_chrono_shard_bonus_840,$(root)
 trinket1=chrono_shard,id=137419,bonus_id=1727
-neck=strand_of_the_stars,id=137487,bonus_id=1727
+neck=strand_of_the_stars,id=137487,bonus_id=1727,enchant=mark_of_the_hidden_satyr
 
 copy=$(root)_terrorbound_nexus_840,$(root)
 trinket1=terrorbound_nexus,id=137406,bonus_id=1727
 
 copy=$(root)_faulty_countermeasure_840,$(root)
 trinket1=faulty_countermeasure,id=137539,bonus_id=1727
-actions+=/use_item,slot=trinket1,if=$(trinket_condition)
 
 copy=$(root)_tirathons_betrayal_840,$(root)
 trinket1=tirathons_betrayal,id=137537,bonus_id=1727
-actions+=/use_item,slot=trinket1,if=$(trinket_condition)
 
 copy=$(root)_infernal_alchemist_stone_840,$(root)
 trinket1=infernal_alchemist_stone,id=127842,bonus_id=667
