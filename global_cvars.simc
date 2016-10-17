@@ -15,6 +15,7 @@ threads=6
 process_priority=low
 target_error=0.1
 optimal_raid=1
+default_actions=1
 max_time=330
 vary_combat_length=0.3
 fixed_time=1
