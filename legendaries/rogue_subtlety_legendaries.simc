@@ -7,7 +7,7 @@ copy=$(root)_denial_of_the_halfgiants,$(root)
 wrist=denial_of_the_halfgiants,id=137100
 
 copy=$(root)_insignia_of_ravenholdt,$(root)
-finger1=insignia_of_ravenholdt,id=137049
+finger1=insignia_of_ravenholdt,id=137049,enchant=binding_of_mastery
 
 copy=$(root)_shadow_satyrs_walk,$(root)
 feet=shadow_satyrs_walk,id=137032
