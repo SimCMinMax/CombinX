@@ -11,21 +11,18 @@ trinket1=spiked_counterweight,id=136715,bonus_id=1727
 
 copy=$(root)_windscar_whetstone_840,$(root)
 trinket1=windscar_whetstone,id=137486,bonus_id=1727
-actions+=/use_item,slot=trinket1,if=$(trinket_condition)
 
 copy=$(root)_nightmare_egg_shell_840,$(root)
 trinket1=nightmare_egg_shell,id=137312,bonus_id=1727
 
 copy=$(root)_giant_ornamental_pearl_840,$(root)
 trinket1=giant_ornamental_pearl,id=137369,bonus_id=1727
-actions+=/use_item,slot=trinket1,if=$(trinket_condition)
 
 copy=$(root)_tempered_egg_of_serpentrix_840,$(root)
 trinket1=tempered_egg_of_serpentrix,id=137373,bonus_id=1727
 
 copy=$(root)_horn_of_valor_840,$(root)
 trinket1=horn_of_valor,id=133642,bonus_id=1727
-actions+=/use_item,slot=trinket1,if=$(trinket_condition)
 
 copy=$(root)_hunger_of_the_pack_840,$(root)
 trinket1=hunger_of_the_pack,id=136975,bonus_id=1727
@@ -44,11 +41,9 @@ trinket1=terrorbound_nexus,id=137406,bonus_id=1727
 
 copy=$(root)_faulty_countermeasure_840,$(root)
 trinket1=faulty_countermeasure,id=137539,bonus_id=1727
-actions+=/use_item,slot=trinket1,if=$(trinket_condition)
 
 copy=$(root)_tirathons_betrayal_840,$(root)
 trinket1=tirathons_betrayal,id=137537,bonus_id=1727
-actions+=/use_item,slot=trinket1,if=$(trinket_condition)
 
 copy=$(root)_chaos_talisman_865,$(root)
 trinket1=chaos_talisman,id=137459,bonus_id=1517
@@ -61,21 +56,18 @@ trinket1=spiked_counterweight,id=136715,bonus_id=1517
 
 copy=$(root)_windscar_whetstone_865,$(root)
 trinket1=windscar_whetstone,id=137486,bonus_id=1517
-actions+=/use_item,slot=trinket1,if=$(trinket_condition)
 
 copy=$(root)_nightmare_egg_shell_865,$(root)
 trinket1=nightmare_egg_shell,id=137312,bonus_id=1517
 
 copy=$(root)_giant_ornamental_pearl_865,$(root)
 trinket1=giant_ornamental_pearl,id=137369,bonus_id=1517
-actions+=/use_item,slot=trinket1,if=$(trinket_condition)
 
 copy=$(root)_tempered_egg_of_serpentrix_865,$(root)
 trinket1=tempered_egg_of_serpentrix,id=137373,bonus_id=1517
 
 copy=$(root)_horn_of_valor_865,$(root)
 trinket1=horn_of_valor,id=133642,bonus_id=1517
-actions+=/use_item,slot=trinket1,if=$(trinket_condition)
 
 copy=$(root)_hunger_of_the_pack_865,$(root)
 trinket1=hunger_of_the_pack,id=136975,bonus_id=1517
@@ -94,11 +86,9 @@ trinket1=terrorbound_nexus,id=137406,bonus_id=1517
 
 copy=$(root)_faulty_countermeasure_865,$(root)
 trinket1=faulty_countermeasure,id=137539,bonus_id=1517
-actions+=/use_item,slot=trinket1,if=$(trinket_condition)
 
 copy=$(root)_tirathons_betrayal_865,$(root)
 trinket1=tirathons_betrayal,id=137537,bonus_id=1517
-actions+=/use_item,slot=trinket1,if=$(trinket_condition)
 
 copy=$(root)_thriceaccursed_compass_860,$(root)
 trinket1=thriceaccursed_compass,id=141537
@@ -114,7 +104,6 @@ trinket1=natures_call,id=139334,bonus_id=1805
 
 copy=$(root)_ravaged_seed_pod_865,$(root)
 trinket1=ravaged_seed_pod,id=139320,bonus_id=1805
-actions+=/use_item,slot=trinket1,if=$(trinket_condition)
 
 copy=$(root)_spontaneous_appendages_865,$(root)
 trinket1=spontaneous_appendages,id=139325,bonus_id=1805

@@ -19,7 +19,6 @@ input=$(RogTktT19P_chain)
 $(root)=$(RogTktT19P_root)_windscar_whetstone_840
 copy=$(root),$(RogTktT19P_root)
 trinket1=windscar_whetstone,id=137486,bonus_id=1727
-actions+=/use_item,slot=trinket1,if=$(trinket_condition)
 input=$(RogTktT19P_chain)
 
 $(root)=$(RogTktT19P_root)_nightmare_egg_shell_840
@@ -30,7 +29,6 @@ input=$(RogTktT19P_chain)
 $(root)=$(RogTktT19P_root)_giant_ornamental_pearl_840
 copy=$(root),$(RogTktT19P_root)
 trinket1=giant_ornamental_pearl,id=137369,bonus_id=1727
-actions+=/use_item,slot=trinket1,if=$(trinket_condition)
 input=$(RogTktT19P_chain)
 
 $(root)=$(RogTktT19P_root)_tempered_egg_of_serpentrix_840
@@ -41,7 +39,6 @@ input=$(RogTktT19P_chain)
 $(root)=$(RogTktT19P_root)_horn_of_valor_840
 copy=$(root),$(RogTktT19P_root)
 trinket1=horn_of_valor,id=133642,bonus_id=1727
-actions+=/use_item,slot=trinket1,if=$(trinket_condition)
 input=$(RogTktT19P_chain)
 
 $(root)=$(RogTktT19P_root)_hunger_of_the_pack_840
@@ -72,13 +69,11 @@ input=$(RogTktT19P_chain)
 $(root)=$(RogTktT19P_root)_faulty_countermeasure_840
 copy=$(root),$(RogTktT19P_root)
 trinket1=faulty_countermeasure,id=137539,bonus_id=1727
-actions+=/use_item,slot=trinket1,if=$(trinket_condition)
 input=$(RogTktT19P_chain)
 
 $(root)=$(RogTktT19P_root)_tirathons_betrayal_840
 copy=$(root),$(RogTktT19P_root)
 trinket1=tirathons_betrayal,id=137537,bonus_id=1727
-actions+=/use_item,slot=trinket1,if=$(trinket_condition)
 input=$(RogTktT19P_chain)
 
 $(root)=$(RogTktT19P_root)_chaos_talisman_865
@@ -99,7 +94,6 @@ input=$(RogTktT19P_chain)
 $(root)=$(RogTktT19P_root)_windscar_whetstone_865
 copy=$(root),$(RogTktT19P_root)
 trinket1=windscar_whetstone,id=137486,bonus_id=1527
-actions+=/use_item,slot=trinket1,if=$(trinket_condition)
 input=$(RogTktT19P_chain)
 
 $(root)=$(RogTktT19P_root)_nightmare_egg_shell_865
@@ -110,7 +104,6 @@ input=$(RogTktT19P_chain)
 $(root)=$(RogTktT19P_root)_giant_ornamental_pearl_865
 copy=$(root),$(RogTktT19P_root)
 trinket1=giant_ornamental_pearl,id=137369,bonus_id=1527
-actions+=/use_item,slot=trinket1,if=$(trinket_condition)
 input=$(RogTktT19P_chain)
 
 $(root)=$(RogTktT19P_root)_tempered_egg_of_serpentrix_865
@@ -121,7 +114,6 @@ input=$(RogTktT19P_chain)
 $(root)=$(RogTktT19P_root)_horn_of_valor_865
 copy=$(root),$(RogTktT19P_root)
 trinket1=horn_of_valor,id=133642,bonus_id=1527
-actions+=/use_item,slot=trinket1,if=$(trinket_condition)
 input=$(RogTktT19P_chain)
 
 $(root)=$(RogTktT19P_root)_hunger_of_the_pack_865
@@ -152,13 +144,11 @@ input=$(RogTktT19P_chain)
 $(root)=$(RogTktT19P_root)_faulty_countermeasure_865
 copy=$(root),$(RogTktT19P_root)
 trinket1=faulty_countermeasure,id=137539,bonus_id=1527
-actions+=/use_item,slot=trinket1,if=$(trinket_condition)
 input=$(RogTktT19P_chain)
 
 $(root)=$(RogTktT19P_root)_tirathons_betrayal_865
 copy=$(root),$(RogTktT19P_root)
 trinket1=tirathons_betrayal,id=137537,bonus_id=1527
-actions+=/use_item,slot=trinket1,if=$(trinket_condition)
 input=$(RogTktT19P_chain)
 
 $(root)=$(RogTktT19P_root)_thriceaccursed_compass_860
@@ -184,7 +174,6 @@ input=$(RogTktT19P_chain)
 $(root)=$(RogTktT19P_root)_ravaged_seed_pod_865
 copy=$(root),$(RogTktT19P_root)
 trinket1=ravaged_seed_pod,id=139320,bonus_id=1805
-actions+=/use_item,slot=trinket1,if=$(trinket_condition)
 input=$(RogTktT19P_chain)
 
 $(root)=$(RogTktT19P_root)_spontaneous_appendages_865
