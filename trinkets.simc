@@ -1,3 +1,4 @@
 $(sim_type)=trinkets
-input=$(gear_path)no_trinket.simc
+trinket1=
+trinket2=
 input=$(trinkets_path)$(class)_$(tier)_trinkets.simc
