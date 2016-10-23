@@ -25,7 +25,7 @@ input=$(rogotlleg_chain)
 
 $(root)=$(rogotlleg_root)_insignia_of_ravenholdt
 copy=$(root),$(base_name)
-finger1=insignia_of_ravenholdt,id=137049
+finger1=insignia_of_ravenholdt,id=137049,gem_id=130221,enchant=binding_of_versatility
 input=$(rogotlleg_chain)
 
 $(root)=$(rogotlleg_root)_shivarran_symmetry

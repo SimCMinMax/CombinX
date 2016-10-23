@@ -4,13 +4,10 @@ copy=$(root)_cinidaria_the_symbiote,$(root)
 waist=cinidaria_the_symbiote,id=133976
 
 copy=$(root)_duskwalkers_footpads,$(root)
-artifact_override=gushing_wound:3
-artifact_override=serrated_edge:3
-artifact_override=master_assassin:6
 feet=duskwalkers_footpads,id=137030
 
 copy=$(root)_insignia_of_ravenholdt,$(root)
-finger1=insignia_of_ravenholdt,id=137049
+finger1=insignia_of_ravenholdt,id=137049,gem_id=130221,enchant=binding_of_versatility
 
 copy=$(root)_the_dreadlords_deceit,$(root)
 back=the_dreadlords_deceit,id=137021
