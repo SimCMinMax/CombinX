@@ -62,45 +62,39 @@ def generateTickStep(dps):
         step = coeff[coeffIdx] * mult
     return step
 
-def generateTickValues(dps, tickStep, baselineDps):
+def generateTickValues(dps, tickStep):
     dpsTickValues = [ tickStep * c for c in range(int(np.ceil(min(dps) / tickStep)), int(np.floor(max(dps) / tickStep) + 1)) ]
-    return [ min(dps) ] + dpsTickValues + [ max(dps) ] + [ baselineDps ]
+    return [ min(dps) ] + dpsTickValues + [ max(dps) ]
 
 def generateTickTexts(dps, tickValues):
     return [ generateTickText(tickValues[idx], tickValues[idx] / max(dps), idx == len(tickValues) - 1) for idx in range(len(tickValues)) ]
 
 def generateTickText(tickValue, ratio, baseline = False):
-    if baseline:
-        baseText = 'Baseline'
-        suffix = ''
-    else:
-        multStep = 1000.
-        multipliers = [
-            dict(suffix='', mult=pow(multStep, 0)),
-            dict(suffix='k', mult=pow(multStep, 1)),
-            dict(suffix='M', mult=pow(multStep, 2)),
-            dict(suffix='G', mult=pow(multStep, 3)),
-        ]
-        multiplier = multipliers[0]
-        for m in multipliers:
-            if np.round(tickValue / m['mult']) >= 1:
-                multiplier = m
-        baseText = float('%.3g' % np.round(tickValue / multiplier['mult']))
-        baseText = int(baseText) if int(baseText) == baseText else baseText
-        suffix = multiplier['suffix']
+    multStep = 1000.
+    multipliers = [
+        dict(suffix='', mult=pow(multStep, 0)),
+        dict(suffix='k', mult=pow(multStep, 1)),
+        dict(suffix='M', mult=pow(multStep, 2)),
+        dict(suffix='G', mult=pow(multStep, 3)),
+    ]
+    multiplier = multipliers[0]
+    for m in multipliers:
+        if np.round(tickValue / m['mult']) >= 1:
+            multiplier = m
+    baseText = float('%.3g' % np.round(tickValue / multiplier['mult']))
+    baseText = int(baseText) if int(baseText) == baseText else baseText
+    suffix = multiplier['suffix']
     percent = float('%.1f' % (100 * ratio))
     percent = int(percent) if percent == int(percent) else percent
     return '%s%s [%s%%]' % (baseText, suffix, percent)
 
-def traceStatsPoints(statPoints, dps, baselineDps = -1):
-    if baselineDps == -1:
-        baselineDps = max(dps)
+def traceStatsPoints(statPoints, dps):
     statCoords = np.array([np.dot(sp, COORDS) for sp in statPoints])
     x, y, z = statCoords.transpose()
     statTooltips = np.array([tooltipText(sp, v, max(dps)) for (sp, v) in zip(statPoints, dps)])
     sizes = 6 + 6 * (dps >= max(dps) - (max(dps) - min(dps)) * 0.05) + 6 * (dps == max(dps))
     colors = dps
-    tickValues = generateTickValues(dps, generateTickStep(dps), baselineDps)
+    tickValues = generateTickValues(dps, generateTickStep(dps))
     tickTexts = generateTickTexts(dps, tickValues)
     return go.Scatter3d(
         x=x,
@@ -121,7 +115,13 @@ def traceStatsPoints(statPoints, dps, baselineDps = -1):
                 tickvals=tickValues,
                 ticktext=tickTexts,
             ),
-            colorscale=[[0., 'rgba(40,55,255, 0.3)'], [0.95, 'rgba(255, 60, 25, 0.7)'], [0.9501, 'rgba(255, 60, 25, 1)'], [0.9999, 'rgba(255, 60, 25, 1)'], [1., 'rgba(25, 225, 55, 1)']],
+            colorscale=[
+                [0., 'rgba(40,55,255, 0.3)'],
+                [0.95, 'rgba(255, 60, 25, 0.7)'],
+                [0.9501, 'rgba(255, 60, 25, 1)'],
+                [0.9999, 'rgba(255, 60, 25, 1)'],
+                [1., 'rgba(25, 225, 55, 1)']
+            ],
         ),
         showlegend=False,
     )
@@ -214,14 +214,13 @@ steps = 20
 budget = '21k'
 tier = 't19m'
 spec = 'otl'
+enemies = '1t'
 statStep = int(STAT_BUDGET[budget] / steps)
-# jsonFile = 'rog_%s_%s_1t_plot_%sstats_by%s.json' % (spec, tier, budget, statStep)
-jsonFile = 'rog_%s_%s_1t_plot_stats.json' % (spec, tier)
+jsonFile = 'rog_%s_%s_%s_plot_%sstats_by%s.json' % (spec, tier, enemies, budget, statStep)
 plotname = jsonFile[:-5]
 simcFile = 'rogue_%s_plot_%sstats_by%s.simc' % (tier, budget, statStep)
 
 statPoints = generateStats(steps)
-# statPoints = generateStats(8, statRange = 0.25, nominalValues = np.array([0.125, 0.125, 0.375, 0.375]))
 
 statRatings = generateStatRatings(statPoints, STAT_BUDGET[budget])
 generateStatsSimc(statRatings, simcFile, budget, statStep)
