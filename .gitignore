@@ -1,5 +1,6 @@
 *.html
 *.json
+*.txt
 global.simc
 global_cron.simc
 global_dev.simc
