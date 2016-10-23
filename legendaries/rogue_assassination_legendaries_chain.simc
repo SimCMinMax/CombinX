@@ -20,15 +20,12 @@ input=$(rogasnleg_chain)
 
 $(root)=$(rogasnleg_root)_duskwalkers_footpads
 copy=$(root),$(base_name)
-artifact_override=gushing_wound:3
-artifact_override=serrated_edge:3
-artifact_override=master_assassin:6
 feet=duskwalkers_footpads,id=137030
 input=$(rogasnleg_chain)
 
 $(root)=$(rogasnleg_root)_insignia_of_ravenholdt
 copy=$(root),$(base_name)
-finger1=insignia_of_ravenholdt,id=137049
+finger1=insignia_of_ravenholdt,id=137049,gem_id=130221,enchant=binding_of_versatility
 input=$(rogasnleg_chain)
 
 $(root)=$(rogasnleg_root)_the_dreadlords_deceit
