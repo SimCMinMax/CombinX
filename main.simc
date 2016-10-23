@@ -5,7 +5,7 @@ input=$(specialization_path)$(class)_$(specialization).simc
 input=$(fight_style_path)$(fight_style).simc
 $(fight_style)=void
 
-input=$(simc_profiles_path)$(simc_tier_path)$(Class)_$(Specialization)_$(tier_suffix).simc
+input=$(simc_profiles_path)$(simc_tier_path)$(Class)_$(Specialization)$(specialization_suffix)$(tier_suffix).simc
 $(option_override)
 
 $(root)=$(clas)_$(spec)_$(tier_suffix)

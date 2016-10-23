@@ -16,35 +16,35 @@ main_hand=$(artifact_weapon),ilevel=895
 
 # 840
 
-copy=$(root)_black_powder_840,$(root)
+copy=$(root)_black_powder_840,$(root)_840
 main_hand=$(artifact_weapon),ilevel=840
 artifact_override=black_powder:4
 
-copy=$(root)_blade_dancer_840,$(root)
+copy=$(root)_blade_dancer_840,$(root)_840
 main_hand=$(artifact_weapon),ilevel=840
 artifact_override=blade_dancer:4
 
-copy=$(root)_fatebringer_840,$(root)
+copy=$(root)_fatebringer_840,$(root)_840
 main_hand=$(artifact_weapon),ilevel=840
 artifact_override=fatebringer:4
 
-copy=$(root)_fates_thirst_840,$(root)
+copy=$(root)_fates_thirst_840,$(root)_840
 main_hand=$(artifact_weapon),ilevel=840
 artifact_override=fates_thirst:4
 
-copy=$(root)_fortune_strikes_840,$(root)
+copy=$(root)_fortune_strikes_840,$(root)_840
 main_hand=$(artifact_weapon),ilevel=840
 artifact_override=fortune_strikes:4
 
-copy=$(root)_fortunes_boon_840,$(root)
+copy=$(root)_fortunes_boon_840,$(root)_840
 main_hand=$(artifact_weapon),ilevel=840
 artifact_override=fortunes_boon:4
 
-copy=$(root)_fortunes_strike_840,$(root)
+copy=$(root)_fortunes_strike_840,$(root)_840
 main_hand=$(artifact_weapon),ilevel=840
 artifact_override=fortunes_strike:4
 
-copy=$(root)_gunslinger_840,$(root)
+copy=$(root)_gunslinger_840,$(root)_840
 main_hand=$(artifact_weapon),ilevel=840
 artifact_override=gunslinger:4
 
@@ -52,35 +52,35 @@ artifact_override=gunslinger:4
 
 # 865
 
-copy=$(root)_black_powder_865,$(root)
+copy=$(root)_black_powder_865,$(root)_840
 main_hand=$(artifact_weapon),ilevel=865
 artifact_override=black_powder:4
 
-copy=$(root)_blade_dancer_865,$(root)
+copy=$(root)_blade_dancer_865,$(root)_840
 main_hand=$(artifact_weapon),ilevel=865
 artifact_override=blade_dancer:4
 
-copy=$(root)_fatebringer_865,$(root)
+copy=$(root)_fatebringer_865,$(root)_840
 main_hand=$(artifact_weapon),ilevel=865
 artifact_override=fatebringer:4
 
-copy=$(root)_fates_thirst_865,$(root)
+copy=$(root)_fates_thirst_865,$(root)_840
 main_hand=$(artifact_weapon),ilevel=865
 artifact_override=fates_thirst:4
 
-copy=$(root)_fortune_strikes_865,$(root)
+copy=$(root)_fortune_strikes_865,$(root)_840
 main_hand=$(artifact_weapon),ilevel=865
 artifact_override=fortune_strikes:4
 
-copy=$(root)_fortunes_boon_865,$(root)
+copy=$(root)_fortunes_boon_865,$(root)_840
 main_hand=$(artifact_weapon),ilevel=865
 artifact_override=fortunes_boon:4
 
-copy=$(root)_fortunes_strike_865,$(root)
+copy=$(root)_fortunes_strike_865,$(root)_840
 main_hand=$(artifact_weapon),ilevel=865
 artifact_override=fortunes_strike:4
 
-copy=$(root)_gunslinger_865,$(root)
+copy=$(root)_gunslinger_865,$(root)_840
 main_hand=$(artifact_weapon),ilevel=865
 artifact_override=gunslinger:4
 
@@ -88,35 +88,35 @@ artifact_override=gunslinger:4
 
 # 880
 
-copy=$(root)_black_powder_880,$(root)
+copy=$(root)_black_powder_880,$(root)_840
 main_hand=$(artifact_weapon),ilevel=880
 artifact_override=black_powder:4
 
-copy=$(root)_blade_dancer_880,$(root)
+copy=$(root)_blade_dancer_880,$(root)_840
 main_hand=$(artifact_weapon),ilevel=880
 artifact_override=blade_dancer:4
 
-copy=$(root)_fatebringer_880,$(root)
+copy=$(root)_fatebringer_880,$(root)_840
 main_hand=$(artifact_weapon),ilevel=880
 artifact_override=fatebringer:4
 
-copy=$(root)_fates_thirst_880,$(root)
+copy=$(root)_fates_thirst_880,$(root)_840
 main_hand=$(artifact_weapon),ilevel=880
 artifact_override=fates_thirst:4
 
-copy=$(root)_fortune_strikes_880,$(root)
+copy=$(root)_fortune_strikes_880,$(root)_840
 main_hand=$(artifact_weapon),ilevel=880
 artifact_override=fortune_strikes:4
 
-copy=$(root)_fortunes_boon_880,$(root)
+copy=$(root)_fortunes_boon_880,$(root)_840
 main_hand=$(artifact_weapon),ilevel=880
 artifact_override=fortunes_boon:4
 
-copy=$(root)_fortunes_strike_880,$(root)
+copy=$(root)_fortunes_strike_880,$(root)_840
 main_hand=$(artifact_weapon),ilevel=880
 artifact_override=fortunes_strike:4
 
-copy=$(root)_gunslinger_880,$(root)
+copy=$(root)_gunslinger_880,$(root)_840
 main_hand=$(artifact_weapon),ilevel=880
 artifact_override=gunslinger:4
 
@@ -124,34 +124,34 @@ artifact_override=gunslinger:4
 
 # 895
 
-copy=$(root)_black_powder_895,$(root)
+copy=$(root)_black_powder_895,$(root)_840
 main_hand=$(artifact_weapon),ilevel=895
 artifact_override=black_powder:4
 
-copy=$(root)_blade_dancer_895,$(root)
+copy=$(root)_blade_dancer_895,$(root)_840
 main_hand=$(artifact_weapon),ilevel=895
 artifact_override=blade_dancer:4
 
-copy=$(root)_fatebringer_895,$(root)
+copy=$(root)_fatebringer_895,$(root)_840
 main_hand=$(artifact_weapon),ilevel=895
 artifact_override=fatebringer:4
 
-copy=$(root)_fates_thirst_895,$(root)
+copy=$(root)_fates_thirst_895,$(root)_840
 main_hand=$(artifact_weapon),ilevel=895
 artifact_override=fates_thirst:4
 
-copy=$(root)_fortune_strikes_895,$(root)
+copy=$(root)_fortune_strikes_895,$(root)_840
 main_hand=$(artifact_weapon),ilevel=895
 artifact_override=fortune_strikes:4
 
-copy=$(root)_fortunes_boon_895,$(root)
+copy=$(root)_fortunes_boon_895,$(root)_840
 main_hand=$(artifact_weapon),ilevel=895
 artifact_override=fortunes_boon:4
 
-copy=$(root)_fortunes_strike_895,$(root)
+copy=$(root)_fortunes_strike_895,$(root)_840
 main_hand=$(artifact_weapon),ilevel=895
 artifact_override=fortunes_strike:4
 
-copy=$(root)_gunslinger_895,$(root)
+copy=$(root)_gunslinger_895,$(root)_840
 main_hand=$(artifact_weapon),ilevel=895
 artifact_override=gunslinger:4
