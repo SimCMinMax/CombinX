@@ -9,10 +9,10 @@ export t_asn_1t="talents=2110111"
 export t_asn_2t="talents=2110121"
 export t_asn_3t="talents=2210121"
 export t_asn_1ta="talents=2310121"
-export t_asn_1t="talents=2110111"
-export t_asn_2t="talents=2110121"
-export t_asn_3t="talents=2210121"
-export t_asn_1ta="talents=2310121"
+export t_asn_ex_1t="talents="
+export t_asn_ex_2t="talents="
+export t_asn_ex_3t="talents="
+export t_asn_ex_1ta="talents="
 export t_otl_1t="talents=1310022"
 export t_otl_2t="talents=1310023"
 export t_otl_3t="talents=1310023"
@@ -25,10 +25,7 @@ export t_sub_1ta="talents=2210012"
 if [ $INPUT == "0" ]
 then
 	(
-		echo "Rogue Subtlety T19P & T19H & T19M"
-		$simc input=global.simc output=/dev/null target_error=0.2 "\$(fight_style)=1t" "\$(option_override)=$t_sub_1t" "\$(specialization)=subtlety" "\$(tier)=t19p" input=main.simc input=legendaries_duo.simc input=report_html.simc input=report_json.simc
-		$simc input=global.simc output=/dev/null target_error=0.2 "\$(fight_style)=1t" "\$(option_override)=$t_sub_1t" "\$(specialization)=subtlety" "\$(tier)=t19h" input=main.simc input=legendaries_duo.simc input=report_html.simc input=report_json.simc
-		$simc input=global.simc output=/dev/null target_error=0.2 "\$(fight_style)=1t" "\$(option_override)=$t_sub_1t" "\$(specialization)=subtlety" "\$(tier)=t19m" input=main.simc input=legendaries_duo.simc input=report_html.simc input=report_json.simc
+		
 	) > $tempoutput
 	exit
 elif [ $INPUT == "1" ]
@@ -302,7 +299,7 @@ then
 elif [ $INPUT == "9" ]
 then
 	(
-		echo "Doing Trinkets Comparisson"
+		echo "Doing Trinkets Comparison"
 
 		echo "1-Target"
 		echo "Rogue Assassination T19P & T19H & T19M"
@@ -364,39 +361,39 @@ then
 elif [ $INPUT == "10" ]
 then
 	(
-		echo "Doing Relics"
+		echo "Doing Relics Comparison"
 
 		echo "1-Target"
 		echo "Rogue Assassination T19M"
-		$simc input=global.simc threads=2 output=/dev/null target_error=0.6 "\$(fight_style)=1t" "\$(option_override)=$t_asn_1t" "\$(specialization)=assassination" "\$(tier)=t19m" input=main.simc input=relics.simc input=report_html.simc input=report_json.simc
+		$simc input=global.simc output=/dev/null target_error=0.2 "\$(fight_style)=1t" "\$(option_override)=$t_asn_1t" "\$(specialization)=assassination" "\$(tier)=t19m" input=main.simc input=relics.simc input=report_html.simc input=report_json.simc
 		echo "Rogue Outlaw T19M"
-		$simc input=global.simc threads=2 output=/dev/null target_error=0.6 "\$(fight_style)=1t" "\$(option_override)=$t_otl_1t" "\$(specialization)=outlaw" "\$(tier)=t19m" input=main.simc input=relics.simc input=report_html.simc input=report_json.simc
+		$simc input=global.simc output=/dev/null target_error=0.2 "\$(fight_style)=1t" "\$(option_override)=$t_otl_1t" "\$(specialization)=outlaw" "\$(tier)=t19m" input=main.simc input=relics.simc input=report_html.simc input=report_json.simc
 		echo "Rogue Subtlety T19M"
-		$simc input=global.simc threads=2 output=/dev/null target_error=0.6 "\$(fight_style)=1t" "\$(option_override)=$t_sub_1t" "\$(specialization)=subtlety" "\$(tier)=t19m" input=main.simc input=relics.simc input=report_html.simc input=report_json.simc
+		$simc input=global.simc output=/dev/null target_error=0.2 "\$(fight_style)=1t" "\$(option_override)=$t_sub_1t" "\$(specialization)=subtlety" "\$(tier)=t19m" input=main.simc input=relics.simc input=report_html.simc input=report_json.simc
 
 		echo "2-Target"
 		echo "Rogue Assassination T19M"
-		$simc input=global.simc threads=2 output=/dev/null target_error=0.6 "\$(fight_style)=2t" "\$(option_override)=$t_asn_2t" "\$(specialization)=assassination" "\$(tier)=t19m" input=main.simc input=relics.simc input=report_html.simc input=report_json.simc
+		$simc input=global.simc output=/dev/null target_error=0.2 "\$(fight_style)=2t" "\$(option_override)=$t_asn_2t" "\$(specialization)=assassination" "\$(tier)=t19m" input=main.simc input=relics.simc input=report_html.simc input=report_json.simc
 		echo "Rogue Outlaw T19M"
-		$simc input=global.simc threads=2 output=/dev/null target_error=0.6 "\$(fight_style)=2t" "\$(option_override)=$t_otl_2t" "\$(specialization)=outlaw" "\$(tier)=t19m" input=main.simc input=relics.simc input=report_html.simc input=report_json.simc
+		$simc input=global.simc output=/dev/null target_error=0.2 "\$(fight_style)=2t" "\$(option_override)=$t_otl_2t" "\$(specialization)=outlaw" "\$(tier)=t19m" input=main.simc input=relics.simc input=report_html.simc input=report_json.simc
 		echo "Rogue Subtlety T19M"
-		$simc input=global.simc threads=2 output=/dev/null target_error=0.6 "\$(fight_style)=2t" "\$(option_override)=$t_sub_2t" "\$(specialization)=subtlety" "\$(tier)=t19m" input=main.simc input=relics.simc input=report_html.simc input=report_json.simc
+		$simc input=global.simc output=/dev/null target_error=0.2 "\$(fight_style)=2t" "\$(option_override)=$t_sub_2t" "\$(specialization)=subtlety" "\$(tier)=t19m" input=main.simc input=relics.simc input=report_html.simc input=report_json.simc
 
 		echo "3-Target"
 		echo "Rogue Assassination T19M"
-		$simc input=global.simc threads=2 output=/dev/null target_error=0.6 "\$(fight_style)=3t" "\$(option_override)=$t_asn_3t" "\$(specialization)=assassination" "\$(tier)=t19m" input=main.simc input=relics.simc input=report_html.simc input=report_json.simc
+		$simc input=global.simc output=/dev/null target_error=0.2 "\$(fight_style)=3t" "\$(option_override)=$t_asn_3t" "\$(specialization)=assassination" "\$(tier)=t19m" input=main.simc input=relics.simc input=report_html.simc input=report_json.simc
 		echo "Rogue Outlaw T19M"
-		$simc input=global.simc threads=2 output=/dev/null target_error=0.6 "\$(fight_style)=3t" "\$(option_override)=$t_otl_3t" "\$(specialization)=outlaw" "\$(tier)=t19m" input=main.simc input=relics.simc input=report_html.simc input=report_json.simc
+		$simc input=global.simc output=/dev/null target_error=0.2 "\$(fight_style)=3t" "\$(option_override)=$t_otl_3t" "\$(specialization)=outlaw" "\$(tier)=t19m" input=main.simc input=relics.simc input=report_html.simc input=report_json.simc
 		echo "Rogue Subtlety T19M"
-		$simc input=global.simc threads=2 output=/dev/null target_error=0.6 "\$(fight_style)=3t" "\$(option_override)=$t_sub_3t" "\$(specialization)=subtlety" "\$(tier)=t19m" input=main.simc input=relics.simc input=report_html.simc input=report_json.simc
+		$simc input=global.simc output=/dev/null target_error=0.2 "\$(fight_style)=3t" "\$(option_override)=$t_sub_3t" "\$(specialization)=subtlety" "\$(tier)=t19m" input=main.simc input=relics.simc input=report_html.simc input=report_json.simc
 
 		echo "1-Target RE-Adds:4_3x_30_10"
 		echo "Rogue Assassination T19M"
-		$simc input=global.simc threads=2 output=/dev/null target_error=0.6 "\$(fight_style)=1ta" "\$(option_override)=$t_asn_1ta" "\$(specialization)=assassination" "\$(tier)=t19m" input=main.simc input=relics.simc input="\$(fight_style_path)"aethys_adds_4_3x_30_10.simc input=report_html.simc input=report_json.simc
+		$simc input=global.simc output=/dev/null target_error=0.2 "\$(fight_style)=1ta" "\$(option_override)=$t_asn_1ta" "\$(specialization)=assassination" "\$(tier)=t19m" input=main.simc input=relics.simc input="\$(fight_style_path)"aethys_adds_4_3x_30_10.simc input=report_html.simc input=report_json.simc
 		echo "Rogue Outlaw T19M"
-		$simc input=global.simc threads=2 output=/dev/null target_error=0.6 "\$(fight_style)=1ta" "\$(option_override)=$t_otl_1ta" "\$(specialization)=outlaw" "\$(tier)=t19m" input=main.simc input=relics.simc input="\$(fight_style_path)"aethys_adds_4_3x_30_10.simc input=report_html.simc input=report_json.simc
+		$simc input=global.simc output=/dev/null target_error=0.2 "\$(fight_style)=1ta" "\$(option_override)=$t_otl_1ta" "\$(specialization)=outlaw" "\$(tier)=t19m" input=main.simc input=relics.simc input="\$(fight_style_path)"aethys_adds_4_3x_30_10.simc input=report_html.simc input=report_json.simc
 		echo "Rogue Subtlety T19M"
-		$simc input=global.simc threads=2 output=/dev/null target_error=0.6 "\$(fight_style)=1ta" "\$(option_override)=$t_sub_1ta" "\$(specialization)=subtlety" "\$(tier)=t19m" input=main.simc input=relics.simc input="\$(fight_style_path)"aethys_adds_4_3x_30_10.simc input=report_html.simc input=report_json.simc
+		$simc input=global.simc output=/dev/null target_error=0.2 "\$(fight_style)=1ta" "\$(option_override)=$t_sub_1ta" "\$(specialization)=subtlety" "\$(tier)=t19m" input=main.simc input=relics.simc input="\$(fight_style_path)"aethys_adds_4_3x_30_10.simc input=report_html.simc input=report_json.simc
 	) > $output
 	exit
 elif [ $INPUT == "11" ]
@@ -586,7 +583,7 @@ then
 		$simc input=global.simc output=/dev/null target_error=0.2 "\$(fight_style)=1t" "\$(option_override)=$t_sub_1ta" "\$(specialization)=subtlety" "\$(tier)=t19m" input=main.simc input=races.simc input="\$(fight_style_path)"aethys_adds_4_3x_30_10.simc input=report_html.simc input=report_json.simc
 
 
-		echo "Doing Trinkets Comparisson"
+		echo "Doing Trinkets Comparison"
 
 		echo "1-Target"
 		echo "Rogue Assassination T19P & T19H & T19M"
@@ -643,6 +640,40 @@ then
 		$simc input=global.simc output=/dev/null target_error=0.2 "\$(fight_style)=1t" "\$(option_override)=$t_sub_1ta" "\$(specialization)=subtlety" "\$(tier)=t19p" input=main.simc input=trinkets.simc input="\$(fight_style_path)"aethys_adds_4_3x_30_10.simc input=report_html.simc input=report_json.simc
 		$simc input=global.simc output=/dev/null target_error=0.2 "\$(fight_style)=1t" "\$(option_override)=$t_sub_1ta" "\$(specialization)=subtlety" "\$(tier)=t19h" input=main.simc input=trinkets.simc input="\$(fight_style_path)"aethys_adds_4_3x_30_10.simc input=report_html.simc input=report_json.simc
 		$simc input=global.simc output=/dev/null target_error=0.2 "\$(fight_style)=1t" "\$(option_override)=$t_sub_1ta" "\$(specialization)=subtlety" "\$(tier)=t19m" input=main.simc input=trinkets.simc input="\$(fight_style_path)"aethys_adds_4_3x_30_10.simc input=report_html.simc input=report_json.simc
+	
+		echo "Doing Relics Comparison"
+
+		echo "1-Target"
+		echo "Rogue Assassination T19M"
+		$simc input=global.simc output=/dev/null target_error=0.2 "\$(fight_style)=1t" "\$(option_override)=$t_asn_1t" "\$(specialization)=assassination" "\$(tier)=t19m" input=main.simc input=relics.simc input=report_html.simc input=report_json.simc
+		echo "Rogue Outlaw T19M"
+		$simc input=global.simc output=/dev/null target_error=0.2 "\$(fight_style)=1t" "\$(option_override)=$t_otl_1t" "\$(specialization)=outlaw" "\$(tier)=t19m" input=main.simc input=relics.simc input=report_html.simc input=report_json.simc
+		echo "Rogue Subtlety T19M"
+		$simc input=global.simc output=/dev/null target_error=0.2 "\$(fight_style)=1t" "\$(option_override)=$t_sub_1t" "\$(specialization)=subtlety" "\$(tier)=t19m" input=main.simc input=relics.simc input=report_html.simc input=report_json.simc
+
+		echo "2-Target"
+		echo "Rogue Assassination T19M"
+		$simc input=global.simc output=/dev/null target_error=0.2 "\$(fight_style)=2t" "\$(option_override)=$t_asn_2t" "\$(specialization)=assassination" "\$(tier)=t19m" input=main.simc input=relics.simc input=report_html.simc input=report_json.simc
+		echo "Rogue Outlaw T19M"
+		$simc input=global.simc output=/dev/null target_error=0.2 "\$(fight_style)=2t" "\$(option_override)=$t_otl_2t" "\$(specialization)=outlaw" "\$(tier)=t19m" input=main.simc input=relics.simc input=report_html.simc input=report_json.simc
+		echo "Rogue Subtlety T19M"
+		$simc input=global.simc output=/dev/null target_error=0.2 "\$(fight_style)=2t" "\$(option_override)=$t_sub_2t" "\$(specialization)=subtlety" "\$(tier)=t19m" input=main.simc input=relics.simc input=report_html.simc input=report_json.simc
+
+		echo "3-Target"
+		echo "Rogue Assassination T19M"
+		$simc input=global.simc output=/dev/null target_error=0.2 "\$(fight_style)=3t" "\$(option_override)=$t_asn_3t" "\$(specialization)=assassination" "\$(tier)=t19m" input=main.simc input=relics.simc input=report_html.simc input=report_json.simc
+		echo "Rogue Outlaw T19M"
+		$simc input=global.simc output=/dev/null target_error=0.2 "\$(fight_style)=3t" "\$(option_override)=$t_otl_3t" "\$(specialization)=outlaw" "\$(tier)=t19m" input=main.simc input=relics.simc input=report_html.simc input=report_json.simc
+		echo "Rogue Subtlety T19M"
+		$simc input=global.simc output=/dev/null target_error=0.2 "\$(fight_style)=3t" "\$(option_override)=$t_sub_3t" "\$(specialization)=subtlety" "\$(tier)=t19m" input=main.simc input=relics.simc input=report_html.simc input=report_json.simc
+
+		echo "1-Target RE-Adds:4_3x_30_10"
+		echo "Rogue Assassination T19M"
+		$simc input=global.simc output=/dev/null target_error=0.2 "\$(fight_style)=1ta" "\$(option_override)=$t_asn_1ta" "\$(specialization)=assassination" "\$(tier)=t19m" input=main.simc input=relics.simc input="\$(fight_style_path)"aethys_adds_4_3x_30_10.simc input=report_html.simc input=report_json.simc
+		echo "Rogue Outlaw T19M"
+		$simc input=global.simc output=/dev/null target_error=0.2 "\$(fight_style)=1ta" "\$(option_override)=$t_otl_1ta" "\$(specialization)=outlaw" "\$(tier)=t19m" input=main.simc input=relics.simc input="\$(fight_style_path)"aethys_adds_4_3x_30_10.simc input=report_html.simc input=report_json.simc
+		echo "Rogue Subtlety T19M"
+		$simc input=global.simc output=/dev/null target_error=0.2 "\$(fight_style)=1ta" "\$(option_override)=$t_sub_1ta" "\$(specialization)=subtlety" "\$(tier)=t19m" input=main.simc input=relics.simc input="\$(fight_style_path)"aethys_adds_4_3x_30_10.simc input=report_html.simc input=report_json.simc
 	) > $output
 	exit
 fi
