@@ -114,7 +114,7 @@ trinket1=infernal_alchemist_stone,id=127842,bonus_id=669
 copy=$(root)_darkmoon_deck_dominion_850,$(root)
 trinket1=darkmoon_deck_dominion,id=128705,bonus_id=669
 
-copy=$(root)_thrice_accursed_compass_860,$(root)
+copy=$(root)_thriceaccursed_compass_860,$(root)
 trinket1=thrice_accursed_compass,id=141537
 
 copy=$(root)_eye_of_command_860,$(root)
