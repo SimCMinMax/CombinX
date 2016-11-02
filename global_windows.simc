@@ -10,6 +10,7 @@ $(t18m_path)=Tier18M\
 $(t19p_path)=Tier19P\
 $(t19h_path)=Tier19H\
 $(t19m_path)=Tier19M\
+$(t19m_nh_path)=Tier19M_NH\
 
 # SimCMinMax Internal Paths
 $(artifact_path)=artifact\
