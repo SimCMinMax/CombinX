@@ -1,0 +1,206 @@
+## Currently in the List
+# Arcanogolem Digit
+# Bloddstained Handkerchief
+# Bloodthirsty Instinct
+# Chaos Talisman
+# Chrono Shard
+# Convergence of Fates
+# Darkmoon Deck Dominion
+# Draught of Souls
+# Entwined Elemental Foci
+# Ethereal Urn
+# Eye of Command
+# Eye of Guarm Crit
+# Eye of Guarm Haste
+# Eye of Guarm Mastery
+# Eye of Guarm Versa
+# Faulty Countermeasure
+# Figurehead of the Naglfar
+# Giant Ornamental Pearl
+# Horn of Valor
+# Hunger of the Pack
+# Infernal Alchemist Stone
+# Nightblooming Frond
+# Nightmare Egg Shell
+# Obelisk of the Void
+# Mark of Dargrul
+# Memento of Angerboda
+# Mrrgria's Favor
+# Nature's Call
+# Ravaged Seed Pod
+# Six Feather Fan
+# Spiked Counterweight
+# Spontaneous Appendages
+# Tempered Egg of Serpentrix
+# Terrorbound Nexus
+# The Devilsaur's Bite
+# Thriceaccursed Compass
+# Tiny Oozeling in a Jar
+# Tirathon's Betrayal
+# Toe Knee's Promise
+# Unstable Arcanocrystal
+# Windscar Whetstone
+
+# Raid - Nighthold - Trilliax (Max Base: 900)
+copy=$(root)_$(trinket_ilevel)_arcanogolem_digit,$(root)
+trinket1=arcanogolem_digit,id=140794,ilevel=$(trinket_ilevel)
+
+# Dungeon - Karazhan - Moroes (Max Base: 855)
+copy=$(root)_$(trinket_ilevel)_bloodstained_handkerchief,$(root)
+trinket1=bloodstained_handkerchief,id=142159,ilevel=$(trinket_ilevel)
+
+# Raid - Emerald Nightmare - Ursoc (Max Base: 880)
+copy=$(root)_$(trinket_ilevel)_bloodthirsty_instinct,$(root)
+trinket1=bloodthirsty_instinct,id=139329,ilevel=$(trinket_ilevel)
+
+# Dungeon - Violet Hold - Fel Lord Betrug (Max Base: 840)
+copy=$(root)_$(trinket_ilevel)_chaos_talisman,$(root)
+trinket1=chaos_talisman,id=137459,ilevel=$(trinket_ilevel)
+
+# Dungeon - The Arcway - Advisor Vandros (Max Base: 865)
+copy=$(root)_$(trinket_ilevel)_chrono_shard,$(root)
+trinket1=chrono_shard,id=137419,ilevel=$(trinket_ilevel)
+
+# Raid - Nighthold - Elisande (Max Base: 900)
+copy=$(root)_$(trinket_ilevel)_convergence_of_fates,$(root)
+trinket1=convergence_of_fates,id=140806,ilevel=$(trinket_ilevel)
+
+# Craft - Inscription (Max Base: 855)
+copy=$(root)_$(trinket_ilevel)_darkmoon_deck_dominion,$(root)
+trinket1=darkmoon_deck_dominion,id=128705,ilevel=$(trinket_ilevel)
+
+# Raid - Nighthold - Gul'dan (Max Base: 900)
+copy=$(root)_$(trinket_ilevel)_draught_of_souls,$(root)
+trinket1=draught_of_souls,id=140808,ilevel=$(trinket_ilevel)
+
+# Raid - Nighthold - Spellblade Aluriel (Max Base: 900)
+copy=$(root)_$(trinket_ilevel)_entwined_elemental_foci,$(root)
+trinket1=entwined_elemental_foci,id=140796,ilevel=$(trinket_ilevel)
+
+# Dungeon - Karazhan - Nightbane (Max Base: 875)
+copy=$(root)_$(trinket_ilevel)_ethereal_urn,$(root)
+trinket1=ethereal_urn,id=142166,ilevel=$(trinket_ilevel)
+
+# Dungeon - Karazhan - Viz'aduum the Watcher (Max Base: 860)
+copy=$(root)_$(trinket_ilevel)_eye_of_command,$(root)
+trinket1=eye_of_command,id=142167,ilevel=$(trinket_ilevel)
+
+# Raid - Trial of Valor - Guarm (Max Base: 885)
+copy=$(root)_$(trinket_ilevel)_eye_of_guarm_crit,$(root)
+trinket1=,id=142506,bonus_id=603,ilevel=$(trinket_ilevel)
+
+# Raid - Trial of Valor - Guarm (Max Base: 885)
+copy=$(root)_$(trinket_ilevel)_eye_of_guarm_haste,$(root)
+trinket1=,id=142506,bonus_id=604,ilevel=$(trinket_ilevel)
+
+# Raid - Trial of Valor - Guarm (Max Base: 885)
+copy=$(root)_$(trinket_ilevel)_eye_of_guarm_mastery,$(root)
+trinket1=,id=142506,bonus_id=605,ilevel=$(trinket_ilevel)
+
+# Raid - Trial of Valor - Guarm (Max Base: 885)
+copy=$(root)_$(trinket_ilevel)_eye_of_guarm_versa,$(root)
+trinket1=,id=142506,bonus_id=607,ilevel=$(trinket_ilevel)
+
+# Dungeon - Vault of the Wardens - Ash'Golm (Max Base: 865)
+copy=$(root)_$(trinket_ilevel)_faulty_countermeasure,$(root)
+trinket1=faulty_countermeasure,id=137539,ilevel=$(trinket_ilevel)
+
+# Dungeon - Maw of Souls - Helya (Max Base: 865)
+copy=$(root)_$(trinket_ilevel)_figurehead_of_the_naglfar,$(root)
+trinket1=figurehead_of_the_naglfar,id=137329,ilevel=$(trinket_ilevel)
+
+# Dungeon - Eye of Azshara - King Deepbeard (Max Base: 865)
+copy=$(root)_$(trinket_ilevel)_giant_ornamental_pearl,$(root)
+trinket1=giant_ornamental_pearl,id=137369,ilevel=$(trinket_ilevel)
+
+# Dungeon - Halls of Valor - Hymdall (Max Base: 865)
+copy=$(root)_$(trinket_ilevel)_horn_of_valor,$(root)
+trinket1=horn_of_valor,id=133642,ilevel=$(trinket_ilevel)
+
+# Dungeon - Halls of Valor - Fenryr (Max Base: 865)
+copy=$(root)_$(trinket_ilevel)_hunger_of_the_pack,$(root)
+trinket1=hunger_of_the_pack,id=136975,ilevel=$(trinket_ilevel)
+
+# Craft - Alchemy (Max Base: 855)
+copy=$(root)_$(trinket_ilevel)_infernal_alchemist_stone,$(root)
+trinket1=infernal_alchemist_stone,id=127842,ilevel=$(trinket_ilevel)
+
+# Raid - Nighthold - High Botanist Tel'arn (Max Base: 900)
+copy=$(root)_$(trinket_ilevel)_nightblooming_frond,$(root)
+trinket1=nightblooming_frond,id=140802,ilevel=$(trinket_ilevel)
+
+# Dungeon - Darkheart Thicket - Dresaron (Max Base: 865)
+copy=$(root)_$(trinket_ilevel)_nightmare_egg_shell,$(root)
+trinket1=nightmare_egg_shell,id=137312,ilevel=$(trinket_ilevel)
+
+# Dungeon - Violet Hold - Mindflayer Kaahrj (Max Base: 840)
+copy=$(root)_$(trinket_ilevel)_obelisk_of_the_void,$(root)
+trinket1=obelisk_of_the_void,id=137433,ilevel=$(trinket_ilevel)
+
+# Dungeon - Neltharion's Lair - Dargrul (Max Base: 865)
+copy=$(root)_$(trinket_ilevel)_mark_of_dargrul,$(root)
+trinket1=mark_of_dargrul,id=137357,ilevel=$(trinket_ilevel)
+
+# Dungeon - Maw of Souls - Ymiron, the Fallen King (Max Base: 865)
+copy=$(root)_$(trinket_ilevel)_memento_of_angerboda,$(root)
+trinket1=memento_of_angerboda,id=133644,ilevel=$(trinket_ilevel)
+
+# Dungeon - Karazhan - Mrrgria & Toe Knee (Max Base: 855)
+copy=$(root)_$(trinket_ilevel)_mrrgrias_favor,$(root)
+trinket1=mrrgrias_favor,id=142160,ilevel=$(trinket_ilevel)
+
+# Raid - Emerald Nightmare - Cenarius (Max Base: 880)
+copy=$(root)_$(trinket_ilevel)_natures_call,$(root)
+trinket1=natures_call,id=139334,ilevel=$(trinket_ilevel)
+
+# Raid - Emerald Nightmare - Nythendra (Max Base: 880)
+copy=$(root)_$(trinket_ilevel)_ravaged_seed_pod,$(root)
+trinket1=ravaged_seed_pod,id=139320,ilevel=$(trinket_ilevel)
+
+# World Drop - Legion (Max Base: 810)
+copy=$(root)_$(trinket_ilevel)_six_feather_fan,$(root)
+trinket1=six_feather_fan,id=141585,ilevel=$(trinket_ilevel)
+
+# Dungeon - Black Rook Hold - Smashspite the Hateful (Max Base: 865)
+copy=$(root)_$(trinket_ilevel)_spiked_counterweight,$(root)
+trinket1=spiked_counterweight,id=136715,ilevel=$(trinket_ilevel)
+
+# Raid - Emerald Nightmare - Il'gynoth (Max Base: 880)
+copy=$(root)_$(trinket_ilevel)_spontaneous_appendages,$(root)
+trinket1=spontaneous_appendages,id=139325,ilevel=$(trinket_ilevel)
+
+# Dungeon - Eye of Azshara - Serpentrix (Max Base: 865)
+copy=$(root)_$(trinket_ilevel)_tempered_egg_of_serpentrix,$(root)
+trinket1=tempered_egg_of_serpentrix,id=137373,ilevel=$(trinket_ilevel)
+
+# Dungeon - The Arcway - General Xakal (Max Base: 865)
+copy=$(root)_$(trinket_ilevel)_terrorbound_nexus,$(root)
+trinket1=terrorbound_nexus,id=137406,ilevel=$(trinket_ilevel)
+
+# World Quest - Suramar - Life Finds a Way (Su'esh) (Max Base: 845)
+copy=$(root)_$(trinket_ilevel)_the_devilsaurs_bite,$(root)
+trinket1=the_devilsaurs_bite,id=140026,ilevel=$(trinket_ilevel)
+
+# World Boss - Soultrapper Mevra (Max Base: 860)
+copy=$(root)_$(trinket_ilevel)_thriceaccursed_compass,$(root)
+trinket1=thrice_accursed_compass,id=141537,ilevel=$(trinket_ilevel)
+
+# Dungeon - Violet Hold - Festerface (Max Base: 840)
+copy=$(root)_$(trinket_ilevel)_tiny_oozeling_in_a_jar,$(root)
+trinket1=tiny_oozeling_in_a_jar,id=137439,ilevel=$(trinket_ilevel)
+
+# Dungeon - Vault of the Wardens - Tirathon Saltheril (Max Base: 865)
+copy=$(root)_$(trinket_ilevel)_tirathons_betrayal,$(root)
+trinket1=tirathons_betrayal,id=137537,ilevel=$(trinket_ilevel)
+
+# Dungeon - Karazhan - Mrrgria & Toe Knee (Max Base: 855)
+copy=$(root)_$(trinket_ilevel)_toe_knees_promise,$(root)
+trinket1=toe_knees_promise,id=142164,ilevel=$(trinket_ilevel)
+
+# World Boss - Withered J'im (Max Base: 860)
+copy=$(root)_$(trinket_ilevel)_unstable_arcanocrystal,$(root)
+trinket1=unstable_arcanocrystal,id=141482,ilevel=$(trinket_ilevel)
+
+# Dungeon - Court of Stars - Advisor Melandrus (Max Base: 865)
+copy=$(root)_$(trinket_ilevel)_windscar_whetstone,$(root)
+trinket1=windscar_whetstone,id=137486,ilevel=$(trinket_ilevel)
