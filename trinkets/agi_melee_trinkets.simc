@@ -158,8 +158,8 @@ copy=$(root)_$(trinket_ilevel)_ravaged_seed_pod,$(root)
 trinket1=ravaged_seed_pod,id=139320,ilevel=$(trinket_ilevel)
 
 # World Drop - Legion (Max Base: 810)
-copy=$(root)_$(trinket_ilevel)_six_feather_fan,$(root)
-trinket1=six_feather_fan,id=141585,ilevel=$(trinket_ilevel)
+copy=$(root)_$(trinket_ilevel)_sixfeather_fan,$(root)
+trinket1=sixfeather_fan,id=141585,ilevel=$(trinket_ilevel)
 
 # Dungeon - Black Rook Hold - Smashspite the Hateful (Max Base: 865)
 copy=$(root)_$(trinket_ilevel)_spiked_counterweight,$(root)
@@ -183,7 +183,7 @@ trinket1=the_devilsaurs_bite,id=140026,ilevel=$(trinket_ilevel)
 
 # World Boss - Soultrapper Mevra (Max Base: 860)
 copy=$(root)_$(trinket_ilevel)_thriceaccursed_compass,$(root)
-trinket1=thrice_accursed_compass,id=141537,ilevel=$(trinket_ilevel)
+trinket1=thriceaccursed_compass,id=141537,ilevel=$(trinket_ilevel)
 
 # Dungeon - Violet Hold - Festerface (Max Base: 840)
 copy=$(root)_$(trinket_ilevel)_tiny_oozeling_in_a_jar,$(root)
