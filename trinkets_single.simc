@@ -2,4 +2,4 @@ $(sim_type)=trinkets_$(trinket_ilevel)
 trinket1=
 trinket2=
 name=$(root)
-input=$(trinkets_path)$(trinket_type)trinkets.simc
+input=$(trinkets_path)$(trinket_type)_trinkets.simc
