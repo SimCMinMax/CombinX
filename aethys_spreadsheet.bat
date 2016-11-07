@@ -6,11 +6,11 @@ set "tempoutput=aethys_cmd_templog.txt"
 set "output=aethys_cmd_log.txt"
 set "t_asn_1t=talents=2110111"
 set "t_asn_2t=talents=2110121"
-set "t_asn_3t=talents=2210121"
-set "t_asn_1ta=talents=2310121"
+set "t_asn_3t=talents=2110121"
+set "t_asn_1ta=talents=2110122"
 set "t_asn_ex_1t=talents=2110131"
 set "t_asn_ex_2t=talents=2110131"
-set "t_asn_ex_3t=talents=2210121"
+set "t_asn_ex_3t=talents=2110121"
 set "t_asn_ex_1ta=talents=2110131"
 set "t_otl_1t=talents=1310022"
 set "t_otl_2t=talents=1310023"
@@ -19,113 +19,12 @@ set "t_otl_1ta=talents=1310022"
 set "t_sub_1t=talents=2210011"
 set "t_sub_2t=talents=2210011"
 set "t_sub_3t=talents=2210023"
-set "t_sub_1ta=talents=2210012"
+set "t_sub_1ta=talents=2210022"
 
 if "%input%"=="0" (
 	>%tempoutput% (
 		echo "Temporary Output"
 
-		echo "Rogue Assassination Exsg T19M"
-		%simc% input=global.simc output=nul target_error=0.2 "$(fight_style)=1t" "$(option_override)=%t_asn_ex_1ta%" "$(specialization)=assassination" "$(specialization_suffix)=_Exsg_" "$(tier)=t19m" input=main.simc "$(spec)=asn_ex" "$(root)=$(clas)_$(spec)_$(tier_suffix)" input=races.simc input="$(fight_style_path)"aethys_adds_4_3x_30_10.simc input=report_html.simc input=report_json.simc
-	
-		echo "1-Target"
-		echo "Rogue Outlaw T19M"
-		%simc% input=global.simc output=nul target_error=0.2 "$(fight_style)=1t" "$(option_override)=%t_otl_1t%" "$(specialization)=outlaw" "$(tier)=t19m" input=main.simc input=relics.simc input=report_html.simc input=report_json.simc
-
-		echo "2-Target"
-		echo "Rogue Outlaw T19M"
-		%simc% input=global.simc output=nul target_error=0.2 "$(fight_style)=2t" "$(option_override)=%t_otl_2t%" "$(specialization)=outlaw" "$(tier)=t19m" input=main.simc input=relics.simc input=report_html.simc input=report_json.simc
-
-		echo "3-Target"
-		echo "Rogue Outlaw T19M"
-		%simc% input=global.simc output=nul target_error=0.2 "$(fight_style)=3t" "$(option_override)=%t_otl_3t%" "$(specialization)=outlaw" "$(tier)=t19m" input=main.simc input=relics.simc input=report_html.simc input=report_json.simc
-
-		echo "1-Target RE-Adds:4_3x_30_10"
-		echo "Rogue Outlaw T19M"
-		%simc% input=global.simc output=nul target_error=0.2 "$(fight_style)=1t" "$(option_override)=%t_otl_1ta%" "$(specialization)=outlaw" "$(tier)=t19m" input=main.simc input=relics.simc input="$(fight_style_path)"aethys_adds_4_3x_30_10.simc input=report_html.simc input=report_json.simc
-	
-		echo "Doing Legendaries Comparison Set"
-
-		echo "1-Target"
-		echo "Rogue Assassination T19M"
-		%simc% input=global.simc output=nul target_error=0.2 "$(fight_style)=1t" "$(option_override)=%t_asn_1t%" "$(specialization)=assassination" "$(tier)=t19m" input=main.simc input="$(gear_path)"no_legendary.simc input=legendaries.simc input=report_html.simc input=report_json.simc
-		echo "Rogue Assassination Exsg T19M"
-		%simc% input=global.simc output=nul target_error=0.2 "$(fight_style)=1t" "$(option_override)=%t_asn_ex_1t%" "$(specialization)=assassination" "$(specialization_suffix)=_Exsg_" "$(tier)=t19m" input=main.simc "$(spec)=asn_ex" "$(root)=$(clas)_$(spec)_$(tier_suffix)" input="$(gear_path)"no_legendary.simc input=legendaries.simc input=report_html.simc input=report_json.simc
-		echo "Rogue Outlaw T19M"
-		%simc% input=global.simc output=nul target_error=0.2 "$(fight_style)=1t" "$(option_override)=%t_otl_1t%" "$(specialization)=outlaw" "$(tier)=t19m" input=main.simc input="$(gear_path)"no_legendary.simc input=legendaries.simc input=report_html.simc input=report_json.simc
-		echo "Rogue Subtlety T19M"
-		%simc% input=global.simc output=nul target_error=0.2 "$(fight_style)=1t" "$(option_override)=%t_sub_1t%" "$(specialization)=subtlety" "$(tier)=t19m" input=main.simc input="$(gear_path)"no_legendary.simc input=legendaries.simc input=report_html.simc input=report_json.simc
-
-		echo "2-Target"
-		echo "Rogue Assassination T19M"
-		%simc% input=global.simc output=nul target_error=0.2 "$(fight_style)=2t" "$(option_override)=%t_asn_2t%" "$(specialization)=assassination" "$(tier)=t19m" input=main.simc input="$(gear_path)"no_legendary.simc input=legendaries.simc input=report_html.simc input=report_json.simc
-		echo "Rogue Assassination Exsg T19M"
-		%simc% input=global.simc output=nul target_error=0.2 "$(fight_style)=2t" "$(option_override)=%t_asn_ex_2t%" "$(specialization)=assassination" "$(specialization_suffix)=_Exsg_" "$(tier)=t19m" input=main.simc "$(spec)=asn_ex" "$(root)=$(clas)_$(spec)_$(tier_suffix)" input="$(gear_path)"no_legendary.simc input=legendaries.simc input=report_html.simc input=report_json.simc
-		echo "Rogue Outlaw T19M"
-		%simc% input=global.simc output=nul target_error=0.2 "$(fight_style)=2t" "$(option_override)=%t_otl_2t%" "$(specialization)=outlaw" "$(tier)=t19m" input=main.simc input="$(gear_path)"no_legendary.simc input=legendaries.simc input=report_html.simc input=report_json.simc
-		echo "Rogue Subtlety T19M"
-		%simc% input=global.simc output=nul target_error=0.2 "$(fight_style)=2t" "$(option_override)=%t_sub_2t%" "$(specialization)=subtlety" "$(tier)=t19m" input=main.simc input="$(gear_path)"no_legendary.simc input=legendaries.simc input=report_html.simc input=report_json.simc
-
-		echo "3-Target"
-		echo "Rogue Assassination T19M"
-		%simc% input=global.simc output=nul target_error=0.2 "$(fight_style)=3t" "$(option_override)=%t_asn_3t%" "$(specialization)=assassination" "$(tier)=t19m" input=main.simc input="$(gear_path)"no_legendary.simc input=legendaries.simc input=report_html.simc input=report_json.simc
-		echo "Rogue Assassination Exsg T19M"
-		%simc% input=global.simc output=nul target_error=0.2 "$(fight_style)=3t" "$(option_override)=%t_asn_ex_3t%" "$(specialization)=assassination" "$(specialization_suffix)=_Exsg_" "$(tier)=t19m" input=main.simc "$(spec)=asn_ex" "$(root)=$(clas)_$(spec)_$(tier_suffix)" input="$(gear_path)"no_legendary.simc input=legendaries.simc input=report_html.simc input=report_json.simc
-		echo "Rogue Outlaw T19M"
-		%simc% input=global.simc output=nul target_error=0.2 "$(fight_style)=3t" "$(option_override)=%t_otl_3t%" "$(specialization)=outlaw" "$(tier)=t19m" input=main.simc input="$(gear_path)"no_legendary.simc input=legendaries.simc input=report_html.simc input=report_json.simc
-		echo "Rogue Subtlety T19M"
-		%simc% input=global.simc output=nul target_error=0.2 "$(fight_style)=3t" "$(option_override)=%t_sub_3t%" "$(specialization)=subtlety" "$(tier)=t19m" input=main.simc input="$(gear_path)"no_legendary.simc input=legendaries.simc input=report_html.simc input=report_json.simc
-
-		echo "1-Target RE-Adds:4_3x_30_10"
-		echo "Rogue Assassination T19M"
-		%simc% input=global.simc output=nul target_error=0.2 "$(fight_style)=1t" "$(option_override)=%t_asn_1ta%" "$(specialization)=assassination" "$(tier)=t19m" input=main.simc input="$(gear_path)"no_legendary.simc input=legendaries.simc input="$(fight_style_path)"aethys_adds_4_3x_30_10.simc input=report_html.simc input=report_json.simc
-		echo "Rogue Assassination Exsg T19M"
-		%simc% input=global.simc output=nul target_error=0.2 "$(fight_style)=1t" "$(option_override)=%t_asn_ex_1ta%" "$(specialization)=assassination" "$(specialization_suffix)=_Exsg_" "$(tier)=t19m" input=main.simc "$(spec)=asn_ex" "$(root)=$(clas)_$(spec)_$(tier_suffix)" input="$(gear_path)"no_legendary.simc input=legendaries.simc input="$(fight_style_path)"aethys_adds_4_3x_30_10.simc input=report_html.simc input=report_json.simc
-		echo "Rogue Outlaw T19M"
-		%simc% input=global.simc output=nul target_error=0.2 "$(fight_style)=1t" "$(option_override)=%t_otl_1ta%" "$(specialization)=outlaw" "$(tier)=t19m" input=main.simc input="$(gear_path)"no_legendary.simc input=legendaries.simc input="$(fight_style_path)"aethys_adds_4_3x_30_10.simc input=report_html.simc input=report_json.simc
-		echo "Rogue Subtlety T19M"
-		%simc% input=global.simc output=nul target_error=0.2 "$(fight_style)=1t" "$(option_override)=%t_sub_1ta%" "$(specialization)=subtlety" "$(tier)=t19m" input=main.simc input="$(gear_path)"no_legendary.simc input=legendaries.simc input="$(fight_style_path)"aethys_adds_4_3x_30_10.simc input=report_html.simc input=report_json.simc
-	
-		echo "1-Target"
-		echo "Rogue Assassination & Outlaw & Subtlety @ T19M"
-		%simc% input=global.simc output=nul target_error=0.2 "$(fight_style)=1t" "$(option_override)=%t_asn_1t%" "$(specialization)=assassination" "$(tier)=t19m" input=main.simc input="$(gear_path)"no_legendary.simc input=legendaries.simc "$(option_override)=%t_asn_ex_1t%" "$(specialization)=assassination" "$(specialization_suffix)=_Exsg_" "$(tier)=t19m" input=main.simc "$(spec)=asn_ex" "$(root)=$(clas)_$(spec)_$(tier_suffix)" input="$(gear_path)"no_legendary.simc input=legendaries.simc "$(option_override)=%t_otl_1t%" "$(specialization)=outlaw" "$(specialization_suffix)=_" "$(tier)=t19m" input=main.simc input="$(gear_path)"no_legendary.simc input=legendaries.simc "$(option_override)=%t_sub_1t%" "$(specialization)=subtlety" "$(tier)=t19m" input=main.simc input="$(gear_path)"no_legendary.simc input=legendaries.simc "$(clas)=discord_rog" "$(spec)=all" input=report_html.simc
-
-		echo "2-Target"
-		echo "Rogue Assassination & Outlaw & Subtlety @ T19M"
-		%simc% input=global.simc output=nul target_error=0.2 "$(fight_style)=2t" "$(option_override)=%t_asn_2t%" "$(specialization)=assassination" "$(tier)=t19m" input=main.simc input="$(gear_path)"no_legendary.simc input=legendaries.simc "$(option_override)=%t_asn_ex_2t%" "$(specialization)=assassination" "$(specialization_suffix)=_Exsg_" "$(tier)=t19m" input=main.simc "$(spec)=asn_ex" "$(root)=$(clas)_$(spec)_$(tier_suffix)" input="$(gear_path)"no_legendary.simc input=legendaries.simc "$(option_override)=%t_otl_2t%" "$(specialization)=outlaw" "$(specialization_suffix)=_" "$(tier)=t19m" input=main.simc input="$(gear_path)"no_legendary.simc input=legendaries.simc "$(option_override)=%t_sub_2t%" "$(specialization)=subtlety" "$(tier)=t19m" input=main.simc input="$(gear_path)"no_legendary.simc input=legendaries.simc "$(clas)=discord_rog" "$(spec)=all" input=report_html.simc
-
-		echo "3-Target"
-		echo "Rogue Assassination & Outlaw & Subtlety @ T19M"
-		%simc% input=global.simc output=nul target_error=0.2 "$(fight_style)=3t" "$(option_override)=%t_asn_3t%" "$(specialization)=assassination" "$(tier)=t19m" input=main.simc input="$(gear_path)"no_legendary.simc input=legendaries.simc "$(option_override)=%t_asn_ex_3t%" "$(specialization)=assassination" "$(specialization_suffix)=_Exsg_" "$(tier)=t19m" input=main.simc "$(spec)=asn_ex" "$(root)=$(clas)_$(spec)_$(tier_suffix)" input="$(gear_path)"no_legendary.simc input=legendaries.simc "$(option_override)=%t_otl_3t%" "$(specialization)=outlaw" "$(specialization_suffix)=_" "$(tier)=t19m" input=main.simc input="$(gear_path)"no_legendary.simc input=legendaries.simc "$(option_override)=%t_sub_3t%" "$(specialization)=subtlety" "$(tier)=t19m" input=main.simc input="$(gear_path)"no_legendary.simc input=legendaries.simc "$(clas)=discord_rog" "$(spec)=all" input=report_html.simc
-
-		echo "1-Target RE-Adds:4_3x_30_10"
-		echo "Rogue Assassination & Outlaw & Subtlety @ T19M"
-		%simc% input=global.simc output=nul target_error=0.2 "$(fight_style)=1t" "$(option_override)=%t_asn_1ta%" "$(specialization)=assassination" "$(tier)=t19m" input=main.simc input="$(gear_path)"no_legendary.simc input=legendaries.simc "$(option_override)=%t_asn_ex_1ta%" "$(specialization)=assassination" "$(specialization_suffix)=_Exsg_" "$(tier)=t19m" input=main.simc "$(spec)=asn_ex" "$(root)=$(clas)_$(spec)_$(tier_suffix)" input="$(gear_path)"no_legendary.simc input=legendaries.simc "$(option_override)=%t_otl_1ta%" "$(specialization)=outlaw" "$(specialization_suffix)=_" "$(tier)=t19m" input=main.simc input="$(gear_path)"no_legendary.simc input=legendaries.simc "$(option_override)=%t_sub_1ta%" "$(specialization)=subtlety" "$(tier)=t19m" input=main.simc input="$(gear_path)"no_legendary.simc input=legendaries.simc input="$(fight_style_path)"aethys_adds_4_3x_30_10.simc "$(clas)=discord_rog" "$(spec)=all" input=report_html.simc
-
-		echo "Rogue Outlaw T19M 21k"
-		%simc% input=global.simc threads=5 output=nul target_error=0.8 "$(fight_style)=2t" "$(option_override)=%t_otl_2t%" "$(specialization)=outlaw" "$(tier)=t19m" input=main.simc input=rogue_t19m_plot_21kstats_by1066.simc input=report_json.simc
-		echo "Rogue Subtlety T19M 21k"
-		%simc% input=global.simc threads=5 output=nul target_error=0.8 "$(fight_style)=2t" "$(option_override)=%t_sub_2t%" "$(specialization)=subtlety" "$(tier)=t19m" input=main.simc input=rogue_t19m_plot_21kstats_by1066.simc input=report_json.simc
-
-		echo "3-Target"
-		echo "Rogue Assassination T19M 21k"
-		%simc% input=global.simc threads=5 output=nul target_error=0.8 "$(fight_style)=3t" "$(option_override)=%t_asn_3t%" "$(specialization)=assassination" "$(tier)=t19m" input=main.simc input=rogue_t19m_plot_21kstats_by1066.simc input=report_json.simc
-		echo "Rogue Assassination Exsg T19M 21k"
-		%simc% input=global.simc threads=5 output=nul target_error=0.8 "$(fight_style)=3t" "$(option_override)=%t_asn_ex_3t%" "$(specialization)=assassination" "$(specialization_suffix)=_Exsg_" "$(tier)=t19m" input=main.simc "$(spec)=asn_ex" "$(root)=$(clas)_$(spec)_$(tier_suffix)" input=rogue_t19m_plot_21kstats_by1066.simc input=report_json.simc
-		echo "Rogue Outlaw T19M 21k"
-		%simc% input=global.simc threads=5 output=nul target_error=0.8 "$(fight_style)=3t" "$(option_override)=%t_otl_3t%" "$(specialization)=outlaw" "$(tier)=t19m" input=main.simc input=rogue_t19m_plot_21kstats_by1066.simc input=report_json.simc
-		echo "Rogue Subtlety T19M 21k"
-		%simc% input=global.simc threads=5 output=nul target_error=0.8 "$(fight_style)=3t" "$(option_override)=%t_sub_3t%" "$(specialization)=subtlety" "$(tier)=t19m" input=main.simc input=rogue_t19m_plot_21kstats_by1066.simc input=report_json.simc
-
-		echo "1-Target RE-Adds:4_3x_30_10"
-		echo "Rogue Assassination T19M 21k"
-		%simc% input=global.simc threads=5 output=nul target_error=0.8 "$(fight_style)=1t" "$(option_override)=%t_asn_1ta%" "$(specialization)=assassination" "$(tier)=t19m" input=main.simc input=rogue_t19m_plot_21kstats_by1066.simc input="$(fight_style_path)"aethys_adds_4_3x_30_10.simc input=report_json.simc
-		echo "Rogue Assassination Exsg T19M 21k"
-		%simc% input=global.simc threads=5 output=nul target_error=0.8 "$(fight_style)=1t" "$(option_override)=%t_asn_ex_1ta%" "$(specialization)=assassination" "$(specialization_suffix)=_Exsg_" "$(tier)=t19m" input=main.simc "$(spec)=asn_ex" "$(root)=$(clas)_$(spec)_$(tier_suffix)" input=rogue_t19m_plot_21kstats_by1066.simc input="$(fight_style_path)"aethys_adds_4_3x_30_10.simc input=report_json.simc
-		echo "Rogue Outlaw T19M 21k"
-		%simc% input=global.simc threads=5 output=nul target_error=0.8 "$(fight_style)=1t" "$(option_override)=%t_otl_1ta%" "$(specialization)=outlaw" "$(tier)=t19m" input=main.simc input=rogue_t19m_plot_21kstats_by1066.simc input="$(fight_style_path)"aethys_adds_4_3x_30_10.simc input=report_json.simc
-		echo "Rogue Subtlety T19M 21k"
-		%simc% input=global.simc threads=5 output=nul target_error=0.8 "$(fight_style)=1t" "$(option_override)=%t_sub_1ta%" "$(specialization)=subtlety" "$(tier)=t19m" input=main.simc input=rogue_t19m_plot_21kstats_by1066.simc input="$(fight_style_path)"aethys_adds_4_3x_30_10.simc input=report_json.simc
 	)
 	@pause
 ) else if "%input%"=="1" (
