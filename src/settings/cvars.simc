@@ -1,0 +1,25 @@
+# If you want to override them, do it in your config.simc file or in the CLI (after config.simc call)
+
+# SimCMinMax CVars
+$(class)=rogue
+$(sim_type)=default
+$(root)=Player
+$(dev_state)=html
+$(fight_style)=1t
+$(option_override)=input=$(fight_style_path)void.simc
+$(stats_center_delta)=1
+$(stats_scaling_sdeltas)=732
+$(stats_scaling_wdeltas)=68
+
+# SimC Global CVars
+threads=2
+process_priority=low
+target_error=0.2
+optimal_raid=1
+default_actions=1
+fixed_time=1
+single_actor_batch=1
+# SimC Default Time
+# Aethys' Wide Range Test is: max_time=225, vary_combat_length=0.85
+max_time=300
+vary_combat_length=0.2

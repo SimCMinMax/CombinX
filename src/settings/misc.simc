@@ -1,0 +1,5 @@
+# Init Spec Suffix Support (For multi profiles from SimC like Assassination_Exsg)
+$(specialization_suffix)=_
+
+# Init chaining variables
+input=$(chain_path)init.simc

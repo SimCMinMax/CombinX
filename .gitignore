@@ -1,8 +1,5 @@
 *.html
 *.json
 *.txt
-global.simc
-global_cron.simc
-global_dev.simc
-aethys_cmd_log.txt
-aethys_cmd_templog.txt
+config.simc
+aethys_spreadsheet_parser.py

@@ -1,0 +1,3 @@
+$(tier)=t19m_nh
+$(simc_tier_path)=$(t19m_nh_path)
+$(tier_suffix)=T19M_NH

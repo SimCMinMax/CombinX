@@ -1,0 +1,47 @@
+# --- config.simc setup ---
+# Every lines starting by "#" are comments.
+
+
+# You have to :
+# - Replace $(simc_path) (path to the path of your local simc directory)
+# - Put the type of slash used for your OS Paths in $(slash) (/ on UNIX, \ on Windows)
+# - Configure the overrides as desired
+# - Then save the file as global.simc
+# EXAMPLE (For my Windows Computer) :
+# $(simc_path)=C:\Users\Aethys\Desktop\simc\
+# $(slash)=\
+# In case you want to permanently customize some settings
+# Go to the Override section at the end of the file
+# And put any override you want to (most used are CVARs)
+
+
+$(simc_path)=/path/to/simc/
+$(slash)=\
+
+
+
+# ---------------------------------
+# DO NOT TOUCH ANYTHING UNDER THIS
+# UNLESS YOU KNOW WHAT YOU'RE DOING
+# ---------------------------------
+$(settings_path)=settings$(slash)
+input=$(settings_path)init.simc
+# ---------------------------------
+# DO NOT TOUCH ANYTHING ABOVE THIS
+# UNLESS YOU KNOW WHAT YOU'RE DOING
+# ---------------------------------
+
+
+
+# ----------- OVERRIDES -----------
+# EXAMPLE (If you want to change the target_error):
+# Remove the "# " part to uncomment it.
+# target_error=0.5
+# You can also override them in your CLI command
+
+$(class)=rogue
+$(specialization)=subtlety
+$(tier)=t19m
+$(fight_style)=1t
+threads=4
+target_error=0.1

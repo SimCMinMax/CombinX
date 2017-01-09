@@ -13,7 +13,7 @@ import numpy as np
 import json
 
 # Sign in to plotly
-py.sign_in('skasch', '3sgh5go8tl')
+py.sign_in('Aethys', 'qmnonm9a4r')
 
 # Constants
 CRIT_COORDS = np.array([ - np.sqrt(6.) / 3., - np.sqrt(2.) / 3., -1. / 3. ])

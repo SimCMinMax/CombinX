@@ -1,0 +1,39 @@
+# Setup local root for the different profiles
+$(rogasnleg_root)=$(root)
+
+# Catch file setup as chainY with Y being the chain index
+$(rogasnleg_chain)=$(chain$(chain_rogasnleg_chain))
+
+# Set chain_var to next file in chain
+$(chain_var)=chain_$(rogasnleg_chain)
+
+# set the chain_XXX_chain variable for next file in chain to next chain index
+input=$(chain_path)chain$(chain_rogasnleg_chain).simc
+
+name=$(rogasnleg_root)
+$(base_name)=$(rogasnleg_root)
+
+$(root)=$(rogasnleg_root)_cinidaria_the_symbiote
+copy=$(root),$(base_name)
+waist=cinidaria_the_symbiote,id=133976
+input=$(rogasnleg_chain)
+
+$(root)=$(rogasnleg_root)_duskwalkers_footpads
+copy=$(root),$(base_name)
+feet=duskwalkers_footpads,id=137030
+input=$(rogasnleg_chain)
+
+$(root)=$(rogasnleg_root)_insignia_of_ravenholdt
+copy=$(root),$(base_name)
+finger1=insignia_of_ravenholdt,id=137049,gem_id=130221,enchant=binding_of_versatility
+input=$(rogasnleg_chain)
+
+$(root)=$(rogasnleg_root)_the_dreadlords_deceit
+copy=$(root),$(base_name)
+back=the_dreadlords_deceit,id=137021
+input=$(rogasnleg_chain)
+
+$(root)=$(rogasnleg_root)_zoldyck_family_training_shackles
+copy=$(root),$(base_name)
+wrist=zoldyck_family_training_shackles,id=137098
+input=$(rogasnleg_chain)

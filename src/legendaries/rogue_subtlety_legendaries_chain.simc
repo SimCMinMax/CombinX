@@ -1,0 +1,39 @@
+# Setup local root for the different profiles
+$(rogsubleg_root)=$(root)
+
+# Catch file setup as chainY with Y being the chain index
+$(rogsubleg_chain)=$(chain$(chain_rogsubleg_chain))
+
+# Set chain_var to next file in chain
+$(chain_var)=chain_$(rogsubleg_chain)
+
+# set the chain_XXX_chain variable for next file in chain to next chain index
+input=$(chain_path)chain$(chain_rogsubleg_chain).simc
+
+name=$(rogsubleg_root)
+$(base_name)=$(rogsubleg_root)
+
+$(root)=$(rogsubleg_root)_cinidaria_the_symbiote
+copy=$(root),$(base_name)
+waist=cinidaria_the_symbiote,id=133976
+input=$(rogsubleg_chain)
+
+$(root)=$(rogsubleg_root)_denial_of_the_halfgiants
+copy=$(root),$(base_name)
+wrist=denial_of_the_halfgiants,id=137100
+input=$(rogsubleg_chain)
+
+$(root)=$(rogsubleg_root)_insignia_of_ravenholdt
+copy=$(root),$(base_name)
+finger1=insignia_of_ravenholdt,id=137049,gem_id=130221,enchant=binding_of_versatility
+input=$(rogsubleg_chain)
+
+$(root)=$(rogsubleg_root)_shadow_satyrs_walk
+copy=$(root),$(base_name)
+feet=shadow_satyrs_walk,id=137032
+input=$(rogsubleg_chain)
+
+$(root)=$(rogsubleg_root)_the_dreadlords_deceit
+copy=$(root),$(base_name)
+back=the_dreadlords_deceit,id=137021
+input=$(rogsubleg_chain)

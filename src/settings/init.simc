@@ -1,0 +1,3 @@
+input=$(settings_path)paths.simc
+input=$(settings_path)cvars.simc
+input=$(settings_path)misc.simc

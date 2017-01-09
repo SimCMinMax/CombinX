@@ -1,0 +1,24 @@
+# Default SimC Paths
+$(simc_profiles_path)=$(simc_path)profiles$(slash)
+$(t19p_path)=Tier19P$(slash)
+$(t19h_path)=Tier19H$(slash)
+$(t19m_path)=Tier19M$(slash)
+$(t19m_nh_path)=Tier19M_NH$(slash)
+
+# SimCMinMax Internal Paths
+$(artifact_path)=artifact$(slash)
+$(artifact_path_path)=artifact_path$(slash)
+$(artifact_progression_path)=artifact_progression$(slash)
+$(chain_path)=chain$(slash)
+$(fight_style_path)=fight_style$(slash)
+$(gear_path)=gear$(slash)
+$(legendaries_path)=legendaries$(slash)
+$(races_path)=races$(slash)
+$(relics_path)=relics$(slash)
+$(specialization_path)=specialization$(slash)
+$(talents_path)=talents$(slash)
+$(tier_path)=tier$(slash)
+$(trinkets_path)=trinkets$(slash)
+
+# SimCMinMax Output
+$(reports_path)=..$(slash)reports$(slash)
