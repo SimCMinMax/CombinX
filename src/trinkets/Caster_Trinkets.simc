@@ -1,0 +1,168 @@
+## Currently in the List
+# all Emerald Nightmare Trinkets
+# all dungeons Trinkets until 7.1.5
+# all Nighthold Trinkets
+
+
+# Emerald Nightmare Trinkets
+# EN Swarming Plaguehive
+copy=$(root)_$(trinket_ilevel)_swarming_plaguehive,$(root)
+trinket1=,id=139321,ilevel=$(trinket_ilevel)
+
+# EN Twisting Wind
+copy=$(root)_$(trinket_ilevel)_Twisting_Wind,$(root)
+trinket1=,id=139323,ilevel=$(trinket_ilevel)
+
+# EN Wriggling Sinew
+copy=$(root)_$(trinket_ilevel)_Wriggling_Sinew,$(root)
+trinket1=,id=139326,ilevel=$(trinket_ilevel)
+
+# EN Unstable Horrorslime
+copy=$(root)_$(trinket_ilevel)_Unstable_Horrorslime,$(root)
+trinket1=,id=138224,ilevel=$(trinket_ilevel)
+
+# EN Bough of Corruption
+copy=$(root)_$(trinket_ilevel)_Bough_of_Corruption,$(root)
+trinket1=,id=139323,ilevel=$(trinket_ilevel)
+
+# Dungeon Trinkets
+# Dungeon Moonlit Prism
+copy=$(root)_$(trinket_ilevel)_Moonlit_Prism,$(root)
+trinket1=,id=137541,ilevel=$(trinket_ilevel)
+
+# Dungeon Oakhearts Gnarled Root
+copy=$(root)_$(trinket_ilevel)_Oakhearts_Gnarled_Root,$(root)
+trinket1=,id=137306,ilevel=$(trinket_ilevel)
+
+# Dungeon Naraxas Spiked Tongue
+copy=$(root)_$(trinket_ilevel)_Naraxas_Spiked_Tongue,$(root)
+trinket1=,id=137349,ilevel=$(trinket_ilevel)
+
+# Dungeon Obelisk of the Void
+copy=$(root)_$(trinket_ilevel)_Obelisk_of_the_Void,$(root)
+trinket1=,id=137433,ilevel=$(trinket_ilevel)
+
+# Dungeon Chrono Shard
+copy=$(root)_$(trinket_ilevel)_Chrono_Shard,$(root)
+trinket1=,id=137419,ilevel=$(trinket_ilevel)
+
+# Dungeon Eye of Skovald
+copy=$(root)_$(trinket_ilevel)_Eye_of_Skovald,$(root)
+trinket1=,id=133641,ilevel=$(trinket_ilevel)
+
+# Dungeon Elementium Bomb Squirrel Generator
+copy=$(root)_$(trinket_ilevel)_Squirrel_Generator,$(root)
+trinket1=,id=137446,ilevel=$(trinket_ilevel)
+
+# Dungeon Caged Horror
+copy=$(root)_$(trinket_ilevel)_Caged_Horror,$(root)
+trinket1=,id=136716,ilevel=$(trinket_ilevel)
+
+# Dungeon Corrupted Starlight
+copy=$(root)_$(trinket_ilevel)_Corrupted Starlight,$(root)
+trinket1=,id=137301,ilevel=$(trinket_ilevel)
+
+# Dungeon Figurehead of the Naglfar
+copy=$(root)_$(trinket_ilevel)_Figurehead_of_the_Naglfar,$(root)
+trinket1=,id=137329,ilevel=$(trinket_ilevel)
+
+# Dungeon Stormsinger Fulmination Charge
+copy=$(root)_$(trinket_ilevel)_Stormsinger_Fulmination_Charge,$(root)
+trinket1=,id=137367,ilevel=$(trinket_ilevel)
+
+# Dungeon Horn of Valor
+copy=$(root)_$(trinket_ilevel)_Horn_of_Valor,$(root)
+trinket1=,id=133642,ilevel=$(trinket_ilevel)
+
+# Dungeon Portable Manacracker
+copy=$(root)_$(trinket_ilevel)_Portable_Manacracker,$(root)
+trinket1=,id=137398,ilevel=$(trinket_ilevel)
+
+# Dungeon Infernal Writ
+copy=$(root)_$(trinket_ilevel)_Infernal_Writ,$(root)
+trinket1=,id=137485,ilevel=$(trinket_ilevel)
+
+# Dungeon (Karazhan) Aran's Relaxing Ruby
+copy=$(root)_$(trinket_ilevel)_Arans_Relaxed_Ruby,$(root)
+trinket1=,id=142157,ilevel=$(trinket_ilevel)
+
+# Dungeon (Karazhan) Aran's Relaxing Ruby Chest
+copy=$(root)_$(trinket_ilevel)_Chest_Arans_Relaxed_Ruby,$(root)
+trinket1=,id=142157,ilevel=$(trinket_ilevel)
+chest=,id=142297,ilevel=$(trinket_ilevel)
+
+# Dungeon (Karazhan) Deteriorated Construct Core
+copy=$(root)_$(trinket_ilevel)_Deteriorated_Construct_Core,$(root)
+trinket1=,id=142165,ilevel=$(trinket_ilevel)
+
+# Dungeon (Karazhan) Deteriorated Construct Core Chest
+copy=$(root)_$(trinket_ilevel)_Chest_Deteriorated_Construct_Core,$(root)
+trinket1=,id=142165,ilevel=$(trinket_ilevel)
+chest=,id=142297,ilevel=$(trinket_ilevel)
+
+# Dungeon (Karazhan) Mrrgria's Favor
+copy=$(root)_$(trinket_ilevel)_Mrrgrias_Favor,$(root)
+trinket1=,id=142160,ilevel=$(trinket_ilevel)
+
+# Dungeon (Karazhan) Mrrgria's Favor Chest
+copy=$(root)_$(trinket_ilevel)_Chest_Mrrgrias_Favor,$(root)
+trinket1=,id=142160,ilevel=$(trinket_ilevel)
+chest=,id=142297,ilevel=$(trinket_ilevel)
+
+
+# World Quest
+# World Quest Devilsaur Shock-Baton
+copy=$(root)_$(trinket_ilevel)_Devilsaur_Shock-Baton,$(root)
+trinket1=,id=140030,ilevel=$(trinket_ilevel)
+
+# World Boss
+# World Boss Padawsen'S Unlucky Charm
+copy=$(root)_$(trinket_ilevel)_Padawsens_Unlucky_Charm,$(root)
+trinket1=,id=141536,ilevel=$(trinket_ilevel)
+
+# World Boss Unstable Arcano Crystal
+copy=$(root)_$(trinket_ilevel)_Unstable_Arcano_Crystal,$(root)
+trinket1=,id=141482,ilevel=$(trinket_ilevel)
+
+# Trials of Valor
+# ToV Brinewater Slime in a Bottle Mastery
+copy=$(root)_$(trinket_ilevel)_Mastery_Brinewater_Slime_in_a_Bottle,$(root)
+trinket1=,id=142507,bonus_id=605,ilevel=$(trinket_ilevel)
+
+# ToV Brinewater Slime in a Bottle Crit
+copy=$(root)_$(trinket_ilevel)_Crit_Brinewater_Slime_in_a_Bottle,$(root)
+trinket1=,id=142507,bonus_id=603,ilevel=$(trinket_ilevel)
+
+# ToV Brinewater Slime in a Bottle Haste
+copy=$(root)_$(trinket_ilevel)_Haste_Brinewater_Slime_in_a_Bottle,$(root)
+trinket1=,id=142507,bonus_id=604,ilevel=$(trinket_ilevel)
+
+# ToV Brinewater Slime in a Bottle Versatility
+copy=$(root)_$(trinket_ilevel)_Versatility_Brinewater_Slime_in_a_Bottle,$(root)
+trinket1=,id=142507,bonus_id=607,ilevel=$(trinket_ilevel)
+
+
+# Nighthold 
+# NH Erratic Metronome
+copy=$(root)_$(trinket_ilevel)_Erratic_Metronome,$(root)
+trinket1=,id=140792,ilevel=$(trinket_ilevel)
+
+# NH Fury of the Burning Sky
+copy=$(root)_$(trinket_ilevel)_Fury_of_the_Burning_Sky,$(root)
+trinket1=,id=140801,ilevel=$(trinket_ilevel)
+
+# NH Icon of Rot
+copy=$(root)_$(trinket_ilevel)_Icon_of_Rot,$(root)
+trinket1=,id=140798,ilevel=$(trinket_ilevel)
+
+# NH Pharamere's Forbidden Grimoire
+copy=$(root)_$(trinket_ilevel)_Pharameres_Forbidden_Guidance,$(root)
+trinket1=,id=140800,ilevel=$(trinket_ilevel)
+
+# NH Star Gate
+copy=$(root)_$(trinket_ilevel)_Star_Gate,$(root)
+trinket1=,id=140804,ilevel=$(trinket_ilevel)
+
+# NH Whispers in the Dark
+copy=$(root)_$(trinket_ilevel)_Whispers_in_the_Dark,$(root)
+trinket1=,id=140809,ilevel=$(trinket_ilevel)
