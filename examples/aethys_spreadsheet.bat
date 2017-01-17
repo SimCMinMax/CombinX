@@ -4,19 +4,19 @@ set /p "input=Enter the Magic Number:"
 
 set "tempoutput=..\examples\aethys_cmd_templog.txt"
 set "output=..\examples\aethys_cmd_log.txt"
-set "t_asn_1t=talents=1130111"
+set "t_asn_1t=talents=2130111"
 set "t_otl_1t=talents=1310022"
 set "t_sub_1t=talents=1210011"
 set "t_asn_ex_1t=talents=2130131"
 set "t_asn_2t=talents=2130121"
 set "t_otl_2t=talents=1310023"
-set "t_sub_2t=talents=2210011"
+set "t_sub_2t=talents=1210013"
 set "t_asn_ex_2t=talents=2130131"
 set "t_asn_3t=talents=1110121"
 set "t_otl_3t=talents=1310023"
-set "t_sub_3t=talents=2220023"
+set "t_sub_3t=talents=1220023"
 set "t_asn_ex_3t=talents=2110121"
-set "t_asn_1ta=talents=2130132"
+set "t_asn_1ta=talents=2130131"
 set "t_otl_1ta=talents=1310023"
 set "t_sub_1ta=talents=1210022"
 set "t_asn_ex_1ta=talents=2130131"
@@ -32,6 +32,8 @@ if "%input%"=="-1" (
 		echo "Temporary Output"
 		%simc% input=..\config.simc output=nul target_error=0.05 "$(fight_style)=1t" "$(specialization)=subtlety" "$(tier)=t19m" input=main.simc "$(row)=all" input=talents.simc input=report_html.simc
 		%simc% input=..\config.simc output=nul target_error=0.05 "$(fight_style)=1t" "$(specialization)=subtlety" "$(tier)=t19m_nh" input=main.simc "$(row)=all" input=talents.simc input=report_html.simc
+		%simc% input=..\config.simc output=nul target_error=0.05 "$(fight_style)=1t" "$(option_override)=%t_sub_1t%" "$(specialization)=subtlety" "$(tier)=t19m" input=main.simc input="$(gear_path)"no_legendary.simc input=legendaries.simc input=report_html.simc
+		%simc% input=..\config.simc output=nul target_error=0.05 "$(fight_style)=1t" "$(option_override)=%t_sub_1t%" "$(specialization)=subtlety" "$(tier)=t19m_nh" input=main.simc input="$(gear_path)"no_legendary.simc input=legendaries.simc input=report_html.simc
 	)
 	@pause
 ) else if "%input%"=="1" (
