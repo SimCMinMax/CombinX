@@ -2,6 +2,7 @@
 $(simc_profiles_path)=$(simc_path)profiles$(slash)
 $(t19p_path)=Tier19P$(slash)
 $(t19h_path)=Tier19H$(slash)
+$(t19h_nh_path)=Tier19H_NH$(slash)
 $(t19m_path)=Tier19M$(slash)
 $(t19m_nh_path)=Tier19M_NH$(slash)
 
