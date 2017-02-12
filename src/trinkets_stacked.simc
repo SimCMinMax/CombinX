@@ -1,4 +1,4 @@
-$(sim_type)=trinkets
+$(sim_type)=trinkets_stacked
 trinket1=
 trinket2=
 # TODO: Edit properly for others classes
