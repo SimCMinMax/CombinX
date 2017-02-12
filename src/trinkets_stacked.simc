@@ -1,0 +1,5 @@
+$(sim_type)=trinkets
+trinket1=
+trinket2=
+# TODO: Edit properly for others classes
+input=$(trinkets_path)agi_melee_trinkets_stacked.simc

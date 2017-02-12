@@ -1,0 +1,62 @@
+name=$(root)
+
+
+#######
+# 840 #
+#######
+$(trinket_ilevel)=840
+input=$(trinkets_path)agi_melee_trinkets.simc
+
+#######
+# 850 #
+#######
+$(trinket_ilevel)=850
+input=$(trinkets_path)agi_melee_trinkets.simc
+
+#######
+# 860 #
+#######
+$(trinket_ilevel)=860
+input=$(trinkets_path)agi_melee_trinkets.simc
+
+#######
+# 870 #
+#######
+$(trinket_ilevel)=870
+input=$(trinkets_path)agi_melee_trinkets.simc
+
+#######
+# 880 #
+#######
+$(trinket_ilevel)=880
+input=$(trinkets_path)agi_melee_trinkets.simc
+
+#######
+# 890 #
+#######
+$(trinket_ilevel)=890
+input=$(trinkets_path)agi_melee_trinkets.simc
+
+#######
+# 900 #
+#######
+$(trinket_ilevel)=900
+input=$(trinkets_path)agi_melee_trinkets.simc
+
+#######
+# 910 #
+#######
+$(trinket_ilevel)=910
+input=$(trinkets_path)agi_melee_trinkets.simc
+
+#######
+# 920 #
+#######
+$(trinket_ilevel)=920
+input=$(trinkets_path)agi_melee_trinkets.simc
+
+#######
+# 930 #
+#######
+$(trinket_ilevel)=930
+input=$(trinkets_path)agi_melee_trinkets.simc

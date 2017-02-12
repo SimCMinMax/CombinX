@@ -1,0 +1,13 @@
+name=$(root)
+
+#######
+# 910 #
+#######
+$(trinket_ilevel)=910
+input=$(trinkets_path)agi_melee_trinkets.simc
+
+#######
+# 925 #
+#######
+$(trinket_ilevel)=925
+input=$(trinkets_path)agi_melee_trinkets.simc

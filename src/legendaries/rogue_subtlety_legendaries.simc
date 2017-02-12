@@ -1,19 +1,28 @@
 name=$(root)
 
-copy=$(root)_cinidaria_the_symbiote,$(root)
-waist=cinidaria_the_symbiote,id=133976
+copy=$(root)_Cinidaria,$(root)
+waist=cinidaria_the_symbiote,id=133976,ilevel=940
 
-copy=$(root)_denial_of_the_halfgiants,$(root)
-wrist=denial_of_the_halfgiants,id=137100
+copy=$(root)_Deceit,$(root)
+back=the_dreadlords_deceit,id=137021,ilevel=940
 
-copy=$(root)_insignia_of_ravenholdt,$(root)
-finger1=insignia_of_ravenholdt,id=137049,gem_id=130221,enchant=binding_of_versatility
+copy=$(root)_Denial,$(root)
+wrist=denial_of_the_halfgiants,id=137100,ilevel=940
 
-copy=$(root)_mantle_of_the_master_assassin,$(root)
-shoulders=mantle_of_the_master_assassin,id=144236
+copy=$(root)_Insignia,$(root)
+finger1=insignia_of_ravenholdt,id=137049,gem_id=130222,enchant=binding_of_mastery,ilevel=940
 
-copy=$(root)_shadow_satyrs_walk,$(root)
-feet=shadow_satyrs_walk,id=137032
+copy=$(root)_KilJaedens,$(root)
+trinket1=kiljaedens_burning_wish,id=144259,ilevel=940
 
-copy=$(root)_the_dreadlords_deceit,$(root)
-back=the_dreadlords_deceit,id=137021
+copy=$(root)_Mantle,$(root)
+shoulders=mantle_of_the_master_assassin,id=144236,ilevel=940
+
+copy=$(root)_Prydaz,$(root)
+neck=prydaz_xavarics_magnum_opus,id=132444,gem_id=130222,enchant=mark_of_the_hidden_satyr,ilevel=940
+
+copy=$(root)_Sephuz,$(root)
+finger1=sephuzs_secret,id=132452,gem_id=130222,enchant=binding_of_mastery,ilevel=940
+
+copy=$(root)_Walk,$(root)
+feet=shadow_satyrs_walk,id=137032,ilevel=940
